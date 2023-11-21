@@ -26,6 +26,6 @@ The .medomics folder is used by application to store all the infos of the worksp
 
 <div data-full-width="true">
 
-<figure><img src=".gitbook/assets/Modules.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/ModulesWithLayerCrop.png" alt=""><figcaption></figcaption></figure>
 
 </div>
