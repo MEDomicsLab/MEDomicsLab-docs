@@ -35,4 +35,4 @@
 
 * [‼ Join the testing phase](https://127.0.0.1)
 * [📝 Report an issue](https://www.medomics.ai/)
-* [🗣 Contact us](https://forms.office.com/r/Zr8xJbQs64)
+* [🗣 Contact us](forms/contact-us.md)
