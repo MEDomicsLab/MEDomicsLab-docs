@@ -1,6 +1,5 @@
 ---
 description: Installation of the app
-layout: landing
 ---
 
 # 👊 Quick start
