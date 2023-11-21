@@ -21,16 +21,10 @@ layout: landing
 ### 4. Run the MEDomicsLab installer (\*.exe)
 
 ### 5. There you go! Have fun! :wink:
-
-&#x20;
-
-
-
-### &#x20;
 {% endtab %}
 
 {% tab title="Linux (Ubuntu)" %}
-### Download the following :
+### 1. Download the following :
 
 * [Python environment installer for Linux](https://github.com/NicoLongfield/MEDomicsLab\_Automation/releases/download/full-refs%2Ftags%2F1.1.0/MEDomicsLab-PythonEnv-linux.zip)
 * [MEDomicsLab installer for Linux (.deb)](https://github.com/NicoLongfield/MEDomicsLab\_Automation/releases/download/full-refs%2Ftags%2F1.1.0/MEDomicsLab-1.1.0-linux.deb)
@@ -45,7 +39,7 @@ layout: landing
 {% endtab %}
 
 {% tab title="MacOS" %}
-### Download the following :&#x20;
+### 1. Download the following :&#x20;
 
 * [MEDomicsLab installer for MacOS (.dmg)](https://github.com/NicoLongfield/MEDomicsLab\_Automation/releases/download/full-refs%2Ftags%2F1.1.0/MEDomicsLab-1.1.0-mac.dmg)
 
