@@ -14,7 +14,7 @@
   * [🟢 Deployment](tutorials/deployment/README.md)
     * [Application Module](tutorials/deployment/application-module.md)
 * [📄 Tests with MIMIC](tests-with-mimic.md)
-* [👩💻 Contributing](contributing/README.md)
+* [👩💻 Contributing](contributing.md)
   * [Our coding standards](contributing/our-coding-standards.md)
   * [How to push my modification ?](contributing/how-to-push-my-modification.md)
 

@@ -1,7 +1,5 @@
 # 👩💻 Contributing
 
-
-
 ## Setup from the ground up 🌱
 
 ### 1. Installation of Nvm
