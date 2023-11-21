@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Welcome!](README.md)
+* [👋 Welcome!](README.md)
 * [👊 Quick start](quick-start.md)
 * [👀 Overview](overview.md)
 * [🧑🏫 Tutorials](tutorials/README.md)
@@ -29,7 +29,7 @@
 ## MEDIA
 
 * [⚛ MEDomics](https://www.medomics.ai/)
-* [😉 Discord](https://discord.gg/WAvFwGwF)
+* [👾 Discord](https://discord.gg/ZbaGj8E6mP)
 * [😺 Github](https://github.com/MEDomics-UdeS/MEDomicsLab)
 
 ## Forms

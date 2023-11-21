@@ -2,7 +2,7 @@
 description: Open-Source Computation Platform for Precision Oncology
 ---
 
-# Welcome!
+# 👋 Welcome!
 
 {% embed url="https://youtu.be/2030Pdgm3_4" %}
 
