@@ -10,8 +10,8 @@ Welcome to MEDomicsLab! Here you'll find all the documentation you need to get u
 
 ## Want to dive right in?
 
-Feeling like an eager beaver? Jump in to the quick start docs and get making your first request:
+Feeling like an eager beaver? Jump in to the quick start docs and get making your first experiment:
 
-{% content-ref url="broken-reference/" %}
-[broken-reference](broken-reference/)
+{% content-ref url="quick-start.md" %}
+[quick-start.md](quick-start.md)
 {% endcontent-ref %}
