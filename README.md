@@ -1,5 +1,5 @@
 ---
-description: Open-Source Computation Platform for **Precision Oncology**
+description: Open-Source Computation Platform for Precision Oncology
 ---
 
 # Welcome!
@@ -12,6 +12,6 @@ Welcome to MEDomicsLab! Here you'll find all the documentation you need to get u
 
 Feeling like an eager beaver? Jump in to the quick start docs and get making your first request:
 
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
+{% content-ref url="broken-reference/" %}
+[broken-reference](broken-reference/)
 {% endcontent-ref %}
