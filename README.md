@@ -1,1 +1,17 @@
-Here
+---
+description: Open-Source Computation Platform for **Precision Oncology**
+---
+
+# Welcome!
+
+{% embed url="https://youtu.be/2030Pdgm3_4" %}
+
+Welcome to MEDomicsLab! Here you'll find all the documentation you need to get up and running with our application.
+
+## Want to dive right in?
+
+Feeling like an eager beaver? Jump in to the quick start docs and get making your first request:
+
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
+{% endcontent-ref %}
