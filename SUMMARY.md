@@ -34,6 +34,6 @@
 
 ## Forms
 
-* [‼ Join the testing phase](https://127.0.0.1)
-* [📝 Report an issue](https://www.medomics.ai/)
 * [🗣 Contact us](forms/contact-us.md)
+* [📝 Report an issue](forms/report-an-issue.md)
+* [‼ Join the testing phase](forms/join-the-testing-phase.md)
