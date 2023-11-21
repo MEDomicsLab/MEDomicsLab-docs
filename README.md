@@ -10,7 +10,9 @@ Welcome to MEDomicsLab! Here you'll find all the documentation you need to get u
 
 ## Want to be part of the testing phase?
 
-[join-the-testing-phase.md](forms/join-the-testing-phase.md "mention")
+Click here :point\_right: [join-the-testing-phase.md](forms/join-the-testing-phase.md "mention")
+
+**People who already joined** :see\_no\_evil:&#x20;
 
 {% embed url="https://docs.google.com/spreadsheets/d/1w4n2gygstxnrFSzAi1LqGsxgCVYa1Odyb8vl9huu-kU/edit#gid=2112985779" %}
 
