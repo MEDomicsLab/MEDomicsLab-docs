@@ -127,7 +127,7 @@ const config = {
 
 ## To production&#x20;
 
-### 1. Build the Electron app
+### Build the Electron app
 
 {% tabs %}
 {% tab title="Windows" %}
@@ -161,5 +161,3 @@ The built app will be located in the `build/dist` folder
 > # Mac
 > bash build/dist/mac-unpacked/MEDomicsLab.exe
 > ```
-
-### 2. Publish the Electron app
