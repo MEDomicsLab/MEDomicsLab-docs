@@ -2,7 +2,7 @@
 
 When double-clicking on the exploratory module you should see this page:
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption><p>Exploratory module</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption><p>Exploratory module - untouched</p></figcaption></figure>
 
 ## Available tools
 
@@ -22,17 +22,17 @@ All these tools can be used to explore your data and generate reports. You can u
 2. You can choose to generate a report for this dataset by clicking on the "Generate Report" button or you can add another dataset by clicking on the "Compare with another dataset" button.
 3. You can now open the report or download the html file
 
-
 > For better results, you should use datasets with same columns.
 
 ### [3. D-Tale](https://github.com/man-group/dtale)
 
-- You choose a datset from /DATA folder and click on the "Generate report" button.
+* You choose a datset from /DATA folder and click on the "Generate report" button.
+* You can click on the "Open D-Tale" button to open the D-Tale dashboard.
+* You can click on the X button to close the D-Tale dashboard.
+* You can click on "Add new D-Tale analysis" to add another dataset.
 
-- You can click on the "Open D-Tale" button to open the D-Tale dashboard.
+> It is recommended to use D-Tale with small datasets and close the dashboard after you finish using it.
 
-- You can click on the X button to close the D-Tale dashboard.
+## When reports are generated
 
-- You can click on "Add new D-Tale analysis" to add another dataset.
-
-> It is recommended to use D-Tale with small datasets and close the dashboard after you finish using it. 
+<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption><p>Exploratory module - tools has been run</p></figcaption></figure>
