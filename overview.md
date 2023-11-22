@@ -1,5 +1,7 @@
 # 👀 Overview
 
+<figure><img src=".gitbook/assets/image (4).png" alt=""><figcaption><p>High level architecture of MEDomicsLab</p></figcaption></figure>
+
 ## 1. Set your workspace
 
 The application needs a workspace to run.
