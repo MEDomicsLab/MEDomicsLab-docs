@@ -15,8 +15,6 @@
     * [Application Module](tutorials/deployment/application-module.md)
   * [❓ Miscellaneous](tutorials/miscellaneous.md)
 * [📄 Testing phase with MIMIC](test-with-mimic/README.md)
-  * [Step 1](test-with-mimic/step-1.md)
-  * [Step 2](test-with-mimic/step-2.md)
   * [Step (template)](test-with-mimic/step-template.md)
 * [👩💻 Contributing](contributing.md)
   * [Our coding standards](contributing/our-coding-standards.md)
