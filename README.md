@@ -1,5 +1,5 @@
 ---
-description: Open-Source Computation Platform for Precision Oncology
+description: 'MEDomicsLab: Integrative Modeling of Heterogeneous Data in Medicine'
 ---
 
 # 👋 Welcome!

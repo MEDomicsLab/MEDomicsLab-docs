@@ -4,15 +4,15 @@
 
 ### Table of contents
 
-* Recommended Software
-* Project Repository Structure
-* Style
-* Naming Conventions
-* Components Structure
-* Type Hinting
-* Syntax
-* Documentation
-* Python Coding Standard
+* [Recommended Software](our-coding-standards.md#recommended-software)
+* [Project Repository Structure](our-coding-standards.md#project-repository-structure)
+* [Style](our-coding-standards.md#style)
+* [Naming Conventions](our-coding-standards.md#naming-conventions)
+* [Components Structure](our-coding-standards.md#components-structure)
+* [Type Hinting](our-coding-standards.md#setup-of-eslint-and-prettier)
+* [Syntax](our-coding-standards.md#syntax)
+* [Documentation](our-coding-standards.md#documentation)
+* [Python Coding Standard](our-coding-standards.md#python-coding-standard)
 
 ### Recommended Software
 
