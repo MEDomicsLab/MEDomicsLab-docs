@@ -1,2 +1,0 @@
-# 📄 Tests with MIMIC
-
