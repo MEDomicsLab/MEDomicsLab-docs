@@ -4,6 +4,10 @@ description: This is where the magic happens 🧙🪄
 
 # Learning Module
 
+##
+
+> **Good to know** : This module allows you to train models and it is powered by the python library [PYCARET](https://pycaret.gitbook.io/docs/). This module is built around this library
+
 ## Create an experiment/scene
 
 Before creating a scene, select the EXPERIMENTS folder or a subfolder where you want the scene to be saved
@@ -49,15 +53,23 @@ Double click on the .medml to open the scene
 
 ### 1. Available Nodes
 
-<table data-full-width="true"><thead><tr><th width="219">Image</th><th width="468.5">Description</th><th width="135">Input</th><th>Output</th></tr></thead><tbody><tr><td><img src="../../.gitbook/assets/dataset (2).png" alt="" data-size="original"></td><td>This is the entry point of an experiment.<br>You have 2 options here:<br><strong>1. MEDomicsLab standard</strong>: you can select a master table and the associated target file<br><strong>2. Custom file</strong>: You can choose any csv file and then choose which column should be the target to predict</td><td>-</td><td>dataset</td></tr><tr><td><img src="../../.gitbook/assets/clean (2).png" alt="" data-size="original"></td><td>This node allows you to clean your dataset.</td><td>dataset</td><td>dataset</td></tr><tr><td><img src="../../.gitbook/assets/model.png" alt="" data-size="original"></td><td>This node allows you to select a model and its associated parameters.</td><td>-</td><td>model_config</td></tr><tr><td><img src="../../.gitbook/assets/train.png" alt="" data-size="original"></td><td>This node allows you to train a model.</td><td>model_config AND dataset</td><td>model</td></tr><tr><td><img src="../../.gitbook/assets/compare (1).png" alt="" data-size="original"></td><td>This node allows you to train multiple models and compare them.</td><td>dataset</td><td>model(s)</td></tr><tr><td><img src="../../.gitbook/assets/load_model (1).png" alt="" data-size="original"></td><td>This node allows you to load a model from a file.</td><td>dataset</td><td>model</td></tr><tr><td><img src="../../.gitbook/assets/optimize (2).png" alt="" data-size="original"></td><td>This node allows you to optimize a model. **</td><td>model</td><td>model</td></tr><tr><td><img src="../../.gitbook/assets/analyze.png" alt="" data-size="original"></td><td>This node allows you to analyze a model.</td><td>model</td><td>-</td></tr><tr><td><img src="../../.gitbook/assets/finalize.png" alt="" data-size="original"></td><td>This node allows you to finalize a model.</td><td>model</td><td>model</td></tr><tr><td><img src="../../.gitbook/assets/save_model.png" alt="" data-size="original"></td><td>This node allows you to save a model.</td><td>model</td><td>-</td></tr></tbody></table>
+<figure><img src="../../.gitbook/assets/node.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
-\*\* **Optimize** is a **special** node, when clicking on it, it opens a **subflow** where you can build an optimization flow
+_Add options_ button open a panel where you can select additionnal options. These options are automatically generated from the online [documentation of PYCARET](https://pycaret.readthedocs.io/en/latest/).&#x20;
 {% endhint %}
 
-#### Optimize node
+<table data-full-width="true"><thead><tr><th width="219">Image</th><th width="468.5">Description</th><th width="135">Input</th><th>Output</th></tr></thead><tbody><tr><td><img src="../../.gitbook/assets/dataset (2).png" alt="" data-size="original"></td><td>This is the entry point of an experiment.<br>You have 2 options here:<br><strong>1. MEDomicsLab standard</strong>: you can select a master table and the associated target file<br><strong>2. Custom file</strong>: You can choose any csv file and then choose which column should be the target to predict</td><td>-</td><td>dataset</td></tr><tr><td><img src="../../.gitbook/assets/clean (2).png" alt="" data-size="original"></td><td>This node allows you to clean your dataset.</td><td>dataset</td><td>dataset</td></tr><tr><td><img src="../../.gitbook/assets/model.png" alt="" data-size="original"></td><td>This node allows you to select a model and its associated parameters.</td><td>-</td><td>model_config</td></tr><tr><td><img src="../../.gitbook/assets/train.png" alt="" data-size="original"></td><td>This node allows you to train a model.</td><td>model_config AND dataset</td><td>model</td></tr><tr><td><img src="../../.gitbook/assets/compare (1).png" alt="" data-size="original"></td><td>This node allows you to train multiple models and compare them.</td><td>dataset</td><td>model(s)</td></tr><tr><td><img src="../../.gitbook/assets/load_model (1).png" alt="" data-size="original"></td><td>This node allows you to load a model from a file.</td><td>dataset</td><td>model</td></tr><tr><td><img src="../../.gitbook/assets/optimize (2).png" alt="" data-size="original"></td><td>This node allows you to optimize a model. **</td><td>model</td><td>model</td></tr><tr><td><img src="../../.gitbook/assets/analyze.png" alt="" data-size="original"></td><td>This node allows you to analyze a model.</td><td>model</td><td>-</td></tr><tr><td><img src="../../.gitbook/assets/finalize.png" alt="" data-size="original"></td><td>This node allows you to finalize a model.</td><td>model</td><td>model</td></tr><tr><td><img src="../../.gitbook/assets/save_model.png" alt="" data-size="original"></td><td>This node allows you to save a model.</td><td>model</td><td>-</td></tr></tbody></table>
+
+#### \*\*Optimize node
+
+When clicking on an _Optimize_ node, it opens a subflow like below where you can build pipelines for optimisation.
 
 <figure><img src="../../.gitbook/assets/optimize.png" alt=""><figcaption></figcaption></figure>
+
+* Available nodes are different
+* Name of the node is where you can edit the name
+* Green block (I/O nodes) are input and output of the Optimize node. To connect them, simply intersect them with your nodes
 
 ### 2. Results button
 
