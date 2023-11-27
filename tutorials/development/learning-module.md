@@ -1,10 +1,12 @@
 ---
-description: This is where the magic happens 🪄
+description: This is where the magic happens 🧙🪄
 ---
 
 # Learning Module
 
 ## Create an experiment/scene
+
+Before creating a scene, select the EXPERIMENTS folder or a subfolder where you want the scene to be saved
 
 <div data-full-width="true">
 
@@ -50,8 +52,12 @@ Double click on the .medml to open the scene
 <table data-full-width="true"><thead><tr><th width="219">Image</th><th width="468.5">Description</th><th width="135">Input</th><th>Output</th></tr></thead><tbody><tr><td><img src="../../.gitbook/assets/dataset (2).png" alt="" data-size="original"></td><td>This is the entry point of an experiment.<br>You have 2 options here:<br><strong>1. MEDomicsLab standard</strong>: you can select a master table and the associated target file<br><strong>2. Custom file</strong>: You can choose any csv file and then choose which column should be the target to predict</td><td>-</td><td>dataset</td></tr><tr><td><img src="../../.gitbook/assets/clean (2).png" alt="" data-size="original"></td><td>This node allows you to clean your dataset.</td><td>dataset</td><td>dataset</td></tr><tr><td><img src="../../.gitbook/assets/model.png" alt="" data-size="original"></td><td>This node allows you to select a model and its associated parameters.</td><td>-</td><td>model_config</td></tr><tr><td><img src="../../.gitbook/assets/train.png" alt="" data-size="original"></td><td>This node allows you to train a model.</td><td>model_config AND dataset</td><td>model</td></tr><tr><td><img src="../../.gitbook/assets/compare (1).png" alt="" data-size="original"></td><td>This node allows you to train multiple models and compare them.</td><td>dataset</td><td>model(s)</td></tr><tr><td><img src="../../.gitbook/assets/load_model (1).png" alt="" data-size="original"></td><td>This node allows you to load a model from a file.</td><td>dataset</td><td>model</td></tr><tr><td><img src="../../.gitbook/assets/optimize (2).png" alt="" data-size="original"></td><td>This node allows you to optimize a model. **</td><td>model</td><td>model</td></tr><tr><td><img src="../../.gitbook/assets/analyze.png" alt="" data-size="original"></td><td>This node allows you to analyze a model.</td><td>model</td><td>-</td></tr><tr><td><img src="../../.gitbook/assets/finalize.png" alt="" data-size="original"></td><td>This node allows you to finalize a model.</td><td>model</td><td>model</td></tr><tr><td><img src="../../.gitbook/assets/save_model.png" alt="" data-size="original"></td><td>This node allows you to save a model.</td><td>model</td><td>-</td></tr></tbody></table>
 
 {% hint style="info" %}
-\*\* Optimize is a special node, when clicking on it, it opens a subflow where you can build an optimization flow
+\*\* **Optimize** is a **special** node, when clicking on it, it opens a **subflow** where you can build an optimization flow
 {% endhint %}
+
+#### Optimize node
+
+<figure><img src="../../.gitbook/assets/optimize.png" alt=""><figcaption></figcaption></figure>
 
 ### 2. Results button
 
