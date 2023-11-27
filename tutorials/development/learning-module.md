@@ -38,15 +38,128 @@ Double click on the .medml to open the scene
 
 ### 1. Available Nodes
 
-<table data-full-width="true"><thead><tr><th width="219">Image</th><th width="468.5">Description</th><th width="135">Input</th><th>Output</th></tr></thead><tbody><tr><td><img src="../../.gitbook/assets/dataset (2).png" alt="" data-size="original"></td><td>This is the entry point of an experiment. <br>You have 2 options here:<br><strong>1. MEDomicsLab standard</strong>: you can select a master table and the associated target file<br><strong>2. Custom file</strong>: You can choose any csv file and then choose which column should be the target to predict</td><td>-</td><td>dataset</td></tr><tr><td><img src="../../.gitbook/assets/clean (2).png" alt="" data-size="original"></td><td></td><td>dataset</td><td>dataset</td></tr><tr><td><img src="../../.gitbook/assets/model.png" alt="" data-size="original"></td><td></td><td>-</td><td>model_config</td></tr><tr><td><img src="../../.gitbook/assets/train.png" alt="" data-size="original"></td><td></td><td>model_config AND dataset</td><td>model</td></tr><tr><td><img src="../../.gitbook/assets/compare (1).png" alt="" data-size="original"></td><td></td><td>dataset</td><td>model(s)</td></tr><tr><td><img src="../../.gitbook/assets/load_model (1).png" alt="" data-size="original"></td><td></td><td>dataset</td><td>model</td></tr><tr><td><img src="../../.gitbook/assets/optimize (2).png" alt="" data-size="original"></td><td></td><td>model</td><td>model</td></tr><tr><td><img src="../../.gitbook/assets/analyze.png" alt="" data-size="original"></td><td></td><td>model</td><td>-</td></tr><tr><td><img src="../../.gitbook/assets/finalize.png" alt="" data-size="original"></td><td></td><td>model</td><td>model</td></tr><tr><td><img src="../../.gitbook/assets/save_model.png" alt="" data-size="original"></td><td></td><td>model</td><td>-</td></tr></tbody></table>
+<table data-full-width="true">
+    <thead>
+        <tr>
+            <th width="219">Image</th>
+            <th width="468.5">Description</th>
+            <th width="135">Input</th>
+            <th>Output</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><img src="../../.gitbook/assets/dataset (2).png" alt="" data-size="original"></td>
+            <td>
+                This is the entry point of an experiment. <br>
+                You have 2 options here:<br>
+                <strong>1. MEDomicsLab standard</strong>: you can select a master table and the associated target file<br>
+                <strong>2. Custom file</strong>: You can choose any csv file and then choose which column should be the target to predict
+            </td>
+            <td>-</td>
+            <td>dataset</td>
+        </tr>
+        <tr>
+            <td><img src="../../.gitbook/assets/clean (2).png" alt="" data-size="original"></td>
+            <td>
+                This node allows you to clean your dataset.
+            </td>
+            <td>dataset</td>
+            <td>dataset</td>
+        </tr>
+        <tr>
+            <td><img src="../../.gitbook/assets/model.png" alt="" data-size="original"></td>
+            <td>
+                This node allows you to select a model and its associated parameters.
+            </td>
+            <td>-</td>
+            <td>model_config</td>
+        </tr>
+        <tr>
+            <td><img src="../../.gitbook/assets/train.png" alt="" data-size="original"></td>
+            <td>
+                This node allows you to train a model.
+            </td>
+            <td>model_config AND dataset</td>
+            <td>model</td>
+        </tr>
+        <tr>
+            <td><img src="../../.gitbook/assets/compare (1).png" alt="" data-size="original"></td>
+            <td>
+                This node allows you to train multiple models and compare them.
+            </td>
+            <td>dataset</td>
+            <td>model(s)</td>
+        </tr>
+        <tr>
+            <td><img src="../../.gitbook/assets/load_model (1).png" alt="" data-size="original"></td>
+            <td>
+                This node allows you to load a model from a file.
+            </td>
+            <td>dataset</td>
+            <td>model</td>
+        </tr>
+        <tr>
+            <td><img src="../../.gitbook/assets/optimize (2).png" alt="" data-size="original"></td>
+            <td>
+                This node allows you to optimize a model.
+            </td>
+            <td>model</td>
+            <td>model</td>
+        </tr>
+        <tr>
+            <td><img src="../../.gitbook/assets/analyze.png" alt="" data-size="original"></td>
+            <td>
+                This node allows you to analyze a model.
+            </td>
+            <td>model</td>
+            <td>-</td>
+        </tr>
+        <tr>
+            <td><img src="../../.gitbook/assets/finalize.png" alt="" data-size="original"></td>
+            <td>
+                This node allows you to finalize a model.
+            </td>
+            <td>model</td>
+            <td>model</td>
+        </tr>
+        <tr>
+            <td><img src="../../.gitbook/assets/save_model.png" alt="" data-size="original"></td>
+            <td>
+                This node allows you to save a model.
+            </td>
+            <td>model</td>
+            <td>-</td>
+        </tr>
+    </tbody>
+</table>
 
 ### 2. Results button
 
+This button is used to see the results of the experiment. More info here
+
 ### 3. Utils menu
+
+This menu contains different functionalities that can be used to help you build your scene.
+- **Machine learning type dropdown**: This dropdown allows you to select the type of machine learning you want to do. When changing the type, all settings are reseted.
+- **Play**: This button allows you to run the experiment. More info here
+- **Garbage bin**: This button allows you to delete all nodes in the scene
+- **Save**: This button allows you to save the scene
+- **Load**: This button allows you to load a scene from a file
 
 ### 4. Minimap
 
+This minimap allows you to navigate in the scene and to see the nodes that are in the scene.
+
 ### 5. Flow utils
+
+This menu contains different functionalities that interact with the flow section.
+
+- **Plus button**: This button allows you to zoom in the flow section
+- **Minus button**: This button allows you to zoom out the flow section
+- **square button**: This button allows you to fit the flow section in the view
+- **lock button**: This button allows you to lock the flow section. When locked, you can't move the flow section
+- **map button**: This button allows you to show/hide the minimap
 
 ## Example
 
