@@ -34,7 +34,7 @@ Double click on the .medeval file
 The chosen dataset's columns must match the dataset's columns on which the model has been run. Otherwise, an error will explain it so you won't be able to run the evaluation&#x20;
 {% endhint %}
 
-## 3. Analyse results
+## 3. Analyze results
 
 <figure><img src="../../.gitbook/assets/Evaluation_module_5.png" alt=""><figcaption></figcaption></figure>
 

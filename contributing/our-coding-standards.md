@@ -80,12 +80,11 @@ const  myFct = (someParams) =­> {}
 
 <summary>Directory tree of the application components</summary>
 
-```bash
-components
+<pre class="language-bash"><code class="lang-bash">components
 ├───dataTypeVisualisation
 │       dataTablePopoverBPClass.jsx
-│       dataTableWrapper.jsx
-│       dataTableWrapperBPClass.tsx
+<strong>│       dataTableWrapper.jsx
+</strong>│       dataTableWrapperBPClass.tsx
 │
 ├───evaluation
 │       dashboard.jsx
@@ -262,7 +261,7 @@ components
         dataContext.jsx
         medDataObject.js
         workspaceContext.jsx
-```
+</code></pre>
 
 
 

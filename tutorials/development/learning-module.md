@@ -1,2 +1,151 @@
+---
+description: This is where the magic happens 🪄
+---
+
 # Learning Module
 
+## Create an experiment/scene
+
+<div data-full-width="true">
+
+<figure><img src="../../.gitbook/assets/Learning_module_1.png" alt=""><figcaption></figcaption></figure>
+
+ 
+
+<figure><img src="../../.gitbook/assets/Learning_module_2.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+<div data-full-width="true">
+
+<figure><img src="../../.gitbook/assets/Learning_module_3.png" alt="" width="563"><figcaption></figcaption></figure>
+
+ 
+
+<figure><img src="../../.gitbook/assets/Learning_module_3_zoom.png" alt="" width="375"><figcaption></figcaption></figure>
+
+</div>
+
+
+
+## Module overview
+
+{% hint style="info" %}
+Double click on the .medml to open the scene
+{% endhint %}
+
+<figure><img src="../../.gitbook/assets/Learning_module_4.png" alt=""><figcaption><p>Empty scene</p></figcaption></figure>
+
+### 1. Available Nodes
+
+<table data-full-width="true"><thead><tr><th width="219">Image</th><th width="468.5">Description</th><th width="135">Input</th><th>Output</th></tr></thead><tbody><tr><td><img src="../../.gitbook/assets/dataset (2).png" alt="" data-size="original"></td><td>This is the entry point of an experiment. <br>You have 2 options here:<br><strong>1. MEDomicsLab standard</strong>: you can select a master table and the associated target file<br><strong>2. Custom file</strong>: You can choose any csv file and then choose which column should be the target to predict</td><td>-</td><td>dataset</td></tr><tr><td><img src="../../.gitbook/assets/clean (2).png" alt="" data-size="original"></td><td></td><td>dataset</td><td>dataset</td></tr><tr><td><img src="../../.gitbook/assets/model.png" alt="" data-size="original"></td><td></td><td>-</td><td>model_config</td></tr><tr><td><img src="../../.gitbook/assets/train.png" alt="" data-size="original"></td><td></td><td>model_config AND dataset</td><td>model</td></tr><tr><td><img src="../../.gitbook/assets/compare (1).png" alt="" data-size="original"></td><td></td><td>dataset</td><td>model(s)</td></tr><tr><td><img src="../../.gitbook/assets/load_model (1).png" alt="" data-size="original"></td><td></td><td>dataset</td><td>model</td></tr><tr><td><img src="../../.gitbook/assets/optimize (2).png" alt="" data-size="original"></td><td></td><td>model</td><td>model</td></tr><tr><td><img src="../../.gitbook/assets/analyze.png" alt="" data-size="original"></td><td></td><td>model</td><td>-</td></tr><tr><td><img src="../../.gitbook/assets/finalize.png" alt="" data-size="original"></td><td></td><td>model</td><td>model</td></tr><tr><td><img src="../../.gitbook/assets/save_model.png" alt="" data-size="original"></td><td></td><td>model</td><td>-</td></tr></tbody></table>
+
+### 2. Results button
+
+### 3. Utils menu
+
+### 4. Minimap
+
+### 5. Flow utils
+
+## Example
+
+### 1. Creation of your pipeline
+
+Drag and drop nodes from the menu and create your own [pipeline(s)](learning-module.md#multiple-pipelines). Here is an example of a simple classification pipeline that takes a dataset, train a _gradient boosting classifier_ model and then, plot an AUC plot
+
+<div data-full-width="true">
+
+<figure><img src="../../.gitbook/assets/Learning_module_5.png" alt=""><figcaption><p>Simple scene example</p></figcaption></figure>
+
+ 
+
+<figure><img src="../../.gitbook/assets/simple_pipe_w_params.png" alt=""><figcaption><p>Parameters</p></figcaption></figure>
+
+</div>
+
+### 2. Run the experiment
+
+You can run the experiment by clicking on the **run button**&#x20;
+
+<figure><img src="../../.gitbook/assets/Learning_module_6.png" alt=""><figcaption></figcaption></figure>
+
+A progress bar will appear and **when the experiment finishes**,&#x20;
+
+* A toast will confirm that the results has been saved
+* A new file will appear (.medmlres) containing results informations related to the .medml with the same name (you can't open this file)
+* The _see results_ button will be enabled
+
+### 3. Results panel
+
+When clicking on the _see results_ button,
+
+<figure><img src="../../.gitbook/assets/Learning_module_7.png" alt=""><figcaption></figcaption></figure>
+
+As you can see, a panel open from the bottom with different collapsible item :
+
+<figure><img src="../../.gitbook/assets/Learning_module_7_pipe_zoom.png" alt=""><figcaption><p>P<strong>ipeline's results viewer</strong></p></figcaption></figure>
+
+They are called **pipeline's results viewer.**\
+On the **left**, you can see all the nodes in the pipeline. You can click on those to see associated results.\
+On the **right**, you can see a button that [generates a notebook](learning-module.md#3.1-notebook-generation) for the associated pipeline
+
+{% hint style="info" %}
+You can also filter which pipeline(s) you want to see in the results panel by checking node in the flow section. More info here
+{% endhint %}
+
+#### 3.1 Notebook generation
+
+The generated file is saved in the notebook folder of the associated scene. You can open it directly from the application by right clicking and selecting _open in..._ and then _VSCode_ for example.
+
+{% hint style="warning" %}
+You have to run an experiment to access this functionality
+{% endhint %}
+
+{% hint style="warning" %}
+Default code editor is not implemented yet, but coming soon ! 😉
+{% endhint %}
+
+<figure><img src="../../.gitbook/assets/Learning_module_13.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/learning_14.png" alt=""><figcaption><p>Automatically generated notebook opened in <em>VSCode</em></p></figcaption></figure>
+
+## Multiple pipelines
+
+When building your scene, you can connect multiple nodes to each other creating multiple pipelines !
+
+### Single vs multiple pipelines:
+
+{% tabs %}
+{% tab title="Single pipeline" %}
+<figure><img src="../../.gitbook/assets/Learning_module_19.png" alt=""><figcaption></figcaption></figure>
+{% endtab %}
+
+{% tab title="Multiple pipelines" %}
+<figure><img src="../../.gitbook/assets/Learning_module_18 (1).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/Learning_module_14 (2).png" alt=""><figcaption></figcaption></figure>
+{% endtab %}
+{% endtabs %}
+
+### Pipelines selection box
+
+Each runnable node has this checkbox on top of the node in results mode. checked ones and/or green ones will be displayed in the results panel.&#x20;
+
+<div>
+
+<figure><img src="../../.gitbook/assets/checkbox_blue (1).png" alt="" width="90"><figcaption><p>Selection box</p></figcaption></figure>
+
+ 
+
+<figure><img src="../../.gitbook/assets/checkbox_green (2).png" alt="" width="90"><figcaption><p>Independent selection box</p></figcaption></figure>
+
+</div>
+
+{% hint style="info" %}
+**Independent selection box** (green ones) indicates that every pipeline go through this one, so in any case, its gonna show in the results
+{% endhint %}
+
+#### Pipelines selection example
+
+<figure><img src="../../.gitbook/assets/Learning_module_15.png" alt=""><figcaption></figcaption></figure>
