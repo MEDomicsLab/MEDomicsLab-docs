@@ -4,8 +4,6 @@ description: This is where the magic happens 🧙🪄
 
 # Learning Module
 
-##
-
 > **Good to know** : This module allows you to train models and it is powered by the python library [PYCARET](https://pycaret.gitbook.io/docs/). This module is built around this library
 
 ## Create an experiment/scene
@@ -145,7 +143,7 @@ On the **right**, you can see a button that [generates a notebook](learning-modu
 You can also filter which pipeline(s) you want to see in the results panel by checking node in the flow section. More info here
 {% endhint %}
 
-#### 3.1 Notebook generation
+#### 3.1 [Notebook ](https://docs.jupyter.org/en/latest/running.html)generation
 
 The generated file is saved in the notebook folder of the associated scene. You can open it directly from the application by right clicking and selecting _open in..._ and then _VSCode_ for example.
 
