@@ -71,14 +71,14 @@ When clicking on an _Optimize_ node, it opens a subflow like below where you can
 
 ### 2. Results button
 
-This button is used to see the results of the experiment. More info here
+This button is used to see the results of the experiment. More info [here](learning-module.md#3.-results-panel)
 
 ### 3. Utils menu
 
 This menu contains different functionalities that can be used to help you build your scene.
 
 * **Machine learning type dropdown**: This dropdown allows you to select the type of machine learning you want to do. When changing the type, all settings are reseted.
-* **Play**: This button allows you to run the experiment. More info here
+* **Play**: This button allows you to run the experiment. More info [here](learning-module.md#2.-run-the-experiment)
 * **Garbage bin**: This button allows you to delete all nodes in the scene
 * **Save**: This button allows you to save the scene
 * **Load**: This button allows you to load a scene from a file
@@ -179,7 +179,7 @@ When building your scene, you can connect multiple nodes to each other creating 
 
 ### Pipelines selection box
 
-Each runnable node has this checkbox on top of the node in results mode. checked ones and/or green ones will be displayed in the results panel.
+Each runnable node has this checkbox on top of the node in results mode. Checked ones or green ones will be displayed in the results panel.
 
 <div>
 
