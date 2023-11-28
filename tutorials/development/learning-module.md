@@ -140,7 +140,7 @@ On the **left**, you can see all the nodes in the pipeline. You can click on tho
 On the **right**, you can see a button that [generates a notebook](learning-module.md#3.1-notebook-generation) for the associated pipeline
 
 {% hint style="info" %}
-You can also filter which pipeline(s) you want to see in the results panel by checking node in the flow section. More info here
+You can also filter which pipeline(s) you want to see in the results panel by checking node in the flow section. [More info here](learning-module.md#pipelines-selection-box)
 {% endhint %}
 
 #### 3.1 [Notebook ](https://docs.jupyter.org/en/latest/running.html)generation
