@@ -6,6 +6,12 @@ description: This is where the magic happens 🧙🪄
 
 > **Good to know** : This module allows you to train models and it is powered by the python library [PYCARET](https://pycaret.gitbook.io/docs/). This module is built around this library
 
+## Overview video
+
+{% embed url="https://youtu.be/HYAMp-Uc9Yo" %}
+Learning Module - Scene Creation
+{% endembed %}
+
 ## Create an experiment/scene
 
 Before creating a scene, select the EXPERIMENTS folder or a subfolder where you want the scene to be saved
