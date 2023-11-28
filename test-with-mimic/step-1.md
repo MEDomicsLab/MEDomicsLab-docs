@@ -1,7 +1,7 @@
 ---
-description: jan 15 - jan 29
+description: Jan 15 - Jan 29 | Install and Explore
 ---
 
 # Step 1
 
-Coming soon on january 15 2024
+Coming soon on **January 15 2024**
