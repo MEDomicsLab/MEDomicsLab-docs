@@ -16,6 +16,7 @@
   * [❓ Miscellaneous](tutorials/miscellaneous.md)
 * [📄 Testing phase with MIMIC](test-with-mimic/README.md)
   * [Step (template)](test-with-mimic/step-template.md)
+  * [Step 1](test-with-mimic/step-1.md)
 * [👩💻 Contributing](contributing.md)
   * [Our coding standards](contributing/our-coding-standards.md)
   * [How to push my modification ?](contributing/how-to-push-my-modification.md)
