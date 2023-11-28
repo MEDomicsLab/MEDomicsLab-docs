@@ -26,6 +26,7 @@
 * [👩💻 Contributing](contributing.md)
   * [Our coding standards](contributing/our-coding-standards.md)
   * [How to push my modification ?](contributing/how-to-push-my-modification.md)
+* [🤓 About us](about-us.md)
 * [🤯 Troubleshooting](troubleshooting.md)
 
 ## Important Links
