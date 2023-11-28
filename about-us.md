@@ -60,12 +60,12 @@
             <td><h2>Guillaume Blain</h2></td>
             <td>
                 <p>Research Assistant</p>
-                <p>Université de <a href="https://www.google.ca/?hl=fr">Sherbrooke</a></p>
+                <p>Université de Sherbrooke</p>
             </td>
             <td>
             <p>
-            <a href="https://www.google.ca/?hl=fr"><img src=".gitbook/assets/github.png" alt="" data-size="line"></a>
-            <a href="https://www.google.ca/?hl=fr"><img src=".gitbook/assets/linkedin.png" alt="" data-size="line"></a>
+            <a href="https://github.com/Blain354?tab=repositories"><img src=".gitbook/assets/github.png" alt="" data-size="line"></a>
+            <a href="https://www.linkedin.com/in/guillaume-blain-a7b9871a2/"><img src=".gitbook/assets/linkedin.png" alt="" data-size="line"></a>
             </p>
             </td>
         </tr>
@@ -76,7 +76,12 @@
                 <p>Research Assistant</p>
                 <p>Université de Sherbrooke</p>
             </td>
-            <td></td>
+            <td>
+             <p>
+            <a href="https://github.com/NicoLongfield?tab=repositories"><img src=".gitbook/assets/github.png" alt="" data-size="line"></a>
+            <a href="https://www.linkedin.com/in/nicolas-longchamps-bb2023279/"><img src=".gitbook/assets/linkedin.png" alt="" data-size="line"></a>
+            </p>
+            </td>
         </tr>
         <tr>
             <td align="center"><img src=".gitbook/assets/Sarah_Denis.png" alt="" data-size="original"></td>
