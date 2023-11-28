@@ -27,16 +27,53 @@ Please also note that an Information Session about the Testing Phase is schedule
 
 The schedule of the Testing Phase (2024) and series of tutorials are planned as follows:
 
-| Step | Description               | Dates             |
-|------|---------------------------|-------------------|
-| 1    | Install and Explore       | Jan 15 – Jan 29   |
-| 2    | Extract Data              | Jan 29 – Feb 12   |
-| 3    | Prepare ML tables         | Feb 12 – Feb 26   |
-| 4    | Explore Data              | Feb 26 – Mar 11   |
-| 5    | Create Models             | Mar 11 – Mar 25   |
-| 6    | Evaluate Models           | Mar 25 – Apr 8    |
-| 7    | Apply and Deploy Model    | Apr 8 – Apr 22    |
-| 8    | Challenge                 | Apr 22 – May 13   |
+<table>
+    <tr>
+        <th>Step</th>
+        <th>Description</th>
+        <th>Dates</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>Install and Explore</td>
+        <td>Jan 15 – Jan 29</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>Extract Data</td>
+        <td>Jan 29 – Feb 12</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>Prepare ML tables</td>
+        <td>Feb 12 – Feb 26</td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>Explore Data</td>
+        <td>Feb 26 – Mar 11</td>
+    </tr>
+    <tr>
+        <td>5</td>
+        <td>Create Model</td>
+        <td>Mar 11 – Mar 25</td>
+    </tr>
+    <tr>
+        <td>6</td>
+        <td>Evaluate Model</td>
+        <td>Mar 25 – Apr 8</td>
+    </tr>
+    <tr>
+        <td>7</td>
+        <td>Apply and Deploy Model</td>
+        <td>Apr 8 – Apr 22</td>
+    </tr>
+    <tr>
+        <td>8</td>
+        <td>Challenge</td>
+        <td>Apr 22 – May 13</td>
+    </tr>
+</table>
 
 If you want to participate, please answer the questions below. We are looking forward to working with you!
 
