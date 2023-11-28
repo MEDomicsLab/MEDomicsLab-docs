@@ -62,7 +62,12 @@
                 <p>Research Assistant</p>
                 <p>Université de <a href="https://www.google.ca/?hl=fr">Sherbrooke</a></p>
             </td>
-            <td><a href="https://www.google.ca/?hl=fr"><img src=".gitbook/assets/github.png" alt="" data-size="line"></a></td>
+            <td>
+            <p>
+            <a href="https://www.google.ca/?hl=fr"><img src=".gitbook/assets/github.png" alt="" data-size="line"></a>
+            <a href="https://www.google.ca/?hl=fr"><img src=".gitbook/assets/linkedin.png" alt="" data-size="line"></a>
+            </p>
+            </td>
         </tr>
         <tr>
             <td align="center"><img src=".gitbook/assets/Nicolas_Longchamps.png" alt="" data-size="original"></td>
