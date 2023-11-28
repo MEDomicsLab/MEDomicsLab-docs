@@ -6,7 +6,7 @@ description: January 15th 2024 - May 13th 2024
 
 ## Overview
 
-During the Winter 2024 semester, the first Testing Phase of [MEDomicsLab](https://github.com/MEDomics-UdeS/MEDomicsLab) will take place via a series of tutorials. For an overview of the vision that we have for the platform, please visit this [link](https://bit.ly/3EdkQpi).
+During the Winter 2024 semester, the first Testing Phase of [MEDomicsLab](https://github.com/MEDomics-UdeS/MEDomicsLab) will take place via a series of tutorials. For an overview of the vision that we have for the platform, please [go here](../#an-overview-of-medomicslab)
 
 We would love to have you join the effort and provide feedback during this Testing Phase, prior to a first official release of MEDomicsLab! Our intent is to properly recognize all the participants of the Testing Phase when the first official release will come.
 
