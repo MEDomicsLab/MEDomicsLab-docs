@@ -1,5 +1,9 @@
 # Exploratory Module
 
+## Overview video
+
+{% embed url="https://youtu.be/SCISwRiw1oA" %}
+
 When double-clicking on the exploratory module you should see this page:
 
 <figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption><p>Exploratory module - untouched</p></figcaption></figure>
