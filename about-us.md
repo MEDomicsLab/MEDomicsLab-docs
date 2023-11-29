@@ -90,7 +90,12 @@
                 <p>Research Professional</p>
                 <p>Université de Sherbrooke</p>
             </td>
-            <td></td>
+            <td>
+             <p>
+            <a href="https://github.com/Sari27?tab=repositories"><img src=".gitbook/assets/github.png" alt="" data-size="line"></a>
+            <a href="www.linkedin.com/in/sarah-denis-b384b722b"><img src=".gitbook/assets/linkedin.png" alt="" data-size="line"></a>
+            </p>
+            </td>
         </tr>
         <tr>
             <td align="center"><img src=".gitbook/assets/Brahim_Fakri (2).png" alt="" data-size="original"></td>
@@ -108,7 +113,12 @@
                 <p>MSc + Research Assistant</p>
                 <p>Université de Sherbrooke</p>
             </td>
-            <td></td>
+            <td>
+            <p>
+            <a href="https://github.com/MahdiAll99?tab=repositories"><img src=".gitbook/assets/github.png" alt="" data-size="line"></a>
+            <a href="https://www.linkedin.com/in/mahdi-ait-lhaj-loutfi-332014253/"><img src=".gitbook/assets/linkedin.png" alt="" data-size="line"></a>
+            </p>
+            </td>
         </tr>
         <tr>
             <td align="center"><img src=".gitbook/assets/Andreanne_allaire (1).png" alt="" data-size="original"></td>
