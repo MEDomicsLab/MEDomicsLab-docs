@@ -1,0 +1,45 @@
+Hi !,  its Ai voice generator Andrew, I will be talking on behalf of Guillaume Blain to present the Exploratory module!
+
+First, for this tutorial, we are using a csv file named "breast cancer" which i previously subset into a holdout and train set
+
+So we can start by double clicking on this icon
+
+This module contains three tools for EDA analysis.
+
+first, there is Sweetviz
+
+then, y data profiling and D tale
+
+I invite you to visit their documentation by clicking on their titles if you need more informations
+
+So, For the first example using Sweetviz, we start by choosing a dataset 
+
+then select the correct target. for this dataset, the target diagnosis has been convert to numerical so malignant tumors are ones and Benign are zeros
+
+Then, click on Generate report
+
+When calculations are finished, two green buttons appears. The first open the generated file and the second save the file
+
+if you click on the first one, the report appears. Check their documentation for more informations
+
+You can also save the html file on your computer with any name you want
+
+For the y data profiling example, we start by selecting a dataset and then, we are gonna use the compare with another dataset button
+
+So choose a second dataset to generate a compare report
+
+Like the sweetviz example, you can open the generated file and as you can see, you can compare informations from the two datasets you entered. Check their documentation for more informations
+
+You can also save the generated report like tyhe sweetviz example
+
+So, finally, for the D tale example, you can simply choose a dataset and then, click on generate report
+
+When computations are finished, you can click on open d tale button
+
+like the other EDA tools, i suggest visit their documentation and explore possibilities
+
+you can also add a new D tale analysis by clicking on this button. 
+
+and close it by clicking here.
+
+so, that was the exploratory module. You can now start exploring some data ! have a nice Day, tale
