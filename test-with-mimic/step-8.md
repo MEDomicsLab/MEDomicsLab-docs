@@ -2,6 +2,6 @@
 description: Apr 22 – May 13 | Challenge
 ---
 
-# Step 8 : Mini-challenge
+# Step 8 : Challenge
 
 Coming on **April 22nd 2024**.
