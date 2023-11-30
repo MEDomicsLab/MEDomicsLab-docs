@@ -1,4 +1,4 @@
-# ❓ Miscellaneous
+# 🛠 Miscellaneous
 
 <details>
 
@@ -31,4 +31,3 @@
 
 
 </details>
-

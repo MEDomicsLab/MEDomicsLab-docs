@@ -2,6 +2,6 @@
 description: Jan 29 - Feb 12 | Extract Data
 ---
 
-# Step 2
+# Step 2 : Extract data
 
 Coming on **January 29th 2024**

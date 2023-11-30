@@ -2,7 +2,7 @@
 
 ## Overview video
 
-{% embed url="https://youtu.be/SCISwRiw1oA" %}
+{% embed url="https://youtu.be/trcQLZeS7E8" %}
 
 When double-clicking on the exploratory module you should see this page:
 

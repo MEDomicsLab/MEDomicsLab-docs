@@ -1,5 +1,7 @@
 # 👩💻 Contributing
 
+<figure><img src=".gitbook/assets/image (4).png" alt=""><figcaption><p>High-Level Architecture of the Main Framework Used in the Application</p></figcaption></figure>
+
 ## Setup from the ground up 🌱
 
 ### 1. Installation of Nvm
