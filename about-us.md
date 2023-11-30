@@ -18,7 +18,6 @@
         <tr>
             <td align="center">
             <img src=".gitbook/assets/martin_vallieres (1).png" alt="" data-size="original">
-            <img src=".gitbook/assets/Quebec.png" width="50" align="right" align="top" style="position:absolute;">
             </td>
             <td align="center"><h3><strong>Martin Vallières, PhD</strong></h3></td>
             <td>
