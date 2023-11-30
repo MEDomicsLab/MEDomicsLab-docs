@@ -10,10 +10,10 @@ description: Installation of the app
 {% tab title="Windows" %}
 {% embed url="https://youtu.be/MSPWubu8qK8" %}
 
-### 1. Download the following :
+### 1. Download the following [here](https://github.com/MEDomics-UdeS/MEDomicsLab/releases) :
 
-* [Python environment installer for Windows](https://github.com/NicoLongfield/MEDomicsLab\_Automation/releases/download/full-refs%2Ftags%2F1.1.0/MEDomicsLab-PythonEnv-win.zip)
-* [MEDomicsLab installer for Windows](https://github.com/NicoLongfield/MEDomicsLab\_Automation/releases/download/full-refs%2Ftags%2F1.1.0/MEDomicsLab-1.1.0-win.exe)
+* Python environment installer for Windows (\*-win.zip)
+* MEDomicsLab installer for Windows (\*.exe)
 
 ### 2. Unzip the Python environment installer
 
@@ -25,10 +25,10 @@ description: Installation of the app
 {% endtab %}
 
 {% tab title="Linux (Ubuntu)" %}
-### 1. Download the following :
+### 1. Download the following [here](https://github.com/MEDomics-UdeS/MEDomicsLab/releases) :
 
-* [Python environment installer for Linux](https://github.com/NicoLongfield/MEDomicsLab\_Automation/releases/download/full-refs%2Ftags%2F1.1.0/MEDomicsLab-PythonEnv-linux.zip)
-* [MEDomicsLab installer for Linux (.deb)](https://github.com/NicoLongfield/MEDomicsLab\_Automation/releases/download/full-refs%2Ftags%2F1.1.0/MEDomicsLab-1.1.0-linux.deb)
+* Python environment installer for Linux (\*-linux.zip)
+* MEDomicsLab installer for Linux (\*.deb)
 
 ### 2. Unzip the Python environment installer
 
@@ -40,9 +40,10 @@ description: Installation of the app
 {% endtab %}
 
 {% tab title="MacOS" %}
-### 1. Download the following :&#x20;
+### 1. Download the following [here](https://github.com/MEDomics-UdeS/MEDomicsLab/releases) :
 
-* [MEDomicsLab installer for MacOS (.dmg)](https://github.com/NicoLongfield/MEDomicsLab\_Automation/releases/download/full-refs%2Ftags%2F1.1.0/MEDomicsLab-1.1.0-mac.dmg)
+* Python environment installer for Linux (\*-mac.zip)
+* MEDomicsLab installer for MacOS (.dmg)
 
 ### 2. Unzip the Python environment installer
 
