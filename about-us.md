@@ -122,7 +122,7 @@
     <tbody>
         <tr>
             <td align="center"><img src=".gitbook/assets/Mahdi_Ait_Lhaj_Loutfi.png" alt="" data-size="original"></td>
-            <td><h4>Mahdi Ait Lhaj Loutfi</h4></td>
+            <td><h2>Mahdi Ait Lhaj Loutfi</h2></td>
             <td>
                 <p>MSc + Research Assistant</p>
                 <p>Université de Sherbrooke</p>
@@ -134,7 +134,7 @@
         </tr>
         <tr>
             <td align="center"><img src=".gitbook/assets/Andreanne_allaire (1).png" alt="" data-size="original"></td>
-            <td><h4>Andréanne Allaire</h4></td>
+            <td><h2>Andréanne Allaire</h2></td>
             <td>
                 <p>Research Assistant</p>
                 <p>Université de Sherbrooke</p>
@@ -143,7 +143,7 @@
         </tr>
         <tr>
             <td align="center"><img src=".gitbook/assets/Hithem_lamri.png" alt="" data-size="original"></td>
-            <td><h4>Hithem Lamri</h4></td>
+            <td><h2>Hithem Lamri</h2></td>
             <td>
                 <p>Collaborator</p>
                 <p>Formerly at Université de Sherbrooke</p>
