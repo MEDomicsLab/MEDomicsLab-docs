@@ -45,6 +45,7 @@
 * [⚛ MEDomics](https://www.medomics.ai/)
 * [👾 Discord](https://discord.gg/ZbaGj8E6mP)
 * [😺 Github](https://github.com/MEDomics-UdeS/MEDomicsLab)
+* [📺 YouTube Page](https://www.youtube.com/@MEDomicsLab)
 
 ## Forms
 
