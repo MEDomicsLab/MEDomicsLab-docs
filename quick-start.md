@@ -8,6 +8,8 @@ description: Installation of the app
 
 {% tabs %}
 {% tab title="Windows" %}
+{% embed url="https://youtu.be/MSPWubu8qK8" %}
+
 ### 1. Download the following :
 
 * [Python environment installer for Windows](https://github.com/NicoLongfield/MEDomicsLab\_Automation/releases/download/full-refs%2Ftags%2F1.1.0/MEDomicsLab-PythonEnv-win.zip)
