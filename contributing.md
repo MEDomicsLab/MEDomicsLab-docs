@@ -159,7 +159,7 @@ The built app will be located in the `build/dist` folder
 > # windows
 > .\build\dist\win-unpacked\MEDomicsLab.exe
 > # Linux
-> bash build/dist/linux-unpacked/MEDomicsLab.exe
+> bash build/dist/linux-unpacked/medapp
 > # Mac
-> bash build/dist/mac-unpacked/MEDomicsLab.exe
+> bash build/dist/mac-arm64/MEDomicsLab.app/Contents/MacOS/MEDomicsLab
 > ```

@@ -6,7 +6,7 @@ description: 'MEDomicsLab: Integrative Modeling of Heterogeneous Data in Medicin
 
 Welcome to MEDomicsLab! Here you'll find all the documentation you need to get up and running with our application.
 
-## Want to be part of the [testing phase](test-with-mimic/)?
+## Want to be part of the [Testing Phase](test-with-mimic/)?
 
 Go down there :point\_down:[#how-to-be-part-of-the-testing-phase](./#how-to-be-part-of-the-testing-phase "mention")
 
