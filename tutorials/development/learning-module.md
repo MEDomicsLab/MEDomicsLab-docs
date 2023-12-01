@@ -12,9 +12,7 @@ description: This is where the magic happens 🧙🪄
 Learning Module - Scene Creation
 {% endembed %}
 
-{% embed url="https://youtu.be/HXEfD7vJUXA" %}
-Learning Module - Understanding Pipelines and Results
-{% endembed %}
+{% embed url="https://youtu.be/9vcAkIaAcxE" %}
 
 ## Create an experiment/scene
 
