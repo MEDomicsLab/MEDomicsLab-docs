@@ -13,6 +13,8 @@ Learning Module - Scene Creation
 {% endembed %}
 
 {% embed url="https://youtu.be/9vcAkIaAcxE" %}
+Learning Module - Understanding Pipelines and Results
+{% endembed %}
 
 ## Create an experiment/scene
 
