@@ -4,6 +4,10 @@
 
 ## Setup from the ground up 🌱
 
+{% hint style="info" %}
+Go visit our [github develop branch ](https://github.com/MEDomics-UdeS/MEDomicsLab/tree/develop#medomicslab---develop-branch-%EF%B8%8F)!
+{% endhint %}
+
 ### 1. Installation of Nvm
 
 * [NVM for Windows](https://github.com/coreybutler/nvm-windows)
@@ -15,10 +19,6 @@
 nvm install lts
 nvm use lts
 ```
-
-{% hint style="info" %}
-If this step doesn't work, try ...
-{% endhint %}
 
 ### 3. Clone the repository
 
