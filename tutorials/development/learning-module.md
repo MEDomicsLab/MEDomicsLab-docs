@@ -12,7 +12,7 @@ description: This is where the magic happens 🧙🪄
 Learning Module - Scene Creation
 {% endembed %}
 
-{% embed url="https://youtu.be/HXEfD7vJUXA" %}
+{% embed url="https://youtu.be/9vcAkIaAcxE" %}
 Learning Module - Understanding Pipelines and Results
 {% endembed %}
 
@@ -202,7 +202,7 @@ Each runnable node has this checkbox on top of the node in results mode. Checked
 </div>
 
 {% hint style="info" %}
-**Independent selection box** (green ones) indicates that every pipeline go through this one, so in any case, its gonna show in the results
+**Independent selection box** (green ones) indicates that every pipeline go through this one, so in any case, its gonna show in the associated results
 {% endhint %}
 
 #### Pipelines selection example

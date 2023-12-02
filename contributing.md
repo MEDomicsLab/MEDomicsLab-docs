@@ -4,6 +4,10 @@
 
 ## Setup from the ground up 🌱
 
+{% hint style="info" %}
+Go visit our [github develop branch ](https://github.com/MEDomics-UdeS/MEDomicsLab/tree/develop#medomicslab---develop-branch-%EF%B8%8F)!
+{% endhint %}
+
 ### 1. Installation of Nvm
 
 * [NVM for Windows](https://github.com/coreybutler/nvm-windows)
@@ -15,10 +19,6 @@
 nvm install lts
 nvm use lts
 ```
-
-{% hint style="info" %}
-If this step doesn't work, try ...
-{% endhint %}
 
 ### 3. Clone the repository
 
@@ -127,39 +127,31 @@ const config = {
 ```
 {% endhint %}
 
-## To production&#x20;
+## To Test the Production Build&#x20;
 
-### Build the Electron app
+### Build the Electron app and Run the built version
 
 {% tabs %}
 {% tab title="Windows" %}
 ```
-npm run build:win
+npm run build:win                            # build and package the application 
+.\build\dist\win-unpacked\MEDomicsLab.exe    # Run the executable of the built version
 ```
 {% endtab %}
 
 {% tab title="Linux" %}
 ```
-npm run build:linux
+npm run build:linux                    # build and package the application 
+bash build/dist/linux-unpacked/medapp  # Run the executable of the built version
 ```
 {% endtab %}
 
 {% tab title="Mac" %}
 ```
-npm run build:mac
+npm run build:mac                                                    # build and package the application 
+bash build/dist/mac-arm64/MEDomicsLab.app/Contents/MacOS/MEDomicsLab # Run the executable of the built version     
 ```
 {% endtab %}
 {% endtabs %}
 
-The built app will be located in the `build/dist` folder
-
-> You can run the packaged version by running :&#x20;
->
-> ```
-> # windows
-> .\build\dist\win-unpacked\MEDomicsLab.exe
-> # Linux
-> bash build/dist/linux-unpacked/MEDomicsLab.exe
-> # Mac
-> bash build/dist/mac-unpacked/MEDomicsLab.exe
-> ```
+> The built app will be located in the `build/dist` folder

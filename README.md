@@ -6,6 +6,10 @@ description: 'MEDomicsLab: Integrative Modeling of Heterogeneous Data in Medicin
 
 Welcome to MEDomicsLab! Here you'll find all the documentation you need to get up and running with our application.
 
+## Want to be part of the [Testing Phase](test-with-mimic/)?
+
+Go down there :point\_down:[#how-to-be-part-of-the-testing-phase](./#how-to-be-part-of-the-testing-phase "mention")
+
 ## An overview of MEDomicsLab
 
 <figure><img src=".gitbook/assets/Slide5.PNG" alt=""><figcaption></figcaption></figure>
@@ -35,7 +39,7 @@ Welcome to MEDomicsLab! Here you'll find all the documentation you need to get u
   * Modular code libraries in Python (back-end)
 * We invite partners to follow the developments on [our GitHub](https://github.com/MEDomics-UdeS/MEDomicsLab) and to prepare for the [testing phase ](test-with-mimic/)in the Winter 2024 semester (\~1 hour per week).
 
-## Want to be part of the testing phase?
+## How to be part of the testing phase?
 
 Click here :point\_right: [join-the-testing-phase.md](forms/join-the-testing-phase.md "mention")
 
