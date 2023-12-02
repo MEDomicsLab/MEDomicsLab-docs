@@ -1,0 +1,63 @@
+Hi its Ai voice generator Andrew, I will be talking on behalf of Guillaume Blain to present the learning module part 2! In this second part, we will talk about pipelines and how to use the results tab
+
+I just prepared an example scene to show these concepts. Here are the settings i used.
+
+a model of type gradient boosting classifier
+
+a dataset named dataset 1 which points to this file here
+
+and another subset dataset named dataset 2
+
+the dataset 1 is connected to a train model node.
+
+both of the datasets are connected to a compare models node which have n select set to 3
+
+then, an optimize node where inside, we have a tune model node connected to a calibrate model and an ensemble node.
+
+And all the pipelines finish with an analyse node using a plot set to confusion matrix
+
+Now, let's run this scene !
+
+Nice ! now we can click on the see results button.
+
+We can first observe a lot of pipeline's results viewer, so to filter which pipelines we want to see, we can use these checkbox.
+
+green means that every possible pipelines go through this node and light blue mean that this node will filter some pipelines
+
+in this scene, there are too much pipelines. so we select the compare models node to see only pipelines that pass through this node.
+
+now, as you can see the only difference between these pipelines are the datasets at the beginning and the optimize's nodes here.
+
+to reduce the possibilities once again, we select the calibrate model node, so now the only difference is the dataset
+
+We can now start clicking on nodes in comparison mode to evaluate their differences according to the influence of upstream nodes.
+
+single selection mode is another useful mode if you want to specifically select different nodes results from different pipelines
+
+another pipeline's feature if you're interested by editing the backend code comes from this button there. you can use it to automatically generate a notebook for his associated pipeline
+
+when clicking on it, a confirmation appears, so you can open the notebook folder and see the newly created file
+
+You can now right click on it, select open in... and choose VSCode for example
+
+So this is a notebook automatically generated as you can read and a summary of the pipeline is also there to help distinguish your files.
+
+In addition, in results view mode, you cannot move node, only your view. 
+
+Ok, so now what if i want to add a node even if the scene has been run ? well... you can just like that
+
+for the example, i will use a save model node which, as you can see, has an orange outline meaning that this node has not been run yet
+
+When i come back to the edit mode, i can now move it and connect it like so
+
+and then, in results mode, the connection is also orange and the results panel know that a lot of new pipelines appeared while knowing that the save model node has not been run yet
+
+So next logic thing to do, Run it !
+
+Now that the scene has been recalculated, we can see that the save model node is no longer orange and we can actually see his associated results
+
+By selecting his checkbox, we filter out all other pipelines so we can better see his results 
+
+The save model node essentially save a model so there is nothing very interesting to see. Although in the model folder, you can see all the models that were saved when the scene was launched.
+
+Hey ! good job ! you made it through all the learning tutorials ! have a nice day !
