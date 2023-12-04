@@ -103,7 +103,9 @@
                 <p>Research Assistant</p>
                 <p>Université de Sherbrooke</p>
             </td>
-            <td></td>
+            <td>
+            <a href="https://github.com/BrahimFakri"><img src=".gitbook/assets/github.png" alt="" data-size="line"></a>
+            </td>
         </tr>
     </tbody>
 </table>
