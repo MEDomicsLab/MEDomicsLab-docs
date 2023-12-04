@@ -4,6 +4,10 @@
 At this point, you should have generated at least, one model from the [learning module](learning-module.md)
 {% endhint %}
 
+{% embed url="https://youtu.be/yfZe3JpvlXc" %}
+Evaluation Module
+{% endembed %}
+
 ## 1. Create an Evaluation
 
 <div data-full-width="true">

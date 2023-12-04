@@ -8,7 +8,7 @@ description: This is where the magic happens 🧙🪄
 
 ## Overview videos
 
-{% embed url="https://youtu.be/HYAMp-Uc9Yo" %}
+{% embed url="https://youtu.be/0PsuT_zXllk" %}
 Learning Module - Scene Creation
 {% endembed %}
 
