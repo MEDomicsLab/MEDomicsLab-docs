@@ -1,0 +1,28 @@
+
+Hi its Ai voice generator Andrew, I will be talking on behalf of Guillaume Blain to present the Evaluation module !
+
+First, You can double click on this icon to open the evaluation module.
+
+We will start by creating a new evaluation, you can do so by clicking on the button here. Next, choose a name, I will name it eval 1. Press enter.
+
+A new file appears with the extension med eval. double click on it to open it.
+
+Since this is a new evaluation, it opens a configuration page like this one.
+
+You will be asked to select a model file, this list is populated with the models you have anywhere in your workspace. I will select this one.
+
+You also have to select a dataset, like the models, this list is populated with the datasets you have anywhere in your workspace.
+
+At this step, in machine learning litterature, we should choose a holdout set to test our model on unseen data. I already subsetted the dataset into a learning or a train set and a holdout set, so I will select the holdout set.
+
+You can now click on create evaluation.
+
+Here you can see a summary of the model and the dataset you selected. you can also change any input and click on update evaluation. It saves your changes at the same time
+
+This header can also be hidden like so to give you more space to see the results.
+
+This page has two tabs the first one, as you can see is the predictions tab which is a copy of your dataset with two extra columns: prediction label and prediction score
+
+The second tab is an implementation of explainer dashboard. It is a great tool to understand how your model is doing and what are the most important features for your model. Go see their documentation for more informations. The link is in the description.
+
+So that was the evaluation module, I hope you learned something and I will see you in the next videos !
