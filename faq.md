@@ -10,4 +10,9 @@
 
 </details>
 
-<table><thead><tr><th>Minimum</th><th data-hidden>_</th><th data-hidden>Recommended</th><th data-hidden>Top notch 👌</th></tr></thead><tbody><tr><td>windows, linux, mac</td><td>OS</td><td>-</td><td>-</td></tr><tr><td>4 Go</td><td>RAM</td><td>8 Go</td><td>16 Go +</td></tr><tr><td>2 GHz, 4 cores</td><td>CPU</td><td>3.5 GHz, 8 cores</td><td>4.5 GHz +, 16 cores +</td></tr><tr><td>8 Go</td><td>Hard Disk</td><td>-</td><td>-</td></tr></tbody></table>
+| \_        | Minimum             | Recommended      | Top notch 👌          |
+| --------- | ------------------- | ---------------- | --------------------- |
+| OS        | windows, linux, mac | -                | -                     |
+| RAM       | 4 Go                | 8 Go             | 16 Go +               |
+| CPU       | 2 GHz, 4 cores      | 3.5 GHz, 8 cores | 4.5 GHz +, 16 cores + |
+| Hard Disk | 8 Go                | -                | -                     |
