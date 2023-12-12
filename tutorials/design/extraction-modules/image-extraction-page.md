@@ -8,13 +8,13 @@ description: >-
 
 When you click on the image extraction icon, you should see this page :
 
-<figure><img src="../../../.gitbook/assets/extraction_img.png" alt=""><figcaption><p>Extraction image page</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/extractionimg.png" alt=""><figcaption><p>Image extraction page</p></figcaption></figure>
 
 ## 1. Select JPG data
 
-The first step on this page is to select your input, which is a folder containing folders containing JPG images. The folders contained in the main folder must correspond to patients (one folder by patient). If your patients folders contain subfolders (for example if your JPG images are divided into admissions subfolders for each patient), you must increase the Folder Depth according to the subfolder hierarchy in order to update the available folder list.
+The first step on this page is to select your input, which is a folder containing folders containing JPG images. The folders contained in the main folder must correspond to patients (one folder by patient). All the JPG files must be at the same folder depth level. Once your data will be imported, the warning "No data imported" will be replaced with a success message "Data successfully imported".
 
-<figure><img src="../../../.gitbook/assets/select.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/selectjspg.png" alt=""><figcaption><p>Select JPG data</p></figcaption></figure>
 
 ## 2. Select an extraction type
 
