@@ -1,0 +1,22 @@
+Hi !,  its Ai voice generator Andrew, I will be talking on behalf of Guillaume Blain to present the Application module! This is
+where you can reap the fruits of your efforts and see the results of your work by using your created models to predict an outcome on new data !
+
+First you click on the icon here.
+
+Then, we will select a model that we have created in the previous module. For this tutorial, i will use the Extra trees classifier
+
+after selecting a model, it asks you to enter values for each colummns on which the model has been trained on. 
+
+when filling all the required fields, this button will be enabled and you should be able to predict the outcome.
+
+Because it is kind of time consuming to fill every columns and in some cases with hundred of features, it can quickly become a nightmare, we will use an other option.
+
+With this button, we can change the entry mode to File entry. So this second mode allows you to enter a csv file in respect of the model's columns.
+
+For this tutorial, I prepared a csv file with one patient that look like that:
+
+So i will use this one and then, hit the predict button.
+
+As you can see, it generated a prediction for this patient with a new and freezed column at the end containing the prediction.
+
+And that's it for the application module, I hope you enjoyed this tutorial and see you in the next one !
