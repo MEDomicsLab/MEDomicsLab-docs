@@ -19,7 +19,7 @@
   * [🟢 Deployment](tutorials/deployment/README.md)
     * [Application Module](tutorials/deployment/application-module.md)
   * [🛠 Miscellaneous](tutorials/miscellaneous.md)
-* [📄 Testing phase with MIMIC](test-with-mimic/README.md)
+* [📄 Testing Phase with MIMIC](test-with-mimic/README.md)
   * [MIMIC data access](test-with-mimic/mimic-data-access.md)
   * [Step 1 : Install and Explore](test-with-mimic/step-1.md)
   * [Step 2 : Extract data](test-with-mimic/step-2.md)

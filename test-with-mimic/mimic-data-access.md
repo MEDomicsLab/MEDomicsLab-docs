@@ -16,3 +16,9 @@ The participation in the Testing Phase will involve the use of data from the [MI
 4. Send us the 5 forms (CITI Course certification + 4 signed data use agreements) to medomics.info@gmail.com
 
 This process will take some time, but we assure you it will be worth it!
+
+We also created a video to help you with this process : &#x20;
+
+{% embed url="https://youtu.be/dfZhM4YjTTs?si=Lzv1fw1xlOyhW23y" %}
+MIMIC database, Physionet and CITI Program Tutorial
+{% endembed %}
