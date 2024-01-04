@@ -18,7 +18,7 @@
     * [Evaluation Module](tutorials/development/evaluation-module.md)
   * [🟢 Deployment](tutorials/deployment/README.md)
     * [Application Module](tutorials/deployment/application-module.md)
-  * [🛠 Miscellaneous](tutorials/miscellaneous.md)
+  * [❓ Miscellaneous](tutorials/miscellaneous.md)
 * [📄 Testing Phase with MIMIC](test-with-mimic/README.md)
   * [MIMIC data access](test-with-mimic/mimic-data-access.md)
   * [Step 1 : Install and Explore](test-with-mimic/step-1.md)
@@ -32,7 +32,7 @@
 * [👩💻 Contributing](contributing.md)
   * [Our coding standards](contributing/our-coding-standards.md)
   * [How to push my modification ?](contributing/how-to-push-my-modification.md)
-* [🤕 Troubleshooting](troubleshooting.md)
+* [🤯 Troubleshooting](troubleshooting.md)
 * [❓ FAQ](faq.md)
 * [🤓 About us](about-us.md)
 
