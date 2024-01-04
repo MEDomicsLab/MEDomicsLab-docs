@@ -1,4 +1,4 @@
-# 🤕 Troubleshooting
+# 🤯 Troubleshooting
 
 <details>
 
@@ -20,15 +20,15 @@
 
 Your python environnement could have problems.
 
-#### Test the environnement variable MED\_ENV
+**Test the environnement variable MED\_ENV**
 
 on WINDOWS:\
-open a cmd terminal( `🪟 + cmd`) and write `set MED_ENV`&#x20;
+open a cmd terminal( `🪟 + cmd`) and write `set MED_ENV`
 
 on LINUX and MACOS:\
 Open a terminal and write `echo $MED_ENV`
 
-**It should print a path to where your** [**conda** ](https://www.anaconda.com/)**env is installed.** \
-If not:&#x20;
+**It should print a path to where your** [**conda** ](https://www.anaconda.com/)**env is installed.**\
+If not:
 
 </details>
