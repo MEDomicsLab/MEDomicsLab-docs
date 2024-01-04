@@ -12,19 +12,19 @@ Go down there :point\_down:[#how-to-be-part-of-the-testing-phase](./#how-to-be-p
 
 ## An overview of MEDomicsLab
 
-<figure><img src=".gitbook/assets/Slide5.PNG" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/MEDomicsLab-Principles-05.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src=".gitbook/assets/Slide6.PNG" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/MEDomicsLab-Principles-06.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src=".gitbook/assets/Slide7.PNG" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/MEDomicsLab-Principles-07.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src=".gitbook/assets/Slide9.PNG" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/MEDomicsLab-Principles-09.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src=".gitbook/assets/Slide10.PNG" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/MEDomicsLab-Principles-10.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src=".gitbook/assets/Slide11.PNG" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/MEDomicsLab-Principles-11.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src=".gitbook/assets/Slide12.PNG" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/MEDomicsLab-Principles-12.png" alt=""><figcaption></figcaption></figure>
 
 ## Conclusions
 

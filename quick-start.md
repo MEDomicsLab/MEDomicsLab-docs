@@ -25,6 +25,8 @@ description: Installation of the app
 {% endtab %}
 
 {% tab title="Linux (Ubuntu)" %}
+{% embed url="https://youtu.be/7OCasKO8zJU?si=uvxF4roLmNdOsnlj" %}
+
 ### 1. Download the following [here](https://github.com/MEDomics-UdeS/MEDomicsLab/releases) :
 
 * Python environment installer for Linux (\*-linux.zip)
@@ -55,4 +57,4 @@ description: Installation of the app
 {% endtab %}
 {% endtabs %}
 
-## The MEDomicsLab Application is now installed on your system!
+## The MEDomicsLab Application is now installed on your system !

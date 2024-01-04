@@ -2,32 +2,33 @@
 description: January 15th 2024 - May 13th 2024
 ---
 
-# 📄 Testing phase with MIMIC
+# 📄 Testing Phase with MIMIC
 
 ## Overview
 
-During the Winter 2024 semester, the first Testing Phase of [MEDomicsLab](https://github.com/MEDomics-UdeS/MEDomicsLab) will take place via a series of tutorials. For an overview of the vision that we have for the platform, please [go here](../#an-overview-of-medomicslab)
+During the Winter 2024 semester, the first Testing Phase of [MEDomicsLab](https://github.com/MEDomics-UdeS/MEDomicsLab) will take place via a series of tutorials. For an overview of the vision that we have for the platform, please [go here](../#an-overview-of-medomicslab).
 
 We would love to have you join the effort and provide feedback during this Testing Phase, prior to a first official release of MEDomicsLab! Our intent is to properly recognize all the participants of the Testing Phase when the first official release will come.
+
+<figure><img src="../.gitbook/assets/MEDomicsLab-TestingPhase-02.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/MEDomicsLab-TestingPhase-03.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/MEDomicsLab-TestingPhase-05.png" alt=""><figcaption></figcaption></figure>
 
 **See the list of participants** [here](https://docs.google.com/spreadsheets/d/1w4n2gygstxnrFSzAi1LqGsxgCVYa1Odyb8vl9huu-kU/).
 
 We anticipate that the **participation in the Testing Phase will involve 1 hour of work per week for 17 consecutive weeks, starting January 15, 2024.** We are thinking of involving some mini-challenges with prizes, so this could be fun! Please also note that no programming is involved and that the tutorials can be performed on a laptop.
 
-The participation in the Testing Phase will involve the use of data from the [MIMIC database](https://mimic.mit.edu/). **We have already processed** the MIMIC data for the purpose of the Testing Phase. To share this processed data with you, we need you to complete the following:
+{% hint style="warning" %}
+The participation in the Testing Phase require [mimic-data-access.md](mimic-data-access.md "mention").
+{% endhint %}
 
-1. Become a credential user of MIMIC: [https://physionet.org/settings/credentialing/](https://physionet.org/settings/credentialing/)
-2. Complete the CITI Course: [https://physionet.org/about/citi-course/](https://physionet.org/about/citi-course/)
-3. Sign the following Physionet data use agreements:
-   * MIMIC-IV: [https://physionet.org/sign-dua/mimiciv/2.2/](https://physionet.org/sign-dua/mimiciv/2.2/)
-   * MIMIC-CXR: [https://physionet.org/sign-dua/mimic-cxr/2.0.0/](https://physionet.org/sign-dua/mimic-cxr/2.0.0/)
-   * MIMIC-IV-ED: [https://physionet.org/sign-dua/mimic-iv-ed/2.2/](https://physionet.org/sign-dua/mimic-iv-ed/2.2/)
-   * MIMIC-IV-Note: [https://physionet.org/sign-dua/mimic-iv-note/2.2/](https://physionet.org/sign-dua/mimic-iv-note/2.2/)
-4. Send us the 5 forms (CITI Course certification + 4 signed data use agreements) to medomics.info@gmail.com
+Please note that an **Information Session** about the Testing Phase was held on December 15, 2023. You can find the recording of the session below :
 
-This process will take some time, but we assure you it will be worth it!
-
-Please also note that an **Information Session** about the Testing Phase is scheduled on **December 15, 2023 at 10AM to 12PM Eastern Time**. You do not have to attend that Information Session to participate in the Testing Phase, but we encourage you to be there.
+{% embed url="https://youtu.be/BG4BkqZDk-Y?si=KvUY8MC0miaLyfLO" %}
+Recording of the Information Session
+{% endembed %}
 
 The schedule of the Testing Phase (2024) and series of tutorials are planned as follows:
 

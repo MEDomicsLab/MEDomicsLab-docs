@@ -2,14 +2,6 @@
 
 <details>
 
-<summary>Merge tool</summary>
-
-
-
-</details>
-
-<details>
-
 <summary>Grouping/Tagging tool</summary>
 
 
@@ -19,10 +11,6 @@
 <details>
 
 <summary>Simple Cleaning tool</summary>
-
-
-
-
 
 
 
@@ -43,4 +31,3 @@
 
 
 </details>
-
