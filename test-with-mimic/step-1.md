@@ -26,8 +26,6 @@ Remember that the goal of the Testing Phase is to gather your feedback and detec
 * [Contact us](../forms/contact-us.md)
 * [Report an issue](../forms/report-an-issue.md)
 
-Alternatively, you can also contact us and report an issue directly in the MEDomicsLab application, using the **Help** tab.
-
 {% hint style="info" %}
 The message you write in the [Contact us](../forms/contact-us.md) form will be sent to the MEDomicsLab team only and will not be made public.
 {% endhint %}
@@ -35,6 +33,10 @@ The message you write in the [Contact us](../forms/contact-us.md) form will be s
 {% hint style="info" %}
 The [Report an Issue](../forms/report-an-issue.md) form will add an issue on the [MEDomicsLab GitHub repository](https://github.com/MEDomics-UdeS/MEDomicsLab/issues) (public).
 {% endhint %}
+
+{% embed url="https://www.youtube.com/watch?v=_C6WmgTsR_M" %}
+Contact us and Report an issue: how to use the forms
+{% endembed %}
 
 ***
 
