@@ -17,8 +17,16 @@ The participation in the Testing Phase will involve the use of data from the [MI
 
 This process will take some time, but we assure you it will be worth it!
 
-We also created a video to help you with this process : &#x20;
+We also created a video to help you with this process: &#x20;
 
 {% embed url="https://youtu.be/dfZhM4YjTTs?si=Lzv1fw1xlOyhW23y" %}
 MIMIC database, Physionet and CITI Program Tutorial
+{% endembed %}
+
+***
+
+We created a video to help you understand the MIMIC data:&#x20;
+
+{% embed url="https://youtu.be/TrOG3dtbrpM?si=d0F8fwndZkJ7n9jR" %}
+MIMIC database : Explore tables and fields
 {% endembed %}
