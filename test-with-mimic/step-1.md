@@ -21,7 +21,7 @@ Depending on your Operating System, follow the corresponding tutorial video on t
 
 ***
 
-Remember that the Testing Phase is here to gather your feedback and detect bugs in the application. You can report them using the following forms in our GitBook :
+Remember that the goal of the Testing Phase is to gather your feedback and detect bugs in the application. You can report them using the following forms in our GitBook:
 
 * [Contact us](../forms/contact-us.md)
 * [Report an issue](../forms/report-an-issue.md)
@@ -47,7 +47,5 @@ If you have questions, don't hesitate to consult the [FAQ](../faq.md) page.
 {% endhint %}
 
 {% hint style="success" %}
-Are you facing issues or would you like to share something ?&#x20;
-
-Remember, you can join our [Discord](https://discord.com/invite/ZbaGj8E6mP) to chat with us !
+For any other inquiries, remember that you can join our [Discord](https://discord.com/invite/ZbaGj8E6mP) to chat with us!
 {% endhint %}
