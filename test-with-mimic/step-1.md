@@ -12,26 +12,26 @@ This step, divided into three parts, consists of installing the MEDomicsLab plat
 
 ## 1. Download and install the application
 
-Depending on your Operating System, follow the corresponding tutorial video on the [Quick Start](broken-reference) page.
+Depending on your Operating System, follow the corresponding tutorial video on the [Quick Start](../quick-start.md) page.
 
 ## 2. Set up your workspace & 3. Explore the front-end interface
 
-* Download the [Kaggle dataset 'breast\_cancer'](https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data) (used in the [Overview](broken-reference) video tutorial).
-* Replicate the steps demonstrated in the [Overview](broken-reference) video.
+* Download the [Kaggle dataset 'breast\_cancer'](https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data) (used in the [Overview](../overview.md) video tutorial).
+* Replicate the steps demonstrated in the [Overview](../overview.md) video.
 
 ***
 
 Remember that the goal of the Testing Phase is to gather your feedback and detect bugs in the application. You can report them using the following forms in our GitBook:
 
-* [Contact us](broken-reference)
-* [Report an issue](broken-reference)
+* [Contact us](../forms/contact-us.md)
+* [Report an issue](../forms/report-an-issue.md)
 
 {% hint style="info" %}
-The message you write in the [Contact us](broken-reference) form will be sent to the MEDomicsLab team only and will not be made public.
+The message you write in the [Contact us](../forms/contact-us.md) form will be sent to the MEDomicsLab team only and will not be made public.
 {% endhint %}
 
 {% hint style="info" %}
-The [Report an Issue](broken-reference) form will add an issue on the [MEDomicsLab GitHub repository](https://github.com/MEDomics-UdeS/MEDomicsLab/issues) (public).
+The [Report an Issue](../forms/report-an-issue.md) form will add an issue on the [MEDomicsLab GitHub repository](https://github.com/MEDomics-UdeS/MEDomicsLab/issues) (public).
 {% endhint %}
 
 {% embed url="https://www.youtube.com/watch?v=_C6WmgTsR_M" %}
@@ -41,11 +41,11 @@ Contact us and Report an issue: how to use the forms
 ***
 
 {% hint style="info" %}
-If you encounter any problem, don't hesitate to consult the [Troubleshooting ](broken-reference)page.
+If you encounter any problem, don't hesitate to consult the [Troubleshooting](../troubleshooting.md) page.
 {% endhint %}
 
 {% hint style="info" %}
-If you have questions, don't hesitate to consult the [FAQ](broken-reference) page.
+If you have questions, don't hesitate to consult the [FAQ](../faq.md) page.
 {% endhint %}
 
 {% hint style="success" %}
