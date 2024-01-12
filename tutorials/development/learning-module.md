@@ -73,7 +73,7 @@ _Add options_ button open a panel where you can select additionnal options. Thes
 
 When clicking on an _Optimize_ node, it opens a subflow like below where you can build pipelines for optimisation.
 
-<figure><img src="../../.gitbook/assets/optimize.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/optimize (3).png" alt=""><figcaption></figcaption></figure>
 
 * Available nodes are different
 * Name of the node is where you can edit the name

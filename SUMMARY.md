@@ -29,7 +29,7 @@
   * [Step 6 : Evaluate Model](test-with-mimic/step-6.md)
   * [Step 7 : Apply and Deploy Model](test-with-mimic/step-7.md)
   * [Step 8 : Challenge](test-with-mimic/step-8.md)
-* [👩💻 Contributing](contributing.md)
+* [👩💻 Contributing](contributing/README.md)
   * [Our coding standards](contributing/our-coding-standards.md)
   * [How to push my modification ?](contributing/how-to-push-my-modification.md)
 * [🤕 Troubleshooting](troubleshooting.md)

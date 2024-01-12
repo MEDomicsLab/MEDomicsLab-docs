@@ -24,7 +24,7 @@ The application needs a workspace to run.
 
 _At first, we recommend you create an empty folder (named "**Workspace**" for example) and choose it as your workspace directory._
 
-<img src=".gitbook/assets/file.excalidraw (1).svg" alt="The folder structure of a workspace" class="gitbook-drawing">
+<img src=".gitbook/assets/file.excalidraw.svg" alt="The folder structure of a workspace" class="gitbook-drawing">
 
 {% hint style="info" %}
 The DATA folder is where you will store your datasets&#x20;
