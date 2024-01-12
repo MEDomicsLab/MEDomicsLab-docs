@@ -42,16 +42,22 @@ description: Installation of the app
 {% endtab %}
 
 {% tab title="MacOS" %}
+{% embed url="https://youtu.be/J9wq_C6PHK0" %}
+
 ### 1. Download the following [here](https://github.com/MEDomics-UdeS/MEDomicsLab/releases) :
 
 * Python environment installer for Linux (\*-mac.zip)
 * MEDomicsLab installer for MacOS (.dmg)
 
-### 2. Unzip the Python environment installer
+### 2. Unzip/Extract the Python environment installer
 
-### 3. Execute the script  create\_venv\_linux.sh from the extracted folder
+### 3. Execute the script  create\_conda\_env\_mac.sh from the extracted folder in a Terminal.
 
-### 4. Run the MEDomicsLab installer (\*.dmg)
+### 4. Run the MEDomicsLab installer (\*.dmg) and drag-and-drop the app in your Applications Folder
+
+{% hint style="warning" %}
+You need to use the open button from the context menu appearing when control-clicking on the app icon.
+{% endhint %}
 
 ### 5. There you go! Have fun! :wink:
 {% endtab %}
