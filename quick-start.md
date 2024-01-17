@@ -10,7 +10,11 @@ description: Installation of the app
 {% tab title="Windows" %}
 {% embed url="https://youtu.be/MSPWubu8qK8" %}
 
-### 1. Download the following [here](https://github.com/MEDomics-UdeS/MEDomicsLab/releases) :
+{% hint style="warning" %}
+The application was tested on Windows 11.&#x20;
+{% endhint %}
+
+### 1. Download the following [here](https://github.com/MEDomics-UdeS/MEDomicsLab/releases):
 
 * Python environment installer for Windows (\*-win.zip)
 * MEDomicsLab installer for Windows (\*.exe)
@@ -24,13 +28,17 @@ description: Installation of the app
 ### 5. There you go! Have fun! :wink:
 {% endtab %}
 
-{% tab title="Linux (Ubuntu)" %}
+{% tab title="Ubuntu" %}
 {% embed url="https://youtu.be/7OCasKO8zJU?si=uvxF4roLmNdOsnlj" %}
 
-### 1. Download the following [here](https://github.com/MEDomics-UdeS/MEDomicsLab/releases) :
+{% hint style="warning" %}
+The application was tested on Ubuntu 20.04 and 22.04.
+{% endhint %}
 
-* Python environment installer for Linux (\*-linux.zip)
-* MEDomicsLab installer for Linux (\*.deb)
+### 1. Download the following [here](https://github.com/MEDomics-UdeS/MEDomicsLab/releases):
+
+* Python environment installer for Ubuntu(\*-ubuntu.zip)
+* MEDomicsLab installer for Ubuntu(\*.deb)
 
 ### 2. Unzip the Python environment installer
 
@@ -41,10 +49,14 @@ description: Installation of the app
 ### 5. There you go! Have fun! :wink:
 {% endtab %}
 
-{% tab title="MacOS" %}
+{% tab title="MacOS " %}
 {% embed url="https://youtu.be/J9wq_C6PHK0" %}
 
-### 1. Download the following [here](https://github.com/MEDomics-UdeS/MEDomicsLab/releases) :
+{% hint style="warning" %}
+The application was tested on Sonoma (14.2) with M1 and M3 chips.&#x20;
+{% endhint %}
+
+### 1. Download the following [here](https://github.com/MEDomics-UdeS/MEDomicsLab/releases):
 
 * Python environment installer for Linux (\*-mac.zip)
 * MEDomicsLab installer for MacOS (.dmg)
