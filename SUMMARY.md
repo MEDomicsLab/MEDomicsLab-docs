@@ -11,6 +11,7 @@
       * [Time Series Extraction Page](tutorials/design/extraction-modules/time-series-extraction-page.md)
       * [MEDimage](tutorials/design/extraction-modules/medimage.md)
     * [Input Module](tutorials/design/input-module/README.md)
+      * [Feature Reduction Tool](tutorials/design/input-module/feature-reduction-tool.md)
       * [MEDprofiles](tutorials/design/input-module/medprofiles.md)
     * [Exploratory Module](tutorials/design/exploratory-module.md)
   * [🟠 Development](tutorials/development/README.md)

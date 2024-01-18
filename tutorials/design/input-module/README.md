@@ -2,6 +2,14 @@
 
 <details>
 
+<summary>Merge tool</summary>
+
+
+
+</details>
+
+<details>
+
 <summary>Grouping/Tagging tool</summary>
 
 
@@ -18,7 +26,7 @@
 
 <details>
 
-<summary>Holdout set creation tool </summary>
+<summary>Holdout Set Creation tool </summary>
 
 
 
@@ -31,3 +39,11 @@
 
 
 </details>
+
+{% content-ref url="feature-reduction-tool.md" %}
+[feature-reduction-tool.md](feature-reduction-tool.md)
+{% endcontent-ref %}
+
+{% content-ref url="medprofiles.md" %}
+[medprofiles.md](medprofiles.md)
+{% endcontent-ref %}
