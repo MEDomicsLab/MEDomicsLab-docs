@@ -22,7 +22,7 @@
 * [📄 Testing Phase with MIMIC](test-with-mimic/README.md)
   * [MIMIC data access](test-with-mimic/mimic-data-access.md)
   * [Step 1 : Install and Explore](test-with-mimic/step-1.md)
-  * [Step 2 : Extract data](test-with-mimic/step-2.md)
+  * [Step 2: Extract Data](test-with-mimic/step-2.md)
   * [Step 3 : Prepare ML tables](test-with-mimic/step-3.md)
   * [Step 4 : Explore data](test-with-mimic/step-4.md)
   * [Step 5 : Create model](test-with-mimic/step-5.md)

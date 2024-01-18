@@ -2,36 +2,28 @@
 description: Jan 29 - Feb 12 | Extract Data
 ---
 
-# Step 2 : Extract data
+# Step 2: Extract Data
 
 <figure><img src="../.gitbook/assets/MEDomicsLab-TestingPhase-10.png" alt=""><figcaption><p>Step 2 - Extract Data</p></figcaption></figure>
 
 {% hint style="warning" %}
-This step will take a considerable amount of time due to the extraction computation of all the data. If you realize you don't have enough time, we will provide you with the result data for step 3.
+This is the step where coffee breaks will be the most useful (a considerable amount of computation time will be required in this step) :wink:.
 {% endhint %}
 
 ## About the data
 
-We choose to use the MIMIC database for testing our application because it's the only publicly available multimodal dataset in healthcare field. This dataset contains images, text, time series and regular CSV data.
+The Testing Phase of MEDomicsLab involves the use of MIMIC data. For the purpose of the Testing Phase, we selected a small subset of patients (200) with the intent of simulating a longitudinal clinical decision support system (CDSS) scenario as in the study of [Morin et al.](https://www.nature.com/articles/s43018-021-00236-2) (see Figure 5) using multimodality data (tabular, time series, text, images) acquired from multiple patient visits over a year (i.e. all data from the last year since death or the last visit of a given patient). In the subsequent steps of the Testing Phase, one of the goal will be to predict one-year mortality using this data.
 
-The way we choose to manipulate this data in order to make it compatible with machine learning models was inspired by the HAIM study, especially for their extraction types we analyzed through their GitHub repository. Indeed, for now we offer one extraction type by modality, which correspond to the ones used in the HAIM study, but we will implement more tools in the future, including the possibility to extract data from DICOM images.
-
-In order to create an interesting experiment that not take too long in every steps of the MEDomicsLab process, we selected a subset of 200 patients and their data for the last year from their last register. The final goal is to predict their mortality. The data we considered for each patient is :&#x20;
+In this step of the Testing Phase, we will extract relevant features from time series, text and imaging data based on the package [_tsfresh_](https://tsfresh.readthedocs.io/en/latest/) (time series) and pretrained models from the study of [Soenksen et al.](https://www.nature.com/articles/s41746-022-00689-4) (text and images). More specifically, this includes:
 
 * Their images from the MIMIC-CXR-JPG database
-* Their laboratory events (time series) from the MIMIC-IV database (we considered a subset of events as in the HAIM study)
-* Their chart events (time series) from the MIMIC-IV database (we considered a subset of events as in the HAIM study)
-* Their procedure events (time series) from the MIMIC-IV database (we considered a subset of events as in the HAIM study)
+* Their laboratory events (time series) from the MIMIC-IV database (we considered a subset of events as in the study of [Soenksen et al.](https://www.nature.com/articles/s41746-022-00689-4))
+* Their chart events (time series) from the MIMIC-IV database (we considered a subset of events as in the study of [Soenksen et al.](https://www.nature.com/articles/s41746-022-00689-4))
+* Their procedure events (time series) from the MIMIC-IV database (we considered a subset of events as in the study of [Soenksen et al.](https://www.nature.com/articles/s41746-022-00689-4))
 * Their radiology notes from the MIMIC-IV-Note database
 * Their discharge notes from the MIMIC-IV-Note database&#x20;
-* Their demographic data from the MIMIC-IV database (we pre-processed this data from the admission table)
 
-Also, we selected the patients considering these steps :&#x20;
-
-* We only considered patients having at least one image
-* We computed entropy from the patient's data distribution by month in the considered time interval (one year from their last register)
-* We computed entropy from the patient's data distribution in the different data types considered (images, laboratory events, chart events, procedure events, radiology notes and discharge notes)
-* We computed the result of the multiplication of the two normalized entropies, and kept the 100 patients with the best result in the two categories (dead or alive)
+Finally, note that the criterion for selecting patients for the Testing Phase (100 alive and 100 deceased after one year) was based on the maximization of the entropy of the distribution of multimodal data over one year.
 
 ## Get the data for this step
 
@@ -39,13 +31,32 @@ Also, we selected the patients considering these steps :&#x20;
 At this point you must have completed the[ MIMIC data access](mimic-data-access.md) requirements to have access to the data.
 {% endhint %}
 
-After you submitted the required documents for the Testing Phase, you must have received en email with a link to a drive space, containing a zip folder. Simply download the folder into your documents, and then follow the tutorial video of the step 2.
+Once you have submitted the required documents to the MEDomicsLab team, you will receive an email with a link to a drive space, containing a zip folder. Simply download the folder into your documents, and follow the instructions for Step 2 in the video below.&#x20;
 
 ## Extract Data
 
-For additionnal informations about the extraction module and the extraction types used in our application, refer to the [Extraction Module tutorials](../tutorials/design/extraction-modules/), and the three pages : [Image Extraction](../tutorials/design/extraction-modules/image-extraction-page.md), [Text Extraction](../tutorials/design/extraction-modules/text-extraction-page.md) and [Time Series Extraction](../tutorials/design/extraction-modules/time-series-extraction-page.md).
+For additional informations about the extraction module and the extraction types used in our application, please refer to the tutorials of the [_Extraction Module_](../tutorials/design/extraction-modules/).
 
-## Tutorial Video
+## Instructions for Step 2 - Extract Data
 
 {% embed url="https://youtu.be/vIPnv4JBnL0" %}
 
+**Content**
+
+&#x20;Get data and create your workspace [0:00](https://www.youtube.com/watch?v=vIPnv4JBnL0\&t=0s)
+
+&#x20;Extract data from discharge notes [1:32](https://www.youtube.com/watch?v=vIPnv4JBnL0\&t=92s)
+
+&#x20;Extract data from radiology notes [2:52](https://www.youtube.com/watch?v=vIPnv4JBnL0\&t=172s)
+
+&#x20;Extract data from chart events [3:26](https://www.youtube.com/watch?v=vIPnv4JBnL0\&t=206s)
+
+&#x20;Extract data from laboratory events [4:51](https://www.youtube.com/watch?v=vIPnv4JBnL0\&t=291s)
+
+&#x20;Extract data from procedure events [5:50](https://www.youtube.com/watch?v=vIPnv4JBnL0\&t=350s)
+
+&#x20;Extract data from chest X-Ray images [6:59](https://www.youtube.com/watch?v=vIPnv4JBnL0\&t=419s)
+
+{% hint style="info" %}
+NOTE : We commonly refer to the study of [Soenksen et al.](https://www.nature.com/articles/s43018-021-00236-2) as the "HAIM study".
+{% endhint %}
