@@ -1,13 +1,13 @@
 ---
 description: >-
-  The Extraction Module is divided into four parts : three are pages relative to
-  simple extraction on different data types and MEDimage.
+  The Extraction Module is divided into four parts: three are pages relative to
+  simple extraction processes on different data types and MEDimage.
 ---
 
 # Extraction Module
 
 {% hint style="info" %}
-In the video the "HAIM study" refers to [the study of Soenksen et al.](https://www.nature.com/articles/s41746-022-00689-4).
+In the video below, the "HAIM study" refers to [the study of Soenksen et al.](https://www.nature.com/articles/s41746-022-00689-4)
 {% endhint %}
 
 {% embed url="https://youtu.be/eNKN7H9nwjc?si=zzTJjwQgApcLwKxu" %}
@@ -33,7 +33,7 @@ Extraction Module Video Tutorial
 **Extraction tools**
 
 * TorchXRayVision : [https://github.com/mlmed/torchxrayvision](https://github.com/mlmed/torchxrayvision)
-* &#x20;TSfresh : [https://tsfresh.readthedocs.io](https://tsfresh.readthedocs.io)&#x20;
+* TSfresh : [https://tsfresh.readthedocs.io](https://tsfresh.readthedocs.io)&#x20;
 * BioBERT : [https://arxiv.org/abs/1901.08746](https://arxiv.org/abs/1901.08746)
 * BioBERT weights : [https://github.com/EmilyAlsentzer/clinicalBERT](https://github.com/EmilyAlsentzer/clinicalBERT)&#x20;
 
