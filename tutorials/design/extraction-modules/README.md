@@ -1,10 +1,6 @@
----
-description: >-
-  The Extraction Module is divided into four parts: three are pages relative to
-  simple extraction processes on different data types and MEDimage.
----
-
 # Extraction Module
+
+The _Extraction Module_ is divided into four components. The first three are pages dedicated to simple extraction processes on various data types (images, text notes, and time series) using pre-trained models and/or _Python_ libraries. The fourth component is [_MEDimage_](https://medimage.readthedocs.io/en/latest/index.html), which is the implementation of a _Python_ open-source package designed for medical image processing and radiomics features extraction.
 
 {% hint style="info" %}
 In the video below, the "HAIM study" refers to [the study of Soenksen et al.](https://www.nature.com/articles/s41746-022-00689-4)
