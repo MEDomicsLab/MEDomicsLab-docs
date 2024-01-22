@@ -35,7 +35,7 @@ Once you have submitted the required documents to the MEDomicsLab team, you will
 
 ## Extract Data
 
-For additional informations about the extraction module and the extraction types used in our application, please refer to the tutorials of the [_Extraction Module_](../tutorials/design/extraction-modules/).
+For additional informations about the _Extraction Module_ and the extraction types used in our application, please refer to the tutorials of the [_Extraction Module_](../tutorials/design/extraction-modules/).
 
 ## Instructions for Step 2 - Extract Data
 
@@ -58,5 +58,5 @@ For additional informations about the extraction module and the extraction types
 &#x20;Extract data from chest X-Ray images [6:59](https://www.youtube.com/watch?v=vIPnv4JBnL0\&t=419s)
 
 {% hint style="info" %}
-NOTE : We commonly refer to the study of [Soenksen et al.](https://www.nature.com/articles/s43018-021-00236-2) as the "HAIM study".
+NOTE: We commonly refer to the study of [Soenksen et al.](https://www.nature.com/articles/s43018-021-00236-2) as the "HAIM study".
 {% endhint %}
