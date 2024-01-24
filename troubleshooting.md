@@ -16,7 +16,7 @@
 
 <details>
 
-<summary>Go server is working properly but i got errors when clicking on process buttons</summary>
+<summary>Go server is working properly but I got errors when clicking on process buttons</summary>
 
 Your python environnement could have problems.
 
@@ -30,5 +30,40 @@ Open a terminal and write `echo $MED_ENV`
 
 **It should print a path to where your** [**conda** ](https://www.anaconda.com/)**env is installed.** \
 If not:&#x20;
+
+</details>
+
+<details>
+
+<summary>MacOS, the app does want to launch</summary>
+
+Problem description :&#x20;
+
+The app seems to be stuck at launch.
+
+***
+
+Cause :&#x20;
+
+If you have an antivirus like Trellix
+
+***
+
+
+
+
+
+
+
+</details>
+
+<details>
+
+<summary>How to update to the latest release ? </summary>
+
+1. Go to the releases on the GitHub page
+2. Uninstall the application first&#x20;
+   1.
+3. &#x20;
 
 </details>

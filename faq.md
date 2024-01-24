@@ -2,7 +2,7 @@
 
 <details>
 
-<summary>What kind of machine do i need to run MEDomicsLab ?</summary>
+<summary>What kind of machine do I need to run MEDomicsLab ?</summary>
 
 * **OS**
   * Windows, Linux, MacOs
