@@ -35,25 +35,29 @@ If not:&#x20;
 
 <details>
 
-<summary>MacOS, the app does want to launch</summary>
+<summary>MacOS: the app does not want to launch and/or the app seems buggy when opening multiple <strong>tabs</strong>. <em>KNOWN ISSUE FOR MAC USERS AT UNIVERSITÉ DE SHERBROOKE WITH THE TRELLIX ANTIVIRUS.</em></summary>
 
-Problem description :&#x20;
+Problem description:&#x20;
 
-The app seems to be stuck at launch.
-
-***
-
-Cause :&#x20;
-
-If you have an antivirus like Trellix
+The app seems to be stuck at startup. Or after startup, when opening multiple tabs (e.g. two different csv files), the app turns all white.&#x20;
 
 ***
 
+Probable cause:&#x20;
 
+If you have an insitutitonal antivirus like Trellix at Université de Sherbrooke, we believe the firewall of Trellix prevents MEDomicsLab to run properly. We hope the problem will be solved once we certify (signing Mac software) the MEDomicsLab app with Apple (_work in progress_).
 
+***
 
+Workaround:&#x20;
 
+If you encounter a similar issue, and you have an antivirus installed on your computer, we recommend that you disable it when using MEDomicsLab. For Mac users at Université de Sherbrooke with Trellix, one way to momentarily disable the utilities of Trellix is to:
 
+1. Go to _System Settings_, _Privacy & Security,_ _Full Disk Access_.
+2. Disable the following six extensions: _fmpd_, _VShieldScanManager_, _VShieldScanner_, _masvc_, _TrellixEndpointSecurity_, _TrellixNetworkExtension_.
+3. Restart yur computer.
+
+Of course, once you are done working with MEDomicsLab, we recommend you enable again your antivirus! For Mac users at Unversité de Sherbrooke with Trellix, this would mean to enable again the six extensions above, and to restart your computer.&#x20;
 
 </details>
 
