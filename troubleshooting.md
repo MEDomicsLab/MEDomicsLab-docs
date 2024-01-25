@@ -65,9 +65,64 @@ Of course, once you are done working with MEDomicsLab, we recommend you enable a
 
 <summary>How to update to the latest release ? </summary>
 
-1. Go to the releases on the GitHub page
-2. Uninstall the application first&#x20;
-   1.
-3. &#x20;
+### 1. Go to the releases on the GitHub page
+
+### 2. Uninstall the application first &#x20;
+
+#### Ubuntu
+
+In a terminal, write the following command:
+
+```bash
+sudo apt remove medomicslab-application
+```
+
+if you had installed the v0.0.1
+
+```bash
+sudo apt remove medapp
+```
+
+***
+
+#### MacOS
+
+Go in your Applications Folder in Finder.
+
+Then, click on the MEDomicsLab Icon while holding the `Ctrl` key.
+
+Finally, click on "Move to Trash"
+
+![](<.gitbook/assets/image (21).png>)&#x20;
+
+
+
+***
+
+Windows
+
+Go to Settings > Apps
+
+![](<.gitbook/assets/image (16).png>)&#x20;
+
+Then, click on "Installed Apps"
+
+<img src=".gitbook/assets/image (17).png" alt="" data-size="original">
+
+Search for "MEDomicsLab"
+
+<img src=".gitbook/assets/image (18).png" alt="" data-size="original">
+
+Click on the `...` and finally click on "Uninstall" &#x20;
+
+<img src=".gitbook/assets/image (20).png" alt="" data-size="original">
+
+## 3. Reinstall the application
+
+Now, you can follow the same instructions you followed for your first installation [here](quick-start.md).
+
+**Don't worry, the Python Environment installation won't be as long as the first time.**
+
+
 
 </details>
