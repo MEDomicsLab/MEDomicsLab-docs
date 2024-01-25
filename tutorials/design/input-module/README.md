@@ -30,7 +30,17 @@ If you don't specify a name for your result dataset, it will be named "mergedDat
 
 <summary>Grouping/Tagging tool</summary>
 
+The _Grouping/Tagging tool_ enables you to create and apply tags to dataset columns. Follow these steps to set tags on dataset columns:
 
+1. Select at least one dataset from the dataset list; you can choose multiple datasets if needed.
+2. Create your tags: Press the "+" button to access default tags or type the name of your tag and press "Enter" to add it.
+3. Customize your tags: Your created tags are displayed, and you can update, delete, or customize their color (text and background).
+4. Select the column(s) on which you want to apply/modify tags. Columns are displayed by dataset.
+5. Once the desired column(s) are selected, choose the tag(s) you want to apply.
+6. After selecting tags, press the green button. A popup will appear, asking if you want to proceed with the tagging. Press "Yes."
+7. Another popup will appear, asking if you want to overwrite existing tags. If you press "Yes" and the selected columns were already tagged, their previous tags will be overwritten.
+
+If you open your dataset in the app, you will then be able to see your tags.
 
 </details>
 
@@ -38,7 +48,16 @@ If you don't specify a name for your result dataset, it will be named "mergedDat
 
 <summary>Simple Cleaning tool</summary>
 
+The Simple Cleaning tool assists in removing NaN values from datasets, either by rows or columns. Follow these steps to clean a dataset:
 
+1. Select a dataset from the dataset list, displaying information about NaN values in your dataset.
+   1. The first table associates your dataset columns with the number and percentage of non-NaN values. You can order this dataframe by column name or number/percentage of non-NaN values.
+   2. The second table associates your dataset rows with the number and percentage of non-NaN values. You can order this dataframe by row index or number/percentage of non-NaN values.
+2. Depending on your cleaning preferences, select a percentage of NaN values to consider for dropping columns and/or rows using the corresponding selectors. This will display which columns/rows will be affected and update this data in the two tables by showing the number of columns/rows to be dropped at the head of the "% of non-NaN" column and highlighting the concerned rows in red.
+3. Choose a name and extension for your result dataset. The default name is your selected CSV file with the "\_clean" extension.
+4. Press the "Create a clean copy" button.&#x20;
+
+Your result dataset will be saved in the same directory as your selected dataset.
 
 </details>
 
@@ -64,7 +83,10 @@ The function will generate two datasets based on your selected options: a learni
 
 <summary>Subset Creation tool</summary>
 
+The Subset Creation tool allows you to create a subset from a dataset by filtering columns. Follow these steps to create a subset:
 
+1. Select a dataset from the dataset list. Your dataset will be displayed and you will be able to sort and filter each column.
+2.
 
 </details>
 
