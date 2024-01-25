@@ -83,10 +83,16 @@ The function will generate two datasets based on your selected options: a learni
 
 <summary>Subset Creation tool</summary>
 
-The Subset Creation tool allows you to create a subset from a dataset by filtering columns. Follow these steps to create a subset:
+The Subset Creation tool enables the creation of a subset from a dataset by applying filters to columns. Follow these steps to create a subset:
 
-1. Select a dataset from the dataset list. Your dataset will be displayed and you will be able to sort and filter each column.
-2.
+1. Select a dataset from the dataset list. Your dataset will be displayed, allowing you to sort and filter each column.
+2. You can filter your dataframe by clicking the filter icon at the right of the header of each column. Create rule(s) using the displayed components to filter columns. Rows that don't satisfy the rules will be removed from the displayed dataset, updating the number of rows displayed under the dataset.
+3. You can make a global search in the dataframe using the search component at the top right of the displayed dataframe.
+4. You can clear your filters by pressing the "Clear" button at the top left of the displayed dataframe.
+5. Choose a name and extension for your result dataset. The default name is your selected CSV file with the "\_filtered" extension.
+6. Press the "Create subset from filtered rows" button.
+
+Your result dataset will be saved in the same directory as your selected dataset.
 
 </details>
 
