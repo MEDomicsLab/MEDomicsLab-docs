@@ -65,11 +65,9 @@ Of course, once you are done working with MEDomicsLab, we recommend you enable a
 
 <summary>How to update to the latest release ? </summary>
 
-### 1. Go to the releases on the GitHub page
+## 1. Uninstall the application first
 
-### 2. Uninstall the application first &#x20;
-
-#### Ubuntu
+### Ubuntu
 
 In a terminal, write the following command:
 
@@ -85,7 +83,7 @@ sudo apt remove medapp
 
 ***
 
-#### MacOS
+### MacOS
 
 Go in your Applications Folder in Finder.
 
@@ -99,7 +97,7 @@ Finally, click on "Move to Trash"
 
 ***
 
-Windows
+### Windows
 
 Go to Settings > Apps
 
@@ -117,7 +115,7 @@ Click on the `...` and finally click on "Uninstall" &#x20;
 
 <img src=".gitbook/assets/image (20).png" alt="" data-size="original">
 
-## 3. Reinstall the application
+## 2. Reinstall the application
 
 Now, you can follow the same instructions you followed for your first installation [here](quick-start.md).
 
