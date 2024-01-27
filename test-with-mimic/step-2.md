@@ -16,12 +16,12 @@ The Testing Phase of MEDomicsLab involves the use of MIMIC data. For the purpose
 
 In this step of the Testing Phase, we will extract relevant features from time series, text and imaging data based on the package [_tsfresh_](https://tsfresh.readthedocs.io/en/latest/) (time series) and pretrained models from the study of [Soenksen et al.](https://www.nature.com/articles/s41746-022-00689-4) (text and images). More specifically, this includes:
 
-* Their images from the MIMIC-CXR-JPG database
-* Their laboratory events (time series) from the MIMIC-IV database (we considered a subset of events as in the study of [Soenksen et al.](https://www.nature.com/articles/s41746-022-00689-4))
-* Their chart events (time series) from the MIMIC-IV database (we considered a subset of events as in the study of [Soenksen et al.](https://www.nature.com/articles/s41746-022-00689-4))
-* Their procedure events (time series) from the MIMIC-IV database (we considered a subset of events as in the study of [Soenksen et al.](https://www.nature.com/articles/s41746-022-00689-4))
-* Their radiology notes from the MIMIC-IV-Note database
-* Their discharge notes from the MIMIC-IV-Note database&#x20;
+* Images from the MIMIC-CXR-JPG database
+* Laboratory events (time series) from the MIMIC-IV database (we considered a subset of events as in the study of [Soenksen et al.](https://www.nature.com/articles/s41746-022-00689-4))
+* Chart events (time series) from the MIMIC-IV database (we considered a subset of events as in the study of [Soenksen et al.](https://www.nature.com/articles/s41746-022-00689-4))
+* Procedure events (time series) from the MIMIC-IV database (we considered a subset of events as in the study of [Soenksen et al.](https://www.nature.com/articles/s41746-022-00689-4))
+* Radiology notes from the MIMIC-IV-Note database
+* Discharge notes from the MIMIC-IV-Note database&#x20;
 
 Finally, note that the criterion for selecting patients for the Testing Phase (100 alive and 100 deceased after one year) was based on the maximization of the entropy of the distribution of multimodal data over one year.
 
