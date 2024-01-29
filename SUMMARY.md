@@ -13,7 +13,7 @@
     * [Input Module](tutorials/design/input-module/README.md)
       * [Feature Reduction Tool](tutorials/design/input-module/feature-reduction-tool.md)
       * [MEDprofiles](tutorials/design/input-module/medprofiles/README.md)
-        * [MEDprofiles figure](tutorials/design/input-module/medprofiles/medprofiles-figure.md)
+        * [MEDprofiles Viewer](tutorials/design/input-module/medprofiles/medprofiles-viewer.md)
     * [Exploratory Module](tutorials/design/exploratory-module.md)
   * [🟠 Development](tutorials/development/README.md)
     * [Learning Module](tutorials/development/learning-module.md)

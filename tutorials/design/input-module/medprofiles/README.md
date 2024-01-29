@@ -99,6 +99,6 @@ To open the MEDprofiles figure, you need to select the folder containing the MED
 If either of the two elements (MEDclasses folder and/or MEDprofiles binary file) doesn't contain elements to select, ensure that the previous steps have been completed successfully.
 {% endhint %}
 
-{% content-ref url="medprofiles-figure.md" %}
-[medprofiles-figure.md](medprofiles-figure.md)
+{% content-ref url="medprofiles-viewer.md" %}
+[medprofiles-viewer.md](medprofiles-viewer.md)
 {% endcontent-ref %}

@@ -1,2 +1,0 @@
-# MEDprofiles figure
-
