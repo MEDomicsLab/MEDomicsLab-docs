@@ -19,8 +19,12 @@ The current _Step 3 - Prepare ML tables_ step is divided into five parts, and in
 1. **Reduce Extracted Features:** Use the [_Input Module_](https://medomics-udes.gitbook.io/medomicslab-docs/tutorials/design/input-module) to reduce the large CSV files obtained from the previous step via Principal Component Analysis (PCA) and Spearman correlation.
 2. **Merge All Data:** Combine the reduced extracted features with demographic embeddings into a master CSV table using the [_MEDprofiles package_](https://medomics-udes.gitbook.io/medomicslab-docs/tutorials/design/input-module/medprofiles). Additionally, create _MEDprofiles_ with the master table.
 3. **Visualize Data:** Use the _MEDprofiles_ figure to visualize the data.
-4. **Define Static Time Points:** Use the _MEDprofiles_ figure to set static time points and export the data as static CSV tables. The goal of defining static time points is to simulate a longitudinal CDSS (Clinical Decision Support System) scenario using data aggregated over time. In [_Step 5 - Create Model_](https://medomics-udes.gitbook.io/medomicslab-docs/test-with-mimic/step-5) of the Testing Phase, we will attempt to identify the point in time where we reach sufficient predictive power (the point in time when, in real-life, we could potentially intervene).
+4. **Define Static Time Points:** Use the _MEDprofiles_ figure to set static time points and export the data as static CSV tables.&#x20;
 5. **Create **_**Learning**_** and **_**Holdout**_** Sets:** Use the [_Input Module_](https://medomics-udes.gitbook.io/medomicslab-docs/tutorials/design/input-module) to generate Learning and Holdout sets.
+
+{% hint style="info" %}
+The goal of defining static time points is to simulate a longitudinal CDSS (Clinical Decision Support System) scenario using data aggregated over time. In [_Step 5 - Create Model_](https://medomics-udes.gitbook.io/medomicslab-docs/test-with-mimic/step-5) of the Testing Phase, we will attempt to identify the point in time where we reach sufficient predictive power (the point in time when, in real-life, we could potentially intervene).
+{% endhint %}
 
 ## Recommendations
 
