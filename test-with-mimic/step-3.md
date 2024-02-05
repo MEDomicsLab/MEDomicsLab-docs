@@ -9,7 +9,7 @@ description: Feb 12 – Feb 26 | Prepare ML tables
 {% hint style="info" %}
 If you completed [_Step 2 - Extract Data_](https://medomics-udes.gitbook.io/medomicslab-docs/test-with-mimic/step-2), you have data ready for _Step 3 - Prepare ML tables_.&#x20;
 
-However, before proceeding to _Step 3 - Prepare ML tables,_ we recommend that you replace your own output data from [_Step 2 - Extract Data_](https://medomics-udes.gitbook.io/medomicslab-docs/test-with-mimic/step-2) with the data that we prepared for you (_MEDomicsLab\_TestingPhase\_Step3.zip_). This will ensure consistency of results across all participants of the Testing Phase.&#x20;
+However, before proceeding to _Step 3 - Prepare ML tables,_ we recommend that you replace your own output data from [_Step 2 - Extract Data_](https://medomics-udes.gitbook.io/medomicslab-docs/test-with-mimic/step-2) (the _extracted\_features_ folder) with the data that we prepared for you (_MEDomicsLab\_TestingPhase\_Step3.zip_). This will ensure consistency of results across all participants of the Testing Phase.&#x20;
 
 An invitation to access the _MEDomicsLab\_TestingPhase\_Step3.zip_ data was sent by email.&#x20;
 {% endhint %}
