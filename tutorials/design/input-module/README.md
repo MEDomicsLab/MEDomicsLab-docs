@@ -6,6 +6,10 @@ description: >-
 
 # Input Module
 
+{% embed url="https://youtu.be/tj3qsXLnudk" %}
+Video Tutorial of the Input module
+{% endembed %}
+
 <details>
 
 <summary>Merge tool</summary>
