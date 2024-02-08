@@ -10,6 +10,16 @@ description: >-
 Video Tutorial of the Input module
 {% endembed %}
 
+**Content**&#x20;
+
+* Introduction [00:00](https://www.youtube.com/watch?v=tj3qsXLnudk\&t=0s)&#x20;
+* Merge tool [00:23](https://www.youtube.com/watch?v=tj3qsXLnudk\&t=23s)&#x20;
+* Grouping/Tagging tool [04:06](https://www.youtube.com/watch?v=tj3qsXLnudk\&t=246s)
+* Simple Cleaning tool [08:07](https://www.youtube.com/watch?v=tj3qsXLnudk\&t=487s)&#x20;
+* Holdout Set Creation tool [11:15](https://www.youtube.com/watch?v=tj3qsXLnudk\&t=675s)
+* Subset Creation tool [13:43](https://www.youtube.com/watch?v=tj3qsXLnudk\&t=823s)
+* Feature Reduction tool [17:30](https://www.youtube.com/watch?v=tj3qsXLnudk\&t=1050s)
+
 <details>
 
 <summary>Merge tool</summary>
