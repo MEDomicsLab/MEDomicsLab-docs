@@ -110,6 +110,39 @@ Your result dataset will be saved in the same directory as your selected dataset
 
 </details>
 
+<details>
+
+<summary>Delete Columns tool</summary>
+
+The Delete Columns tool allows you to create a subset from a dataset by specifying the columns you want to retain. Follow these steps to delete columns from a dataset:
+
+1. Select the dataset from which you want to delete columns in the "Select the dataset" section. Your dataset will be presented in a table within the Accordion component.
+2. In the "Select the columns to keep" section, choose the columns you wish to retain from your dataset. By default, all columns are selected, and you only need to unselect the ones you want to delete. The "Columns selected" number at the bottom right of the displayed dataset will be updated accordingly.
+3. Provide a name for saving the new dataset. The default name is your selected dataset name followed by the "\_modified" suffix.
+4. Click the "Create subset from selected columns" button.
+
+Your new dataset will be saved at the same location as your selected dataset.
+
+</details>
+
+<details>
+
+<summary>Transform Columns tool</summary>
+
+The Transform Columns tool enables you to modify columns in a dataset, either by converting selected columns into binaries or by replacing missing cells with zeros. Here's how to use this tool:
+
+1. Select the dataset from which you want to transform columns in the "Select the dataset" section. Your dataset will be displayed in a table within the Accordion component.
+2. In the "Select the columns to keep" section, choose the columns you want to transform from your dataset. By default, all columns are selected. Make sure to unselect the ones you don't want to apply the transformation to. The "Columns selected" number at the bottom right of the displayed dataset will be updated accordingly.
+3. Choose the type of transformation you need in the "Choose the type of transformation" section:
+   * Binary: Empty cells become zeros, and non-empty cells become ones.
+   * NaN to 0: Empty cells become zeros, and others remain the same.
+4. Provide a name for saving the new dataset. The default name is your selected dataset name followed by the "\_modified" suffix.
+5. Click the "Create subset with the transformed columns" button.
+
+Your new dataset will be saved at the same location as your selected dataset.
+
+</details>
+
 {% content-ref url="feature-reduction-tool.md" %}
 [feature-reduction-tool.md](feature-reduction-tool.md)
 {% endcontent-ref %}
