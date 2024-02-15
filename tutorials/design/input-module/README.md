@@ -10,6 +10,18 @@ description: >-
 Video Tutorial of the Input module
 {% endembed %}
 
+{% hint style="warning" %}
+We are continuously working on enhancing the MEDomicsLab platform, and we'd like to inform you about the upcoming improvements:
+
+* **Definition of Empty Cells:** While we often refer to empty cells as NaN (Not A Number) values, it's important to note that empty does not necessarily mean NaN.
+* **Display in Simple Cleaning Tool:** In the _Simple Cleaning tool_, we currently display the percentages of non-NaN values. However, we acknowledge that this can be confusing, and we plan to improve it by showing the percentage of NaN values instead.
+* **Cleaning Columns and Rows in Simple Cleaning Tool:** When cleaning columns and rows simultaneously in the _Simple Cleaning tool_, the cleaning is currently done independently, and all the columns and rows displayed in red are removed. We are working on enhancing this tool. Additionally, please be aware that imputation methods are available in the [_Learning Module_](../../development/learning-module.md).
+* **Holdout Set Creation Tool:** In the _Holdout Set Creation tool_, the NaN method is applied only to rows that contain NaN values in selected stratified columns. We plan to enhance the NaN handling method by introducing options such as mean fill, median fill, and mode fill.
+* **Feature Reduction Tool:** The _Feature Reduction tool_ currently has only basic utilities. We are committed to improving it, including allowing the transportation of PCA (Principal Component Analysis) transformations through the [_Evaluation Module_](../../development/evaluation-module.md).
+
+We appreciate your understanding as we work towards making MEDomicsLab even more effective and user-friendly.
+{% endhint %}
+
 **Content**&#x20;
 
 * Introduction [00:00](https://www.youtube.com/watch?v=tj3qsXLnudk\&t=0s)&#x20;
@@ -97,7 +109,7 @@ The function will generate two datasets based on your selected options: a learni
 
 <summary>Subset Creation tool</summary>
 
-The Subset Creation tool enables the creation of a subset from a dataset by applying filters to columns. Follow these steps to create a subset:
+The Subset Creation tool enables the creation of a subset of rows from a dataset by applying filters to columns. Follow these steps to create a subset:
 
 1. Select a dataset from the dataset list. Your dataset will be displayed, allowing you to sort and filter each column.
 2. You can filter your dataframe by clicking the filter icon at the right of the header of each column. Create rule(s) using the displayed components to filter columns. Rows that don't satisfy the rules will be removed from the displayed dataset, updating the number of rows displayed under the dataset.
