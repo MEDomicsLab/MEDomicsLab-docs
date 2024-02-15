@@ -29,6 +29,10 @@ The current _Step 4 - Explore Data_ step is divided into seven parts, and involv
 7. **Remove high correlated columns from the time points datasets:** In the [_Input Module_](../tutorials/design/input-module/), eliminate the columns identified as having high correlation rates from the time point datasets (both learning and holdout), aligning with the insights gained in task 6.
 
 {% hint style="info" %}
+Please note that the CSV files for the time points obtained from [_Step 3 - Prepare ML tables_](step-3.md) are already tagged. This is done by the [_MEDprofiles Module_](../tutorials/design/input-module/medprofiles.md) when exporting the data as time points.
+{% endhint %}
+
+{% hint style="info" %}
 We encourage you not only to follow the video but also to independently utilize the [_Exploratory Module_](../tutorials/design/exploratory-module.md) for exploring the learning set. This self-directed analysis will prove valuable in _Step 8 - Challenge_. :wink:&#x20;
 {% endhint %}
 
@@ -43,6 +47,10 @@ Before proceeding with _Step 4 - Explore Data_ of the MEDomicsLab Testing Phase,
 {% content-ref url="../tutorials/design/exploratory-module.md" %}
 [exploratory-module.md](../tutorials/design/exploratory-module.md)
 {% endcontent-ref %}
+
+{% hint style="warning" %}
+Please consider the warnings we've mentioned on the [_Input Module_](../tutorials/design/input-module/) page: we are continuously working on enhancing the MEDomicsLab platform.
+{% endhint %}
 
 ## Instructions for Step 4 - Explore Data
 
