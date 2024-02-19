@@ -73,3 +73,7 @@ D-Tale [18:50](https://www.youtube.com/watch?v=EbZ3xhG16pg\&t=1130s)
 SweetViz [23:24](https://www.youtube.com/watch?v=EbZ3xhG16pg\&t=1404s)
 
 Remove Highly Correlated Columns [28:26](https://www.youtube.com/watch?v=EbZ3xhG16pg\&t=1706s)
+
+{% hint style="danger" %}
+Kindly be informed that the last part, 'Remove Highly Correlated Columns,' is optional as it can be time-consuming. We recognize that the current process might be lengthy, and we are actively working to enhance the Delete Columns tool in the future to expedite this procedure. Rest assured, even if you choose not to perform this step, we will provide you with the output data from [_Step 4 - Explore Data_](step-4.md) for use in [_Step 5 - Create Model_](step-5.md), as always.
+{% endhint %}
