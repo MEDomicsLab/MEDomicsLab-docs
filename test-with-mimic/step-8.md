@@ -4,7 +4,7 @@ description: Apr 22 – May 13 | Challenge
 
 # Step 8: Challenge
 
-<figure><img src="../.gitbook/assets/MEDomicsLab-TestingPhase-16.png" alt=""><figcaption><p>Step 8 - Challenge</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/MicrosoftTeams-image (1).png" alt=""><figcaption><p>Step 8 - Challenge</p></figcaption></figure>
 
 {% hint style="info" %}
 This step will require you to download the new learning set that we sent you (_MEDomicsLab\_TestingPhase\_Step8.zip_). This set comprises four datasets (one for each time point), combining the learning and holdout sets obtained in [_Step 4 - Explore Data_](step-4.md).
