@@ -3,7 +3,7 @@
 * [👋 Welcome!](README.md)
 * [👊 Quick start](quick-start.md)
 * [👀 Overview](overview.md)
-* [🧑🏫 Tutorials](tutorials/README.md)
+* [🧑‍🏫 Tutorials](tutorials/README.md)
   * [🔵 Design](tutorials/design/README.md)
     * [Extraction Module](tutorials/design/extraction-modules/README.md)
       * [Image Extraction Page](tutorials/design/extraction-modules/image-extraction-page.md)
@@ -28,7 +28,7 @@
       * [Batch Extraction](tutorials/radiomics/feature-extraction/batch-extraction.md)
       * [Single Scan](tutorials/radiomics/feature-extraction/single-scan.md)
     * [Learning](tutorials/radiomics/learning.md)
-  * [🛠 Miscellaneous](tutorials/miscellaneous.md)
+  * [🛠️ Miscellaneous](tutorials/miscellaneous.md)
 * [📄 Testing Phase with MIMIC](test-with-mimic/README.md)
   * [MIMIC data access](test-with-mimic/mimic-data-access.md)
   * [Step 1: Install and Explore](test-with-mimic/step-1.md)
@@ -39,7 +39,7 @@
   * [Step 6: Evaluate Model](test-with-mimic/step-6.md)
   * [Step 7: Apply and Deploy Model](test-with-mimic/step-7.md)
   * [Step 8: Challenge](test-with-mimic/step-8.md)
-* [👩💻 Contributing](contributing/README.md)
+* [👩‍💻 Contributing](contributing/README.md)
   * [Our coding standards](contributing/our-coding-standards.md)
   * [How to push my modification ?](contributing/how-to-push-my-modification.md)
 * [🤕 Troubleshooting](troubleshooting.md)
@@ -55,13 +55,13 @@
 
 ## MEDIA
 
-* [⚛ MEDomics](https://www.medomics.ai/)
+* [⚛️ MEDomics](https://www.medomics.ai/)
 * [👾 Discord](https://discord.gg/ZbaGj8E6mP)
 * [😺 Github](https://github.com/MEDomics-UdeS/MEDomicsLab)
 * [📺 YouTube](https://www.youtube.com/@MEDomicsLab)
 
 ## Forms
 
-* [🗣 Contact us](forms/contact-us.md)
+* [🗣️ Contact us](forms/contact-us.md)
 * [📝 Report an issue](forms/report-an-issue.md)
-* [‼ Join the testing phase](forms/join-the-testing-phase.md)
+* [‼️ Join the testing phase](forms/join-the-testing-phase.md)
