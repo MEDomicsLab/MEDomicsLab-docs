@@ -1,9 +1,9 @@
 ---
-description: Mar 11 – Mar 25 | Create Model
+description: Mar 11 – Mar 25 | Vacations
 ---
 
-# Step 5 : Create model
+# Step 5: Vacations
 
-<figure><img src="../.gitbook/assets/MicrosoftTeams-image.png" alt=""><figcaption><p>Step 5 - Create Model</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/MicrosoftTeams-image (4).png" alt=""><figcaption><p>Step 5 - Vacations</p></figcaption></figure>
 
 Coming on **March 11th 2024**.
