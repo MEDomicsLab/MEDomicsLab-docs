@@ -16,14 +16,18 @@ An invitation to access the _MEDomicsLab\_TestingPhase\_Step6.zip_ data was sent
 
 In this current _Step 6 - Create Model_, we will leverage the functionalities of the [_Learning Module_](../tutorials/development/learning-module.md) to build machine learning models using the learning set obtained from [_Step 4 - Explore Data_](step-4.md). In this step, we'll create two Learning scenes:
 
-**Scene 1: Time-Dependent Model Comparison** We aim to assess the impact of patient timelines on model performance, hypothesizing that the performance will increase with time, particularly nearing the last hospital stay. We will compare the best models from the following datasets:
+**Scene 1: Time-Dependent Model Comparison**&#x20;
+
+We aim to assess the impact of patient timelines on model performance, hypothesizing that the performance will increase with time, particularly nearing the last hospital stay. We will compare the best models from the following datasets:
 
 1. Dataset from the data obtained at the first time point (_T1\_learning\_modified.csv_).
 2. Dataset combining data from the first and second time points (_T1\_learning\_modified.csv_ and _T2\_learning\_modified.csv_).
 3. Dataset combining data from the first, second, and third time points (_T1\_learning\_modified.csv_, _T2\_learning\_modified.csv_, and _T3\_learning\_modified.csv_).
 4. Dataset combining data from all time points (_T1\_learning\_modified.csv_, _T2\_learning\_modified.csv_, _T3\_learning\_modified.csv_, and _T4\_learning\_modified.csv_).
 
-**Scene 2: Variable-Dependent Model Comparison** This scene aims to assess the impact of considered variables on model performance. We will use data from the first two time points (T1\_learning\_modified.csv and T2\_learning\_modified.csv), assuming that models involving data from the last time points might make predictions too late in a patient's timeline. We'll compare the best models from the following datasets:
+**Scene 2: Variable-Dependent Model Comparison**&#x20;
+
+This scene aims to assess the impact of considered variables on model performance. We will use data from the first two time points (T1\_learning\_modified.csv and T2\_learning\_modified.csv), assuming that models involving data from the last time points might make predictions too late in a patient's timeline. We'll compare the best models from the following datasets:
 
 1. All demographic and time-series data (_tslab_, _tsprocedure_, and _tschart_ classes) from _T1\_learning\_modified.csv_ and _T2\_learning\_modified.csv_.
 2. All demographic and notes data (_ndischarge_ and _nradiology_) from _T1\_learning\_modified.csv_ and _T2\_learning\_modified.csv_.
