@@ -78,11 +78,11 @@ At the beginning of a Machine Learning pipeline, you initialize your data using 
 
 ### 1.1. Test Data
 
-_PyCaret_ divides your dataset into two parts: the training set and the test set (controlled by the test\_data parameter in the [_PyCaret_ setup function](https://pycaret.readthedocs.io/en/stable/api/classification.html#pycaret.classification.setup)). The training data is employed to train and optimize your machine learning model, while the test data is reserved for evaluating the created model. The split is conducted using the [_scikit-learn_ train\_test\_split function](https://scikit-learn.org/stable/modules/generated/sklearn.model\_selection.train\_test\_split.html) (useful explanations about this function can be found [here](https://github.com/mGalarnyk/Python\_Tutorials/blob/master/Sklearn/Train\_Test\_Split/TrainTestSplitScikitLearn.ipynb)).
+_PyCaret_ divides your dataset into two parts: the training set and the test set (controlled by the `test_data` parameter in the [_PyCaret_ setup function](https://pycaret.readthedocs.io/en/stable/api/classification.html#pycaret.classification.setup)). The training data is employed to train and optimize your machine learning model, while the test data is reserved for evaluating the created model. The split is conducted using the [_scikit-learn_ train\_test\_split function](https://scikit-learn.org/stable/modules/generated/sklearn.model\_selection.train\_test\_split.html) (useful explanations about this function can be found [here](https://github.com/mGalarnyk/Python\_Tutorials/blob/master/Sklearn/Train\_Test\_Split/TrainTestSplitScikitLearn.ipynb)).
 
 <img src="../.gitbook/assets/image (1).png" alt="" data-size="original">&#x20;
 
-The random sampling step is executed with the aid of a random seed, and each split is linked to a specific seed. By default, _PyCaret_ randomly assigns a seed at the start of each pipeline execution. To ensure the replication of the same experiment with a consistent split, you can set this parameter in _PyCaret_ (using the _session\_id_ parameter in the Dataset node), as demonstrated in our experiments in the instructional video. This ensures that your test and train data will remain consistent across all executions.
+The random sampling step is executed with the aid of a random seed, and each split is linked to a specific seed. By default, _PyCaret_ randomly assigns a seed at the start of each pipeline execution. To ensure the replication of the same experiment with a consistent split, you can set this parameter in _PyCaret_ (using the `session_id` parameter in the Dataset node), as demonstrated in our experiments in the instructional video. This ensures that your test and train data will remain consistent across all executions.
 
 ![](<../.gitbook/assets/image (3).png>)&#x20;
 
@@ -90,7 +90,7 @@ Here, you also have the option to define the test data yourself and provide it t
 
 ### 1.2. Folds
 
-Then _PyCaret_ will define folds on the train data to use for the Cross-Validation part (which will be executed using the Train or Compare Models box). The definition of the folds will also be done using a random seed, which you can define through the session\_id parameter of _PyCaret_. By default, _PyCaret_ uses the [_StratifiedKFold_ method from _sickit-learn_](https://scikit-learn.org/stable/modules/generated/sklearn.model\_selection.StratifiedKFold.html) to define the folds. The stratified method ensures that each class from the target is represented equally across each fold.
+Then _PyCaret_ will define folds on the train data to use for the Cross-Validation part (which will be executed using the Train or Compare Models box). The definition of the folds will also be done using a random seed, which you can define through the `session_id` parameter of _PyCaret_. By default, _PyCaret_ uses the [_StratifiedKFold_ method from _sickit-learn_](https://scikit-learn.org/stable/modules/generated/sklearn.model\_selection.StratifiedKFold.html) to define the folds. The stratified method ensures that each class from the target is represented equally across each fold.
 
 ![](../.gitbook/assets/stratified\_cv.png)
 
@@ -104,11 +104,11 @@ The [_compare\_models_ ](https://pycaret.readthedocs.io/en/stable/api/classifica
 
 ![](../.gitbook/assets/1\_tMCxa5m6-QNulrQs28vBMw.png)
 
-The output of the [_compare\_model_ ](https://pycaret.readthedocs.io/en/stable/api/classification.html#pycaret.classification.compare\_models)function is the best model found using a specified metric (Accuracy by default, AUC as we specified in our instruction video). If we set the _n\_select_ parameter (as shown in our instruction video), we return the specified number of models from the top of the list.
+The output of the [_compare\_model_ ](https://pycaret.readthedocs.io/en/stable/api/classification.html#pycaret.classification.compare\_models)function is the best model found using a specified metric (Accuracy by default, AUC as we specified in our instruction video). If we set the `n_select` parameter (as shown in our instruction video), we return the specified number of models from the top of the list.
 
 ### 2.2. Create Model
 
-The [_create\_model_ ](https://pycaret.readthedocs.io/en/stable/api/classification.html#pycaret.classification.create\_model)function takes initialized data as an entry and a model (that you can define through our Model node). It works exactly the same way as the _compare\_models_ function, except that we only test one model, and the results table shows the Cross-Validation results of each fold.
+The [_create\_model_ ](https://pycaret.readthedocs.io/en/stable/api/classification.html#pycaret.classification.create\_model)function takes initialized data as an entry and a model (that you can define through our Model node). It works exactly the same way as the [_compare\_models_ ](https://pycaret.readthedocs.io/en/stable/api/classification.html#pycaret.classification.compare\_models)function, except that we only test one model, and the results table shows the Cross-Validation results of each fold.
 
 ## 3. Analyzing
 
