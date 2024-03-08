@@ -9,9 +9,9 @@ description: Mar 25 – Apr 8 | Create Model
 {% hint style="info" %}
 If you completed [_Step 4 - Explore Data_](step-4.md), you have data ready for _Step 6 - Create Model_.&#x20;
 
-However, before proceeding to _Step 6 - Create Model,_ we recommend that you replace your own output data from [_Step 4 - Explore Data_](step-4.md) (the _MEDprofiles_/_timePoints_ folder) with the data that we prepared for you (_MEDomicsLab\_TestingPhase\_Step5.zip_). This will ensure consistency of results across all participants of the Testing Phase.&#x20;
+However, before proceeding to _Step 6 - Create Model,_ we recommend that you replace your own output data from [_Step 4 - Explore Data_](step-4.md) (the _MEDprofiles_/_timePoints_ folder) with the data that we prepared for you (_MEDomicsLab\_TestingPhase\_Step6.zip_). This will ensure consistency of results across all participants of the Testing Phase.&#x20;
 
-An invitation to access the _MEDomicsLab\_TestingPhase\_Step5.zip_ data was sent by email.&#x20;
+An invitation to access the _MEDomicsLab\_TestingPhase\_Step6.zip_ data was sent by email.&#x20;
 {% endhint %}
 
 In this current _Step 6 - Create Model_, we will leverage the functionalities of the [_Learning Module_](../tutorials/development/learning-module.md) to build machine learning models using the learning set obtained from [_Step 4 - Explore Data_](step-4.md). In this step, we'll create two Learning scenes:
