@@ -62,6 +62,13 @@ For example, if you are looking for information on the `fold_strategy` parameter
 Also, if you want to fully understand how [_PyCaret_](https://pycaret.gitbook.io/docs/) works in the background, this is an open-source library, and the code is available on [GitHub](https://github.com/pycaret/pycaret). (As we use the 3.1.0 version in our application, we recommend you to consult the [3.1.0 code](https://github.com/pycaret/pycaret/tree/3.1.0) if your research is related to our application).
 {% endhint %}
 
+{% hint style="info" %}
+Please pay attention to our last sections in the [_Learning Module_](../tutorials/development/learning-module.md):
+
+* What PyCaret does?
+* PyCaret ROC (Receiver Operating Characteristic)/AUC (Area Under the Curve) plots
+{% endhint %}
+
 ## Instructions for Step 6 - Create Model
 
 (Video + content here)
