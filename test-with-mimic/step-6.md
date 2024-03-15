@@ -71,4 +71,16 @@ Please pay attention to our last sections in the [_Learning Module_](../tutorial
 
 ## Instructions for Step 6 - Create Model
 
-(Video + content here)
+{% embed url="https://youtu.be/bQnE7KSCHOA" %}
+
+**Content**
+
+Intro [0:00](https://www.youtube.com/watch?v=bQnE7KSCHOA\&t=0s)
+
+First Pipeline [1:09](https://www.youtube.com/watch?v=bQnE7KSCHOA\&t=69s)
+
+Explanations about PyCaret [5:37](https://www.youtube.com/watch?v=bQnE7KSCHOA\&t=337s)
+
+Scene 1: Time-Dependent Model Comparison [7:35](https://www.youtube.com/watch?v=bQnE7KSCHOA\&t=455s)
+
+Scene 2: Variable-Dependent Model Comparison [17:12](https://www.youtube.com/watch?v=bQnE7KSCHOA\&t=1032s)
