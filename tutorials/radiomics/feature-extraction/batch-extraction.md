@@ -6,9 +6,13 @@ description: >-
 
 # Batch Extraction
 
+{% hint style="success" %}
+A tutorial video is available at the bottom of the page
+{% endhint %}
+
 In our software, batch extraction of features follows the workflow outlined in the[ initial chapter of the IBSI](https://pubs.rsna.org/doi/10.1148/radiol.2020191145). This approach limits user control over processing steps and feature selection, requiring any adjustments to be made in the back-end code. This limitation is implemented to ensure that Radiomics analysis of datasets aligns with international standards.
 
-The _Batch Extraction_ page is dedicated to extracting features from datasets. This process involves a preprocessed dataset of [MEDscan objects](https://medimage.readthedocs.io/en/latest/tutorials.html#medimage-class), a [CSV file](https://medimage.readthedocs.io/en/latest/csv\_file.html) containing information about the regions of interest (ROIs) to be analyzed, and, lastly, a [JSON settings file](https://medimage.readthedocs.io/en/latest/configuration\_file.html).
+The _Batch Extraction_ page is dedicated to extracting features from datasets. This process involves a preprocessed dataset of [MEDscan objects](https://medimage.readthedocs.io/en/latest/tutorials.html#medscan-class), a [CSV file](https://medimage.readthedocs.io/en/latest/csv\_file.html) containing information about the regions of interest (ROIs) to be analyzed, and, lastly, a [JSON settings file](https://medimage.readthedocs.io/en/latest/configurations\_file.html).
 
 <figure><img src="../../../.gitbook/assets/BatchExtractor.JPG" alt=""><figcaption><p>Batch Extraction Page</p></figcaption></figure>
 
@@ -26,3 +30,6 @@ The following image illustrates the setup process for your batch extraction:
 
 <figure><img src="../../../.gitbook/assets/BatchExtractionSteps.png" alt=""><figcaption><p>Batch Extractor Page - Setup steps</p></figcaption></figure>
 
+## Tutorial video
+
+{% embed url="https://youtu.be/J5T9W2Scfas" %}
