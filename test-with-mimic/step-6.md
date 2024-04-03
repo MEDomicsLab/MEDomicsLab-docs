@@ -71,7 +71,7 @@ Please pay attention to our last sections in the [_Learning Module_](../tutorial
 
 ## Instructions for Step 6 - Create Model
 
-{% embed url="https://www.youtube.com/watch?v=bQnE7KSCHOA" %}
+{% embed url="https://youtu.be/bQnE7KSCHOA?si=sNMjQspkgtfqVAsP" %}
 
 **Content**
 
