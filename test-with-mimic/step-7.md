@@ -14,7 +14,7 @@ Additionally, for this step, you will also need the data we sent you for [_Step 
 An invitation to access the _MEDomicsLab\_TestingPhase\_Step7.zip_ data has been sent to you via email.
 {% endhint %}
 
-In this current _Step 7 - Evaluate & Apply Model_, we will explore the functionalities of the [_Evaluation Module_](https://medomics-udes.gitbook.io/medomicslab-docs/tutorials/development/evaluation-module) by evaluating two machine learning models on our holdout set. As the models were created using only time points one and two from the learning set (see [_Step 6 - Create Model_](https://medomics-udes.gitbook.io/medomicslab-docs/test-with-mimic/step-6) for more details), we are going to evaluate them on time points one and two from the holdout set.
+In this current _Step 7 - Evaluate & Apply Model_, we will explore the functionalities of the [_Evaluation Module_](https://medomics-udes.gitbook.io/medomicslab-docs/tutorials/development/evaluation-module) by evaluating two machine learning models on our holdout set. As the models were created using only _Time point 1_ and _Time point 2_ from the learning set (see [_Step 6 - Create Model_](https://medomics-udes.gitbook.io/medomicslab-docs/test-with-mimic/step-6) for more details), we are going to evaluate them on _Time point 1_ and _Time point 2_ from the holdout set.
 
 Additionally, we will explore the functionalities of the [_Application Module_](https://medomics-udes.gitbook.io/medomicslab-docs/tutorials/deployment/application-module) by applying one of the models to a single patient from the holdout set.
 
@@ -22,7 +22,7 @@ Additionally, we will explore the functionalities of the [_Application Module_](
 
 Documentation related to this model is available [here](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.ExtraTreesClassifier.html). In our experiment, we kept the model's default values.&#x20;
 
-This model is the one we obtained at the end of [_Step 6 - Create Model_](https://medomics-udes.gitbook.io/medomicslab-docs/test-with-mimic/step-6). It is trained on time points one and two from our learning set, using the following columns (T1 and T2 suffix refers to T1 and T2 datasets):
+This model is the one we obtained at the end of [_Step 6 - Create Model_](https://medomics-udes.gitbook.io/medomicslab-docs/test-with-mimic/step-6). It is trained on _Time point 1_ and _Time point 2_ from our learning set, using the following columns (T1 and T2 suffix refers to T1 and T2 datasets):
 
 * tslab\_|\_attr\_MCHC\_\_maximum\_T1
 * nradiology\_|\_attr4\_T1
@@ -42,7 +42,7 @@ This model is the one we obtained at the end of [_Step 6 - Create Model_](https:
 
 Documentation related to this model is available [here](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html). In our experiment, we kept the model's default values.&#x20;
 
-We created this model specifically for this step. Like the previous model, it was trained on time points one and two from the learning set, using the same columns.
+We created this model specifically for this step. Like the previous model, it was trained on _Time point 1_ and _Time point 2_ from the learning set, using the same columns.
 
 **Apply Model**&#x20;
 
