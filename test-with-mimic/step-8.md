@@ -65,6 +65,8 @@ However, to facilitate the Evaluation process of the models submitted by the par
   * Note that you new dataset will be placed in the _reduced\_features_ folder and that you will have to move it in your _learning_ folder to retrieve it in the [_Learning Module_](https://medomics-udes.gitbook.io/medomicslab-docs/tutorials/development/learning-module).
 
 If these instructions are not followed, we will not be able to evaluate your submission, and it will unfortunately be discarded.&#x20;
+
+Also, note that to create a model in the [_Learning Module_](https://medomics-udes.gitbook.io/medomicslab-docs/tutorials/development/learning-module), your CSV files must be placed under a "learning" folder and have the prefix "TX\_" (e.g., _T1\_new\_learning_) as in the data we provided you.
 {% endhint %}
 
 {% hint style="info" %}
