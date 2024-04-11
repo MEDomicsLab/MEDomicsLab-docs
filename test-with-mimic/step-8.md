@@ -21,11 +21,11 @@ In _Step 8 - Challenge_, you will leverage the knowledge you have gained from th
 The objective here is that participants design their own model via the use of the [_Machine Learning (ML) Module_](https://medomics-udes.gitbook.io/medomicslab-docs/tutorials/development/learning-module)_._ These models will be evaluated by the MEDomicsLab team using a fresh, private holdout set from the [MIMIC](https://mimic.mit.edu/) database.&#x20;
 
 {% hint style="info" %}
-Considering the insights we have gained during the Testing Phase, we have now updated the rules for this step. In contrast to what we initially planned, there will be a single challenge that involves manipulations in the _Machine Learning (ML) Module_ only.
+Considering the insights we have gained during the Testing Phase, we have now updated the rules for this step. In contrast to what we initially planned, there will be a single challenge that involves manipulations in the [_Machine Learning (ML) Module_](https://medomics-udes.gitbook.io/medomicslab-docs/tutorials/development/learning-module) only.
 {% endhint %}
 
 {% hint style="info" %}
-We are continuously working on enhancing the MEDomicsLab platform, and we would like to inform you that there may still be some missing options and tooltips in the Learning Module, which we intend to implement in the future.
+We are continuously working on enhancing the MEDomicsLab platform, and we would like to inform you that there may still be some missing options and tooltips in the  [_Machine Learning (ML) Module_](https://medomics-udes.gitbook.io/medomicslab-docs/tutorials/development/learning-module), which we intend to implement in the future.
 {% endhint %}
 
 ## Recommendations
@@ -47,7 +47,7 @@ Before proceeding with _Step 8 - Challenge_ of the MEDomicsLab Testing Phase, we
   * If you wish, you can let us know in the email the name that we should use for the public ranking of your submission (e.g. _MLrocks_ :smile:). If not specified, we will use your full name.&#x20;
 
 {% hint style="danger" %}
-Even if we provide you with data for the fourth time point, the model you submit must only take into account _Time point 1_ and/or _Time point 2_.
+Even if we provide you with data for the fourth time points, the model you submit must only take into account _Time point 1_ and/or _Time point 2_.
 {% endhint %}
 
 {% hint style="warning" %}
