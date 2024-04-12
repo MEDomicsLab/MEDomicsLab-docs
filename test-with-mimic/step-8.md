@@ -43,7 +43,7 @@ Before proceeding with _Step 8 - Challenge_ of the MEDomicsLab Testing Phase, we
   * Train, optimize, and test models.
   * Compare different data combinations.
   * Choose a learning hypothesis and create a final model.
-* Once you have trained your best model, send it to [medomics.info@gmail.com](mailto:medomics.info@gmail.com) with "Step 8 - Challenge | Submission" as the Subject of your email. You are allowed to send multiple submissions, but please note that we will only evaluate your latest submission.&#x20;
+* Once you have trained your best model, send it to [sarah.denis@usherbrooke.ca](mailto:sarah.denis@usherbrooke.ca) with "Step 8 - Challenge | Submission" as the Subject of your email. You are allowed to send multiple submissions, but please note that we will only evaluate your latest submission.&#x20;
   * If you wish, you can let us know in the email the name that we should use for the public ranking of your submission (e.g. _MLrocks_ :smile:). If not specified, we will use your full name.&#x20;
 
 {% hint style="warning" %}
