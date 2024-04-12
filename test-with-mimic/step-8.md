@@ -7,7 +7,7 @@ description: Apr 22 – May 13 | Challenge
 <figure><img src="../.gitbook/assets/MicrosoftTeams-image (7).png" alt=""><figcaption><p>Step 8 - Challenge</p></figcaption></figure>
 
 {% hint style="info" %}
-This step will require you to download the new learning set that we sent you (_MEDomicsLab\_TestingPhase\_Step8.zip_). This set comprises four datasets (one for each time point), combining the learning and holdout sets obtained in [_Step 4 - Explore Data_](step-4.md).
+This step will require you to download the new learning set that we sent you (_MEDomicsLab\_TestingPhase\_Step8.zip_). This set comprises two datasets, combining the learning and holdout sets obtained in [_Step 4 - Explore Data_](step-4.md) at _Time Point 1_ and _Time Point 2_.
 
 To avoid confusion among all the datasets from the beginning of the Testing Phase, we recommend creating a new workspace for this step containing only the new learning set.
 
@@ -41,14 +41,10 @@ Before proceeding with _Step 8 - Challenge_ of the MEDomicsLab Testing Phase, we
 * Download the new learning set provided in _MEDomicsLab\_TestingPhase\_Step8.zip_.
 * Create a model similarly to the one we created in [_Step 6 - Create Model_](https://medomics-udes.gitbook.io/medomicslab-docs/test-with-mimic/step-6) using the [_Machine Learning (ML) Module_](https://medomics-udes.gitbook.io/medomicslab-docs/tutorials/development/learning-module). Follow these guidelines for creating your best possible model:
   * Train, optimize, and test models.
-  * Compare different data combinations **using **_**Time point 1**_** and **_**Time point 2**_** only**.
+  * Compare different data combinations.
   * Choose a learning hypothesis and create a final model.
 * Once you have trained your best model, send it to [medomics.info@gmail.com](mailto:medomics.info@gmail.com) with "Step 8 - Challenge | Submission" as the Subject of your email. You are allowed to send multiple submissions, but please note that we will only evaluate your latest submission.&#x20;
   * If you wish, you can let us know in the email the name that we should use for the public ranking of your submission (e.g. _MLrocks_ :smile:). If not specified, we will use your full name.&#x20;
-
-{% hint style="danger" %}
-Even if we provide you with data for the fourth time points, the model you submit must only take into account _Time point 1_ and/or _Time point 2_.
-{% endhint %}
 
 {% hint style="warning" %}
 For this _ML Challenge_, most of your work will therefore be done inside the [_Machine Learning (ML) Module_](https://medomics-udes.gitbook.io/medomicslab-docs/tutorials/development/learning-module).  However, you are also welcome to use the other capabilities of the MEDomicsLab platform. For example, you may want to use the [_Exploratory Module_](https://medomics-udes.gitbook.io/medomicslab-docs/tutorials/design/exploratory-module) to continue to gain useful insights about the dataset prior to the learning step.&#x20;
