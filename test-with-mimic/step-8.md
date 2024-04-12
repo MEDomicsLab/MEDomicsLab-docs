@@ -65,21 +65,21 @@ If these instructions are not followed, we will not be able to evaluate your sub
 Also, note that to create a model in the [_Learning Module_](https://medomics-udes.gitbook.io/medomicslab-docs/tutorials/development/learning-module), your CSV files must be placed under a "learning" folder and have the prefix "TX\_" (e.g., _T1\_new\_learning_) as in the data we provided you.
 {% endhint %}
 
-{% embed url="https://youtu.be/HVp7b8v8nW8" %}
+{% embed url="https://youtu.be/AMiNfv1J67g" %}
 
 **Content**
 
-Intro [0:00](https://www.youtube.com/watch?v=HVp7b8v8nW8\&t=0s)
+Intro [0:00](https://www.youtube.com/watch?v=AMiNfv1J67g\&t=0s)
 
-Rules [0:38](https://www.youtube.com/watch?v=HVp7b8v8nW8\&t=38s)
+Rules [0:38](https://www.youtube.com/watch?v=AMiNfv1J67g\&t=38s)
 
-Deal with server errors [4:03](https://www.youtube.com/watch?v=HVp7b8v8nW8\&t=243s)
+Deal with server errors [4:03](https://www.youtube.com/watch?v=AMiNfv1J67g\&t=243s)
 
-Documentation [5:08](https://www.youtube.com/watch?v=HVp7b8v8nW8\&t=308s)
+Documentation [5:08](https://www.youtube.com/watch?v=AMiNfv1J67g\&t=308s)
 
-The Optimize node [8:58](https://www.youtube.com/watch?v=HVp7b8v8nW8\&t=538s)
+The Optimize node [8:58](https://www.youtube.com/watch?v=AMiNfv1J67g\&t=538s)
 
-General Advice [11:05](https://www.youtube.com/watch?v=HVp7b8v8nW8\&t=665s)
+General Advice [11:05](https://www.youtube.com/watch?v=AMiNfv1J67g\&t=665s)
 
 ***
 
