@@ -73,7 +73,7 @@ Intro [0:00](https://www.youtube.com/watch?v=AMiNfv1J67g\&t=0s)
 
 Rules [0:38](https://www.youtube.com/watch?v=AMiNfv1J67g\&t=38s)
 
-Deal with server errors [4:03](https://www.youtube.com/watch?v=AMiNfv1J67g\&t=243s)
+Dealing with Server Errors [4:03](https://www.youtube.com/watch?v=AMiNfv1J67g\&t=243s)
 
 Documentation [5:08](https://www.youtube.com/watch?v=AMiNfv1J67g\&t=308s)
 
