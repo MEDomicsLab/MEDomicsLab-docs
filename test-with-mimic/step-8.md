@@ -84,7 +84,7 @@ General Advice [11:05](https://www.youtube.com/watch?v=HVp7b8v8nW8\&t=665s)
 ***
 
 {% hint style="info" %}
-After the conclusion of the Testing Phase on May 13, we will evaluate the performance of the models submitted by all participants and establish a ranking through an evaluation using our private holdout set.
+After the conclusion of the Testing Phase on May 13, we will evaluate the performance of the models submitted by all participants and establish a ranking through an evaluation using our private holdout set.&#x20;
 
-Following this, we will make the ranking public and announce the winner of the _ML Challenge_ :tada:. At that time, we will also reveal the winner of the _Bug Finder_ _Challenge_ :smile:!
+Following this, we will make the ranking public and reveal the winners of both the _ML Challenge_ :tada: and the _Bug Finder Challenge_ :smile: at the **wrap-up meeting scheduled for May 17**. An invitation to this meeting will be sent out soon.
 {% endhint %}
