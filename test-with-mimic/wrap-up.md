@@ -33,7 +33,7 @@ Also, we want to thank those who submitted feedback:
 
 ### Machine Learning Challenge (Step 8)
 
-For now, we only received one model. Congratulations to our participant! If we receive others models we are going to establish a ranking and display the scores on this page.
+For now, we only received one model. Congratulations to our participant! If we receive other models we are going to establish a ranking and display the scores on this page.
 
 | Participant        |
 | ------------------ |
@@ -42,5 +42,5 @@ For now, we only received one model. Congratulations to our participant! If we r
 ***
 
 {% hint style="info" %}
-Please note that it is not over! As we presented in the Wrap-Up meeting, there are still improvements and developments being made to the MEDomicsLab application. We will continue to announce new releases on our [Discord server](https://discord.com/invite/ZbaGj8E6mP), and we count on you to test the new functionalities of the application!
+Please note that it is not over! As we presented in the Wrap-Up meeting, there are still improvements and developments being made to the MEDomicsLab application towards the first official release and paper. We will continue to announce new releases on our [Discord server](https://discord.com/invite/ZbaGj8E6mP), and we count on you to test the new functionalities of the application!
 {% endhint %}
