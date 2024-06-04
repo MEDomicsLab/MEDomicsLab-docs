@@ -16,7 +16,7 @@ The first step on this page is to select your input, which is a CSV file that mu
 
 ## 2. Selected data
 
-Once you have selected your data, it will be displayed in the 'Selected Data' section.
+Once you have selected your data, it will be displayed in the 'Selected data' section.
 
 ## 3. Select an extraction type
 
@@ -59,7 +59,7 @@ You can choose a prefix to assign to the generated embeddings column names. This
 
 ## 4. Extract Features
 
-Once all the previous steps have been completed, you can proceed to feature extraction. If a warning appears stating, 'You must select convenient options for feature generation,' and the 'Extract Data' button is disabled, please check if you have provided all the required information in the 'Select an Extraction Type' section.
+Once all the previous steps have been completed, you can proceed to feature extraction. If a warning appears stating, 'You must select convenient options for feature generation', and the 'Extract Data' button is disabled, please check if you have provided all the required information in the 'Select an Extraction Type' section.
 
 In this section, you can specify the filename under which you want to save your generated embeddings. The filename must be followed by the .csv extension, composed only of letters, numbers, and/or the '\_' character, and cannot be empty. The default filename is 'text\_extracted\_features.csv.' The file will be saved under DATA/extracted\_features.
 
@@ -69,6 +69,6 @@ Finally, you can initiate the extraction process by clicking the 'Extract Data' 
 
 ## 5. Extracted data
 
-Once the extraction process is complete (which may take a few minutes, but you can monitor the progress on the output tab), a message will appear at the bottom of the page indicating where the features have been saved. You can review your results in the 'Extracted Data' section by toggling on the switch. Alternatively, you can open your generated CSV file in your workspace.
+Once the extraction process is complete (which may take a few minutes, but you can monitor the progress on the output tab), a message will appear at the bottom of the page indicating where the features have been saved. You can review your results in the 'Extracted data' section by toggling on the switch. Alternatively, you can open your generated CSV file in your workspace.
 
-<figure><img src="../../../.gitbook/assets/extracted_data.png" alt=""><figcaption><p>Section extracted data while features have been generated</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/extracted_data.png" alt=""><figcaption><p>Section Extracted data while features have been generated</p></figcaption></figure>

@@ -1,7 +1,7 @@
 # Data Manager
 
 {% hint style="success" %}
-A tutorial video is available at the bottom of the page
+A tutorial video is available at the bottom of the page.
 {% endhint %}
 
 The `DataManager` class plays an important role in `MEDimage`. The class is capable of processing raw [DICOM](https://en.wikipedia.org/wiki/DICOM) and [NIfTI](https://brainder.org/2012/09/23/the-nifti-file-format/) data and converting it in into binary objects that will be used by `MEDimage`.
