@@ -6,9 +6,9 @@ description: 'MEDomicsLab: Integrative Modeling of Heterogeneous Data in Medicin
 
 Welcome to MEDomicsLab! Here you'll find all the documentation you need to get up and running with our application.
 
-## Want to be part of the [Testing Phase](test-with-mimic/)?
+We would like to express our sincere gratitude to the [_**Unité de Soutien SSA Québec (USSAQ)**_](https://ssaquebec.ca/en/) for their invaluable help and funding throughout the MEDomicsLab project. Their support has been instrumental in enabling the development of this crucial platform for medical data analysis and machine learning. With USSAQ's contribution, MEDomicsLab is poised to make a significant impact on improving the healthcare system in Quebec by making it continuously learn and improve. For more info about USSAQ mission and vision, please visit the following page: [_**USSAQ Vision and Mission**_](https://ssaquebec.ca/en/the-unit/vision-and-mission/)_**.**_
 
-Go down there :point\_down:[#how-to-be-part-of-the-testing-phase](./#how-to-be-part-of-the-testing-phase "mention")
+<figure><img src=".gitbook/assets/Logo_Unite_SLOGAN_RGB_2021.jpg" alt="" width="188"><figcaption></figcaption></figure>
 
 ## An overview of MEDomicsLab
 

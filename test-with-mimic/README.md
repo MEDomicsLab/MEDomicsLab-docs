@@ -36,6 +36,16 @@ The schedule of the Testing Phase (2024) and series of tutorials are planned as 
 
 **If you want to participate, please** [**register here**](../forms/join-the-testing-phase.md) **!**
 
+## How to be part of the testing phase?
+
+Click here :point\_right: [join-the-testing-phase.md](../forms/join-the-testing-phase.md "mention")
+
+**People who already joined** :see\_no\_evil:&#x20;
+
+{% embed url="https://docs.google.com/spreadsheets/d/1w4n2gygstxnrFSzAi1LqGsxgCVYa1Odyb8vl9huu-kU/edit#gid=2112985779" %}
+
+
+
 You are also welcome to join us on Discord: [here](https://discord.gg/ZbaGj8E6mP)
 
 _The MEDomicsLab team_
