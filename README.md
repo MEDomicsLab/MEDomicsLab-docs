@@ -39,14 +39,6 @@ We would like to express our sincere gratitude to the [_**Unité de Soutien SSA 
   * Modular code libraries in Python (back-end)
 * We invite partners to follow the developments on [our GitHub](https://github.com/MEDomics-UdeS/MEDomicsLab) and to prepare for the [testing phase ](test-with-mimic/)in the Winter 2024 semester (\~1 hour per week).
 
-## How to be part of the testing phase?
-
-Click here :point\_right: [join-the-testing-phase.md](forms/join-the-testing-phase.md "mention")
-
-**People who already joined** :see\_no\_evil:&#x20;
-
-{% embed url="https://docs.google.com/spreadsheets/d/1w4n2gygstxnrFSzAi1LqGsxgCVYa1Odyb8vl9huu-kU/edit#gid=2112985779" %}
-
 ## Want to dive right in?
 
 Feeling like an eager beaver? Jump in to the quick start docs and get making your first experiment:

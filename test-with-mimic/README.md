@@ -34,8 +34,6 @@ The schedule of the Testing Phase (2024) and series of tutorials are planned as 
 
 <table><thead><tr><th width="98.33333333333331">Step</th><th width="421">Description</th><th>Dates</th></tr></thead><tbody><tr><td>1</td><td><a href="step-1.md">Install and Explore</a></td><td>Jan 15 – Jan 29</td></tr><tr><td>2</td><td><a href="step-2.md">Extract Data</a></td><td>Jan 29 – Feb 12</td></tr><tr><td>3</td><td><a href="step-3.md">Prepare ML tables</a></td><td>Feb 12 – Feb 26</td></tr><tr><td>4</td><td><a href="step-4.md">Explore Data</a></td><td>Feb 26 – Mar 11</td></tr><tr><td>5</td><td><a href="step-5.md">Vacations</a></td><td>Mar 11 – Mar 25</td></tr><tr><td>6</td><td><a href="step-6.md">Create Model</a></td><td>Mar 25 – Apr 8</td></tr><tr><td>7</td><td><a href="step-7.md">Evaluate &#x26; Apply Model</a></td><td>Apr 8 – Apr 22</td></tr><tr><td>8</td><td><a href="step-8.md">Challenge</a></td><td>Apr 22 – May 13</td></tr></tbody></table>
 
-**If you want to participate, please** [**register here**](../forms/join-the-testing-phase.md) **!**
-
 ## How to be part of the testing phase?
 
 Click here :point\_right: [join-the-testing-phase.md](../forms/join-the-testing-phase.md "mention")
