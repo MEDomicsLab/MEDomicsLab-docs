@@ -6,7 +6,7 @@ description: 'MEDomicsLab: Integrative Modeling of Heterogeneous Data in Medicin
 
 Welcome to MEDomicsLab! Here you'll find all the documentation you need to get up and running with our application.
 
-We would like to express our sincere gratitude to the [_**Unité de Soutien SSA Québec (USSAQ)**_](https://ssaquebec.ca/en/) for their invaluable help and funding throughout the MEDomicsLab project. Their support has been instrumental in enabling the development of this platform for medical data analysis and machine learning. With USSAQ's contribution, MEDomicsLab will make a significant impact on improving the work of medical AI teams in Quebec by providing a platform that continuously learns and improves. For more info about USSAQ mission and vision, please visit the following page: [_**USSAQ Vision and Mission**_](https://ssaquebec.ca/en/the-unit/vision-and-mission/)_**.**_
+We would like to express our sincere gratitude to the [_**Unité de Soutien SSA Québec (USSAQ)**_](https://ssaquebec.ca/en/) for their invaluable help and funding throughout the MEDomicsLab project. Their support has been instrumental in enabling the development of this platform for medical data analysis and machine learning. With USSAQ's contribution, MEDomicsLab will make a significant impact on improving the work of medical AI teams in Quebec by providing a platform that continuously learns and improves. For more information about USSAQ's mission and vision, please visit the following page: [_**USSAQ Vision and Mission**_](https://ssaquebec.ca/en/the-unit/vision-and-mission/)_**.**_
 
 <figure><img src=".gitbook/assets/Logo_Unite_SLOGAN_RGB_2021.jpg" alt="" width="188"><figcaption></figcaption></figure>
 
