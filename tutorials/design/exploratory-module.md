@@ -6,7 +6,7 @@
 
 When double-clicking on the exploratory module you should see this page:
 
-<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption><p>Exploratory module - untouched</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (1).png" alt=""><figcaption><p>Exploratory module - untouched</p></figcaption></figure>
 
 ## Available tools
 
@@ -39,4 +39,4 @@ All these tools can be used to explore your data and generate reports. You can u
 
 ## When reports are generated
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption><p>Exploratory module - tools has been run</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p>Exploratory module - tools has been run</p></figcaption></figure>

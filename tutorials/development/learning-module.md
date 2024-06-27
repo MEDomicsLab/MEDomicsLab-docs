@@ -59,12 +59,11 @@ The application will generate a folder that includes:
 </div>
 
 {% hint style="info" %}
-```javascript
-breast_cancer_scene                -> Scene folder
-    ├───models                     -> Folder where models are saved
+<pre class="language-javascript"><code class="lang-javascript"><strong>breast_cancer_scene                -> Scene folder
+</strong>    ├───models                     -> Folder where models are saved
     ├───notebooks                  -> Folder where notebooks are saved
     └───breast_cancer_scene.medml  -> Scene file
-```
+</code></pre>
 {% endhint %}
 
 ***

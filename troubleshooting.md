@@ -91,7 +91,7 @@ Then, click on the MEDomicsLab Icon while holding the `Ctrl` key.
 
 Finally, click on "Move to Trash"
 
-![](<.gitbook/assets/image (21).png>)&#x20;
+![](<.gitbook/assets/image (21) (1).png>)&#x20;
 
 
 
@@ -101,19 +101,19 @@ Finally, click on "Move to Trash"
 
 Go to Settings > Apps
 
-![](<.gitbook/assets/image (16).png>)&#x20;
+![](<.gitbook/assets/image (16) (1).png>)&#x20;
 
 Then, click on "Installed Apps"
 
-<img src=".gitbook/assets/image (17).png" alt="" data-size="original">
+<img src=".gitbook/assets/image (17) (1).png" alt="" data-size="original">
 
 Search for "MEDomicsLab"
 
-<img src=".gitbook/assets/image (18).png" alt="" data-size="original">
+<img src=".gitbook/assets/image (18) (1).png" alt="" data-size="original">
 
 Click on the `...` and finally click on "Uninstall" &#x20;
 
-<img src=".gitbook/assets/image (20).png" alt="" data-size="original">
+<img src=".gitbook/assets/image (20) (1).png" alt="" data-size="original">
 
 ## 2. Reinstall the application
 
