@@ -8,6 +8,61 @@
 Go visit our [github develop branch ](https://github.com/MEDomics-UdeS/MEDomicsLab/tree/develop#medomicslab---develop-branch-%EF%B8%8F)!
 {% endhint %}
 
+### Scalability Branch
+
+{% hint style="info" %}
+The requirements in this section are only necessary if you want to work from the scalability branch.
+{% endhint %}
+
+#### 1. Installation of MongoDB Community Edition
+
+Follow the installation instructions depending on your OS [MongoDB Installation](https://www.mongodb.com/docs/manual/administration/install-community/#std-label-install-mdb-community-edition).
+
+{% tabs %}
+{% tab title="Windows" %}
+[Install MongoDB on Windows](https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-windows/#install-mongodb-community-edition)
+
+* Do not install MongoDB as a service.
+* You do not have to install MongoDB compass.
+* You do not have to install mongosh.
+* Do not forget to [add MongoDB binaries to the System PATH](https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-windows/#add-mongodb-binaries-to-the-system-path).
+{% endtab %}
+
+{% tab title="Linux" %}
+[Install MongoDB on Linux (Ubuntu)](https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-ubuntu/#install-mongodb-community-edition)
+
+* Install the latest version of MongoDB
+{% endtab %}
+
+{% tab title="Mac" %}
+[Install MongoDB on Mac](https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-os-x/#install-mongodb-community-edition)
+{% endtab %}
+{% endtabs %}
+
+#### 2. Installation of MongoDB database tools
+
+Follow the installation instructions depending on your OS [MongoDB Database Tools Installation](https://www.mongodb.com/docs/database-tools/installation/installation/).
+
+{% tabs %}
+{% tab title="Windows" %}
+[Install MongoDB Database Tools on Windows](https://www.mongodb.com/docs/database-tools/installation/installation-windows/#installation)
+
+* Install with the MSI Installer.
+{% endtab %}
+
+{% tab title="Linux" %}
+[Install MongoDB Database Tools on Linux](https://www.mongodb.com/docs/database-tools/installation/installation-linux/#installation)
+
+* Install with the DEB package.
+{% endtab %}
+
+{% tab title="Mac" %}
+[Install MongoDB Database Tools on Mac](https://www.mongodb.com/docs/database-tools/installation/installation-macos/#installation)
+
+* Install with Homebrew.
+{% endtab %}
+{% endtabs %}
+
 ### 1. Installation of Nvm
 
 * [NVM for Windows](https://github.com/coreybutler/nvm-windows)
