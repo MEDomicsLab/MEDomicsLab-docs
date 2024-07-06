@@ -25,6 +25,7 @@
       * [Pipeline results](tutorials/development/federated-learning-module/pipeline-results.md)
       * [Hyperparameters optimization](tutorials/development/federated-learning-module/hyperparameters-optimization.md)
       * [Merge results](tutorials/development/federated-learning-module/merge-results.md)
+      * [Crash tutorial](tutorials/development/federated-learning-module/crash-tutorial.md)
   * [🟢 Deployment](tutorials/deployment/README.md)
     * [Application Module](tutorials/deployment/application-module.md)
   * [🟣 Radiomics](tutorials/radiomics/README.md)
