@@ -77,17 +77,20 @@ nvm use lts
 
 ### 3. Clone the repository
 
+{% hint style="warning" %}
+We are currently using _develop_ as our main branch.
+{% endhint %}
+
 {% tabs %}
 {% tab title="HTTPS" %}
 ```
-git clone https://github.com/MEDomics-UdeS/MEDomicsLab.git
+git clone -b develop https://github.com/MEDomics-UdeS/MEDomicsLab.git
 ```
 {% endtab %}
 
 {% tab title="SSH" %}
-```
-git clone git@github.com:MEDomics-UdeS/MEDomicsLab.git
-```
+<pre><code><strong>git clone -b develop git@github.com:MEDomics-UdeS/MEDomicsLab.git
+</strong></code></pre>
 {% endtab %}
 {% endtabs %}
 
