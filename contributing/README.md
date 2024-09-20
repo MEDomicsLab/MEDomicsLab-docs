@@ -159,9 +159,25 @@ git checkout fusion_MEDomicsLab
 ```
 cd <.../MEDomicsLab>
 npm install
-nprm run dev
+npm run dev
 ```
 {% endcode %}
+
+{% hint style="warning" %}
+On **Windows**, if you encounter error messages when running `npm install,`follow the steps here to solve the issue : [https://github.com/nodejs/node-gyp#on-windows](https://github.com/nodejs/node-gyp#on-windows).
+
+* You will need to install the [Visual Studio Build Tools](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=Community) (select the C++ build environment)&#x20;
+* Install Python3.11 from [here](https://apps.microsoft.com/detail/9nrwmjp3717k?hl=en-us\&gl=US)
+* Use node version v18.16.1. Run:
+  * `nvm install v18.16.1`
+  * `nvm use v18.16.1`
+* Set the Python3.11 :
+  * `$Env:npm_config_python="C:\path\to\python.exe" # PowerShell`
+* Run `npm install -g node-gyp`
+* Run again `npm install`
+
+
+{% endhint %}
 
 {% hint style="info" %}
 #### Modify startup settings
@@ -174,7 +190,7 @@ const config = {
   // If true, the server will be run automatically when the app is launched
   runServerAutomatically: true,
   // If true, use the react dev tools
-  useRactDevTools: false,
+  useReactDevTools: false,
   // the default port to use for the server, be sure that no programs use it by default
   defaultPort: 5000,
   // Either "FIX" or "AVAILABLE" (case sensitive)
