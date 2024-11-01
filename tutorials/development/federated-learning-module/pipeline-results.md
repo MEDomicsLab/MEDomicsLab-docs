@@ -15,7 +15,7 @@ In this tutorial, we will learn how to visualize the pipeline results, save them
 
 * **Global Results**: These are the general results on the central server, representing the average results of all clients.
 
-<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * **Results by Node**: This shows the results for a single client. A drop-down menu at the top allows you to switch between clients.
 
@@ -31,7 +31,7 @@ To save the results, you have two options:
 
 1. **Auto Save**: This occurs when you add the "Save Results" node to the pipeline. The node contains a single input field where you specify the name of the file to save the results.
 
-<figure><img src="../../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 1. **Manual Save**: After visualizing the results, you can save them manually by clicking the "Save" button on the results page. When you click the button, an input field will appear for you to enter the name of the file.
 

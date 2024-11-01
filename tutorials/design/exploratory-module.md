@@ -39,4 +39,4 @@ All these tools can be used to explore your data and generate reports. You can u
 
 ## When reports are generated
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption><p>Exploratory module - tools has been run</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption><p>Exploratory module - tools has been run</p></figcaption></figure>

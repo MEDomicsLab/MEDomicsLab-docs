@@ -79,9 +79,9 @@ for more details on how to create the pipeline and add the different nodes pleas
 
 ### 6. Pipeline results&#x20;
 
-After the execution of the pipelines, you will have the option to see results by clicking on the <mark style="color:yellow;">"See results"</mark> button ![](../../../.gitbook/assets/image.png).
+After the execution of the pipelines, you will have the option to see results by clicking on the <mark style="color:yellow;">"See results"</mark> button ![](<../../../.gitbook/assets/image (2).png>).
 
-<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 &#x20;You can switch between different configuration results and also between different types of results. There are mainly three types of results: <mark style="color:yellow;">Global results, results by node, and compare results</mark>.&#x20;
 
@@ -89,7 +89,7 @@ After the execution of the pipelines, you will have the option to see results by
 For more details about the results, refer to the [Pipeline Results tutorial page](pipeline-results.md).
 {% endhint %}
 
-To save the results, click on the "Save" button and an input field will appear where you can enter the file name ![](<../../../.gitbook/assets/image (2).png>). After confirming, two types of files will be created, and you can open them directly by clicking on them.&#x20;
+To save the results, click on the "Save" button and an input field will appear where you can enter the file name ![](<../../../.gitbook/assets/image (2) (1).png>). After confirming, two types of files will be created, and you can open them directly by clicking on them.&#x20;
 
 ### 7. Merge results&#x20;
 
