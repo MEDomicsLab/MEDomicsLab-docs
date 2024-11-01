@@ -1,8 +1,9 @@
 ---
 description: (Jan. 15th 2024 to May 13th 2024)
+hidden: true
 ---
 
-# ‼ Join the testing phase
+# ‼️ Join the testing phase
 
 Meeting on December 15th 2023
 

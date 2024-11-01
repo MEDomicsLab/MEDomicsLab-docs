@@ -1,5 +1,6 @@
 ---
 description: January 15th 2024 - May 13th 2024
+hidden: true
 ---
 
 # 📄 Testing Phase with MIMIC

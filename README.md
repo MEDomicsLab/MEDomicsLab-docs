@@ -40,6 +40,10 @@ All common operating systems are supported!
 
 ## Documentation guide
 
+{% hint style="warning" %}
+Please note that the documentation varies by application version, and you can select your desired version in the top left corner. For example, to check out the testing phase documentation you must switch to V0.
+{% endhint %}
+
 * [**Quick start**](quick-start.md): Get started quickly with step-by-step instructions to download, install, and set up the app on your computer, tailored for your operating system.
 * [**Overview**](overview.md): Explore a quick overview of the app's core features and functionalities.
 * [**Tutorials**](tutorials/): Access comprehensive tutorials with videos, images, and detailed guides to help you master every module of the app.
