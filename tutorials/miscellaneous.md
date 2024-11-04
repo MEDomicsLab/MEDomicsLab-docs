@@ -1,4 +1,8 @@
-# 🛠 Miscellaneous
+---
+hidden: true
+---
+
+# 🛠️ Miscellaneous
 
 <details>
 
