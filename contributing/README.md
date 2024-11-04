@@ -2,6 +2,14 @@
 
 <figure><img src="../.gitbook/assets/newFWArchitecture.png" alt=""><figcaption><p>High-Level Architecture of the Main Framework Used in the Application</p></figcaption></figure>
 
+## The MEDomicsLab scheme
+
+The map below illustrates the organization of files, modules, databases, and the Frontend-Backend connection within MEDomicsLab. This visual guide is designed to support new contributors in understanding the application’s structure, streamlining the integration of new features, and aiding efficient navigation through the codebase.
+
+{% embed url="https://miro.com/app/embed/uXjVKiE9qtw=/?embedId=366443778390&frameId=3458764605680580664&pres=1" %}
+MEDomicsLab map
+{% endembed %}
+
 ## Setup from the ground up 🌱
 
 {% hint style="info" %}
