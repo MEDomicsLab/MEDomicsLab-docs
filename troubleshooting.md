@@ -63,6 +63,32 @@ Of course, once you are done working with MEDomicsLab, we recommend you enable a
 
 <details>
 
+<summary>ImportError: cannot import name 'dtreeviz' from 'dtreeviz.trees'</summary>
+
+This error occurs when the wrong version of [dtreeviz ](https://github.com/parrt/dtreeviz)is installed. Please refer to the requirement files in our [GitHub repository](https://github.com/MEDomics-UdeS/MEDomicsLab) to install the right version (v1.4.1 is the one usually used).
+
+</details>
+
+<details>
+
+<summary>Columns missing in evaluation and application modules</summary>
+
+The error message typically appears as `['column_1', 'column_2', 'column_3'] not in index`. This issue occurs when column names in the file used for model training contain spaces (e.g., "_column 1_" instead of "_column\_1_"). To prevent this, avoid using column names with spaces. While the code should handle this automatically, please [open an issue](https://github.com/MEDomics-UdeS/MEDomicsLab/issues/new/choose) on our GitHub if you encounter this error.
+
+</details>
+
+<details>
+
+<summary>Process stopped with toast message: "<em>Exit status 1</em>"</summary>
+
+This error usually occurs due to a missing Python library (shown as a `ModuleNotFoundError`). To resolve it, first open the console (press **CTRL + Shift + I**) and identify the missing package name in the full error message. Then, install the specified package version from the requirements file on our [GitHub repository](https://github.com/MEDomics-UdeS/MEDomicsLab). For a more comprehensive solution, compare your installed packages with those listed in the requirements file on [GitHub ](https://github.com/MEDomics-UdeS/MEDomicsLab)and install any missing packages to prevent this error in the future.
+
+If the missing package is not listed in our GitHub requirements, please [contact us](forms/contact-us.md) or [open an issue](https://github.com/MEDomics-UdeS/MEDomicsLab/issues/new/choose) so we can add it.
+
+</details>
+
+<details>
+
 <summary>LightGBM Model is taking forever to train</summary>
 
 This is a common issue in Ubuntu that occurs when training a lightGBM  model using `n_jobs=-1`. When you set `n_jobs=-1`, the process can sometimes hang or slow down due to how the library manages parallel threads on certain systems. Here are some common reasons for this behavior:
