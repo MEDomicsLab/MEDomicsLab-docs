@@ -63,6 +63,26 @@ Of course, once you are done working with MEDomicsLab, we recommend you enable a
 
 <details>
 
+<summary>LightGBM Model is taking forever to train</summary>
+
+This is a common issue in Ubuntu that occurs when training a lightGBM  model using `n_jobs=-1`. When you set `n_jobs=-1`, the process can sometimes hang or slow down due to how the library manages parallel threads on certain systems. Here are some common reasons for this behavior:
+
+1. **CPU Thread Saturation**: Setting `n_jobs=-1` tells LightGBM to use all available CPU cores. On Linux systems, particularly with high core counts, this can overwhelm the CPU scheduler, leading to inefficient thread management, especially if other processes are running concurrently.
+2. **OpenMP Configuration**: LightGBM uses OpenMP for parallelism, and certain configurations of OpenMP on Linux can lead to deadlocks or excessive thread contention. This issue can be specific to how OpenMP handles threads in certain Linux distributions, including Ubuntu. More details here: [https://lightgbm.readthedocs.io/en/latest/FAQ.html#lightgbm-hangs-when-multithreading-openmp-and-using-forking-in-linux-at-the-same-time](https://lightgbm.readthedocs.io/en/latest/FAQ.html#lightgbm-hangs-when-multithreading-openmp-and-using-forking-in-linux-at-the-same-time)
+3. **Memory Bandwidth and Latency**: Using all CPU cores can lead to high memory bandwidth consumption. If LightGBM needs more memory per thread than available, this can slow down training significantly. Lowering the `n_jobs` setting reduces the number of simultaneous threads and can help manage memory load.
+4. **Compatibility with Specific Libraries**: LightGBM's multithreading may not work smoothly with all versions of system libraries on Ubuntu, such as `libgomp` (GNU OpenMP). Sometimes, upgrading or downgrading certain libraries (e.g., `libgomp1`) can resolve this issue.
+
+#### Solutions:
+
+* **Limit `n_jobs`**: Set `n_jobs` to a smaller number (e.g., 4 or 8), which often yields good performance without overloading the system.
+* **Upgrade/Downgrade System Libraries**: Update your OpenMP libraries.
+
+You can test different `n_jobs` values to find the optimal setting, which balances speed and stability.
+
+</details>
+
+<details>
+
 <summary>How to update to the latest release ? </summary>
 
 ## 1. Uninstall the application first
