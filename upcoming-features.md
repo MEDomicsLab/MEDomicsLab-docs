@@ -1,6 +1,6 @@
 ---
-description: Explore the upcoming implementations in the next releases.
 icon: bullhorn
+description: Explore the upcoming implementations in the next releases.
 ---
 
 # Upcoming features
@@ -15,14 +15,14 @@ icon: bullhorn
 
 <figure><img src=".gitbook/assets/MEDomicsLabNoShadowNoText100.png" alt=""><figcaption></figcaption></figure>
 
-In the upcoming releases, MEDomicsLab will offer a graphical implementation of the [Federated Learning](https://en.wikipedia.org/wiki/Federated\_learning) package [MEDfl](https://github.com/MEDomics-UdeS/MEDfl). This module, part of the development layer, represents the third major component in MEDomicsLab’s toolset, enabling federated learning to support collaborative model training across multiple sites without sharing raw data. By facilitating decentralized training, this module enhances data privacy and security, empowering researchers and developers to build, refine, and deploy federated learning models directly within the platform.
+In the upcoming releases, MEDomicsLab will offer a graphical implementation of the [Federated Learning](https://en.wikipedia.org/wiki/Federated\_learning) package [MEDfl](https://github.com/MEDomics-UdeS/MEDfl). This module, part of the development layer, represents the third major component in MEDomicsLab’s toolset, enabling simulated federated learning to support collaborative model training across multiple sites without sharing raw data. By facilitating decentralized training, this module enhances data privacy and security, empowering researchers and developers to build, refine, and deploy federated learning models directly within the platform.
 
-#### Key Aspects of the Federated Learning Module:
+**Key Aspects of the Federated Learning Module:**
 
-* **Decentralized Training**: Models are trained across multiple nodes without transferring raw data.
+* **Decentralized Training**: Models are trained across multiple simulated nodes without transferring raw data.
 * **Privacy Preservation**: Utilizing techniques like differential privacy to ensure data confidentiality.
 * **Hyperparameter Optimization**: Tools to automatically tune and optimize model hyperparameters for improved performance.
-* **Transfer learning**: Allowing the user to use pre-trained models to initialize the central server to improve the model performance&#x20;
+* **Transfer Learning**: Allows the user to use pre-trained models to initialize the central server, enhancing model performance.
 
 ## MED3pa
 
@@ -30,7 +30,7 @@ In the upcoming releases, MEDomicsLab will offer a graphical implementation of t
 
 MEDomicsLab will also offer a graphical implementation of the [**MED3pa** ](https://github.com/MEDomics-UdeS/MED3pa)package. It is designed to address critical challenges in deploying machine learning models, particularly focusing on the robustness and reliability of models under real-world conditions. It provides comprehensive tools for evaluating model stability and performance in the face of **covariate shifts**, **uncertainty**, and **problematic data profiles**.
 
-### Key Functionalities
+**Key Functionalities**
 
 * **Covariate Shift Detection**: Utilizing the _Detectron_ sub-package, MED3pa can identify significant shifts in data distributions that might affect the model’s predictions. This feature is crucial for applications such as healthcare, where early detection of shifts can prevent erroneous decisions.
 * **Uncertainty and Confidence Estimation**: Through the med3pa subpackage, the package measures the uncertainty and predictive confidence at both individual and group levels. This helps in understanding the reliability of model predictions and in making informed decisions based on model outputs.
