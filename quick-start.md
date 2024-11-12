@@ -50,28 +50,15 @@ The application was tested on Ubuntu 20.04 and 22.04.
 {% endtab %}
 
 {% tab title="MacOS " %}
-{% embed url="https://youtu.be/J9wq_C6PHK0" %}
+{% embed url="https://youtu.be/nXzoteXrpbE" %}
+MacOS Installation guide
+{% endembed %}
 
 {% hint style="warning" %}
 The application was tested on Sonoma (14.2) with M1 and M3 chips.&#x20;
 {% endhint %}
 
-### 1. Download the following [here](https://github.com/MEDomics-UdeS/MEDomicsLab/releases):
-
-* Python environment installer for Linux (\*-mac.zip)
-* MEDomicsLab installer for MacOS (.dmg)
-
-### 2. Unzip/Extract the Python environment installer
-
-### 3. Execute the script  create\_conda\_env\_mac.sh from the extracted folder in a Terminal.
-
-### 4. Run the MEDomicsLab installer (\*.dmg) and drag-and-drop the app in your Applications Folder
-
-{% hint style="warning" %}
-You need to use the open button from the context menu appearing when control-clicking on the app icon.
-{% endhint %}
-
-### 5. There you go! Have fun! :wink:
+#### You can find the MEDomicsLab installer for MacOS (.pkg) [here](https://github.com/MEDomics-UdeS/MEDomicsLab/releases).
 {% endtab %}
 {% endtabs %}
 
