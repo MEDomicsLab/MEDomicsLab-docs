@@ -22,9 +22,9 @@ We would like to thank the [_**Unité de Soutien SSA Québec (USSAQ)**_](https:/
 
 <figure><img src=".gitbook/assets/MEDomicsLab-Principles-10.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src=".gitbook/assets/MEDomicsLab-Principles-11.png" alt=""><figcaption></figcaption></figure>
+#### MAIN PACKAGE LIST
 
-<figure><img src=".gitbook/assets/MEDomicsLab-Principles-12.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/ToolsUsed.png" alt=""><figcaption></figcaption></figure>
 
 ## Why MEDomicsLab?
 
