@@ -4,13 +4,17 @@
 
 <summary>Go server not working ?</summary>
 
-* Check if anaconda3 or miniconda3 exists
-* Check if conda environnement exists
-  * Open a conda terminal
-  * `conda env list`
-  * Do you see a conda environnement named med\_conda\_env ?
-    * yes ? Check environnement variable MED\_ENV on your system
-    * no ? Did you make this step -> [#2.-unzip-the-python-environment-installer-1](quick-start.md#2.-unzip-the-python-environment-installer-1 "mention")
+#### Check server's status:
+
+Open the app's settings page and check if the Go server is running:
+
+<img src=".gitbook/assets/ServerWorking.png" alt="" data-size="original">
+
+If the server is not running click "Start server" to restart it:
+
+<img src=".gitbook/assets/ServerStopped.png" alt="" data-size="original">
+
+If none of the aforementioned steps help solve your problem, please [contact us](forms/contact-us.md).
 
 </details>
 
@@ -18,18 +22,18 @@
 
 <summary>Go server is working properly but I got errors when clicking on process buttons</summary>
 
-Your python environnement could have problems.
+Your python environment could have problems.
 
-#### Test the environnement variable MED\_ENV
+#### Make sure your application's Python environment path is set to the installed _MEDomics_ python environment, if not, you can change is as follows:
 
-on WINDOWS:\
-open a cmd terminal( `🪟 + cmd`) and write `set MED_ENV`&#x20;
+![](.gitbook/assets/AppsPythonEnv.png)
 
-on LINUX and MACOS:\
-Open a terminal and write `echo $MED_ENV`
+You can check your python environment's path using the following:
 
-**It should print a path to where your** [**conda** ](https://www.anaconda.com/)**env is installed.** \
-If not:&#x20;
+* **For windows**: use the command `where python` and select the path in the `.medomics` folder.
+* **For Linux and MACOS**: use the command `whereis python` and select the one inside `.medomics` folder. If you don't see any path with the `.medomics` folder, find it manually and export it to your `PATH` environment variable using the command: `export PATH=/path/to/your/usr/.medomics/python/bin:$PATH`
+
+If none of the aforementioned steps help solve your problem, please [contact us](forms/contact-us.md).
 
 </details>
 
@@ -164,8 +168,6 @@ Click on the `...` and finally click on "Uninstall" &#x20;
 ## 2. Reinstall the application
 
 Now, you can follow the same instructions you followed for your first installation [here](quick-start.md).
-
-**Don't worry, the Python Environment installation won't be as long as the first time.**
 
 
 
