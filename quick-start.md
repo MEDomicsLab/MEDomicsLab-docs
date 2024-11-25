@@ -60,3 +60,8 @@ The application was tested on Sonoma (14.2) with M1 and M3 chips.&#x20;
 {% endtabs %}
 
 ## The MEDomicsLab Application is now installed on your system !
+
+{% hint style="warning" %}
+If you delete the app, you must also delete the .medomics folder located in your user's folder, in order to remove the MEDomicsLab Python environment.
+{% endhint %}
+
