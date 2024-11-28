@@ -115,4 +115,31 @@ You can test different `n_jobs` values to find the optimal setting, which balanc
 
 </details>
 
+<details>
+
+<summary>Estimator <em>....</em> Not Available.</summary>
+
+**Occurs when using&#x20;**_**XGBoost**_**&#x20;or&#x20;**_**catboost.**_
+
+The error occurs because the library is not installed or configured in your environment.
+
+**Solution**: Install the missing library using pip, for example:
+
+```bash
+pip install catboost
+```
+
+**However**, you must install the missing library in the specific MEDomicsLab bundled Python in your user folder, replace `YourUsername` with the full path to your Python executable when running the pip command. Here's an example:
+
+1. Locate your bundled Python executable (e.g., `C:\Users\<YourUsername>\.medomics\python\python.exe`).
+2. Run the following command (assuming _catboost_ is the missing package ):
+
+```bash
+C:\Users\<YourUsername>\.medomics\python\python.exe -m pip install catboost
+```
+
+This ensures the library is installed in the MEDomicsLab Python environment.
+
+</details>
+
 {% include ".gitbook/includes/uninstall-app.md" %}
