@@ -4,7 +4,7 @@ title: Uninstall app
 
 <details>
 
-<summary>How to remove the the app ?</summary>
+<summary>How to remove the app ?</summary>
 
 # 1. Uninstall the application first
 
