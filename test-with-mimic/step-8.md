@@ -52,12 +52,12 @@ For this _ML Challenge_, most of your work will therefore be done inside the [_M
 However, to facilitate the Evaluation process of the models submitted by the participants, **we please ask the following:**
 
 * _**Only use**_ the data we provided in the  _MEDomicsLab\_TestingPhase\_Step8.zip file._
-  * Therefore, you should not be able to use the _Extraction Module_ or the _MEDprofiles_ package_._&#x20;
+  * Therefore, you should not be able to use the _Extraction Module_ or the _MEDprofiles_ packag&#x65;_._&#x20;
 * _**Do not change**_ column names in the data we provided (this includes the use of the Groupping/Tagging tool).
 * _**Do not merge**_ the time point CSV files together.&#x20;
 * _**Dot not use**_ the "Transform Columns tool".&#x20;
 * _**Do not use**_ the "PCA" utility of the "Feature Reduction tool".
-* If you use the "Spearman" utility of the "Feature Reduction tool", **make sure to keep the **_**subject\_id**_** and **_**target**_** columns in your dataset** by enabling the "Merge unselected columns in the result dataset" and "Keep target in dataset" options.
+* If you use the "Spearman" utility of the "Feature Reduction tool", **make sure to keep the&#x20;**_**subject\_id**_**&#x20;and&#x20;**_**target**_**&#x20;columns in your dataset** by enabling the "Merge unselected columns in the result dataset" and "Keep target in dataset" options.
   * Note that you new dataset will be placed in the _reduced\_features_ folder and that you will have to move it in your _learning_ folder to retrieve it in the [_Learning Module_](https://medomics-udes.gitbook.io/medomicslab-docs/tutorials/development/learning-module).
 
 If these instructions are not followed, we will not be able to evaluate your submission, and it will unfortunately be discarded.&#x20;

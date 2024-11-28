@@ -20,12 +20,12 @@ The _MEDomicsLab\_TestingPhase\_Step4.zip_ also includes a _new\_demographic\_em
 
 The current _Step 4 - Explore Data_ step is divided into seven parts, and involves exploring the learning set we obtained from [_Step 3 - Prepare ML tables_](step-3.md) of the Testing Phase as follows:
 
-1. **Analyze the learning set using **_**YData profiling**_**:** Employ the YData profiling tool from the [_Exploratory Module_](../tutorials/design/exploratory-module.md) to delve into your learning set. Record the percentages of missing values for each class across all time points.
+1. **Analyze the learning set using&#x20;**_**YData profiling**_**:** Employ the YData profiling tool from the [_Exploratory Module_](../tutorials/design/exploratory-module.md) to delve into your learning set. Record the percentages of missing values for each class across all time points.
 2. **Set demographic embeddings in T1 only:** Based on the insights from part 1, eliminate demographic embeddings from all time point CSV files, including learning and holdout sets. Consolidate all demographic data into the T1 time point using the _new\_demographic\_embeddings_ CSV file. Conduct this operation in the [_Input Module_](../tutorials/design/input-module/).
 3. **Remove chart events from T1:** Referring to the analysis in part 1, eliminate chart events from the T1 datasets (both learning and holdout) using the [_Input Module_](../tutorials/design/input-module/).&#x20;
 4. **Transform procedure events:** Building on the findings from part 1, transform the procedure events columns in all time point datasets (learning and holdout sets) using the [_Input Module_](../tutorials/design/input-module/).
-5. **Analyze the learning set using  **_**D-Tale**_**:** Leverage the _D-Tale_ tool from the [_Exploratory Module_](../tutorials/design/exploratory-module.md) to scrutinize your learning set. Explore the inter-variable correlation matrices for each time point.
-6. **Analyze the learning set using  **_**SweetViz**_**:** Utilize the _SweetViz_ tool from the [_Exploratory Module_](../tutorials/design/exploratory-module.md) to study your learning set. Identify sets of variables exhibiting a high correlation rate, considering the observations made with _D-Tale_.
+5. **Analyze the learning set using &#x20;**_**D-Tale**_**:** Leverage the _D-Tale_ tool from the [_Exploratory Module_](../tutorials/design/exploratory-module.md) to scrutinize your learning set. Explore the inter-variable correlation matrices for each time point.
+6. **Analyze the learning set using &#x20;**_**SweetViz**_**:** Utilize the _SweetViz_ tool from the [_Exploratory Module_](../tutorials/design/exploratory-module.md) to study your learning set. Identify sets of variables exhibiting a high correlation rate, considering the observations made with _D-Tale_.
 7. **Remove high correlated columns from the time points datasets:** In the [_Input Module_](../tutorials/design/input-module/), eliminate the variables identified as having high correlation rates from the time point datasets (learning and holdout sets), aligning with the insights gained in part 6.
 
 {% hint style="info" %}

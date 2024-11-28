@@ -56,7 +56,7 @@ Also, if you want to fully understand how _ExplainerDashboard_ works in the back
 
 ## Recommendations
 
-Before proceeding with _Step 7 - Evaluate & Apply Mode_l of the MEDomicsLab Testing Phase, we recommend consulting the documentation of the [_Evaluation Module_](https://medomics-udes.gitbook.io/medomicslab-docs/tutorials/development/evaluation-module) and the [_Application Module_](https://medomics-udes.gitbook.io/medomicslab-docs/tutorials/deployment/application-module).
+Before proceeding with _Step 7 - Evaluate & Apply Mod&#x65;_&#x6C; of the MEDomicsLab Testing Phase, we recommend consulting the documentation of the [_Evaluation Module_](https://medomics-udes.gitbook.io/medomicslab-docs/tutorials/development/evaluation-module) and the [_Application Module_](https://medomics-udes.gitbook.io/medomicslab-docs/tutorials/deployment/application-module).
 
 {% content-ref url="../tutorials/development/evaluation-module.md" %}
 [evaluation-module.md](../tutorials/development/evaluation-module.md)

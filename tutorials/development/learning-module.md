@@ -38,25 +38,9 @@ The application will generate a folder that includes:
 * A folder for your scene models.
 * A folder for your scene notebooks.
 
-<div data-full-width="true">
+<div data-full-width="true"><figure><img src="../../.gitbook/assets/Learning_module_1.png" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/Learning_module_2.png" alt=""><figcaption></figcaption></figure></div>
 
-<figure><img src="../../.gitbook/assets/Learning_module_1.png" alt=""><figcaption></figcaption></figure>
-
- 
-
-<figure><img src="../../.gitbook/assets/Learning_module_2.png" alt=""><figcaption></figcaption></figure>
-
-</div>
-
-<div data-full-width="true">
-
-<figure><img src="../../.gitbook/assets/Learning_module_3.png" alt="" width="563"><figcaption></figcaption></figure>
-
- 
-
-<figure><img src="../../.gitbook/assets/learning_scene (1).png" alt="" width="375"><figcaption></figcaption></figure>
-
-</div>
+<div data-full-width="true"><figure><img src="../../.gitbook/assets/Learning_module_3.png" alt="" width="563"><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/learning_scene (1).png" alt="" width="375"><figcaption></figcaption></figure></div>
 
 {% hint style="info" %}
 <pre class="language-javascript"><code class="lang-javascript"><strong>breast_cancer_scene                -> Scene folder
@@ -98,11 +82,11 @@ When clicking on an Optimize Node, it opens a subflow as shown below, allowing y
 
 The available nodes differ from those displayed in the original flow. You can find useful information on how to use them on this page of the [_PyCaret_ GitBook](https://pycaret.gitbook.io/docs/). For additional information about the available nodes, please refer to the [_PyCaret_ ReadTheDocs](https://pycaret.readthedocs.io/en/stable/) documentation:
 
-* **Tune Model** documentation is available [here](https://pycaret.readthedocs.io/en/latest/api/classification.html#pycaret.classification.tune\_model).
-* **Ensemble Model** documentation is available [here](https://pycaret.readthedocs.io/en/latest/api/classification.html#pycaret.classification.ensemble\_model).
-* **Blend Models** documentation is available [here](https://pycaret.readthedocs.io/en/latest/api/classification.html#pycaret.classification.blend\_models).
-* **Stack Models** documentation is available [here](https://pycaret.readthedocs.io/en/latest/api/classification.html#pycaret.classification.stack\_models).
-* **Calibrate Model** documentation is available [here](https://pycaret.readthedocs.io/en/latest/api/classification.html#pycaret.classification.calibrate\_model).
+* **Tune Model** documentation is available [here](https://pycaret.readthedocs.io/en/latest/api/classification.html#pycaret.classification.tune_model).
+* **Ensemble Model** documentation is available [here](https://pycaret.readthedocs.io/en/latest/api/classification.html#pycaret.classification.ensemble_model).
+* **Blend Models** documentation is available [here](https://pycaret.readthedocs.io/en/latest/api/classification.html#pycaret.classification.blend_models).
+* **Stack Models** documentation is available [here](https://pycaret.readthedocs.io/en/latest/api/classification.html#pycaret.classification.stack_models).
+* **Calibrate Model** documentation is available [here](https://pycaret.readthedocs.io/en/latest/api/classification.html#pycaret.classification.calibrate_model).
 
 The name of the node is where you can edit the name. The green blocks (I/O nodes) represent the input and output of the Optimize node. They are movable, and to connect them, simply intersect them with your nodes.
 
@@ -152,15 +136,7 @@ This menu contains various functionalities that interact with the flow section.
 
 Drag and drop nodes from the menu to create your own [pipeline(s)](learning-module.md#multiple-pipelines). Here is an example of a simple classification pipeline that takes a dataset, trains a Gradient Boosting Classifier model, and then plots the resulting AUC (Area Under the Curve) plot.
 
-<div data-full-width="true">
-
-<figure><img src="../../.gitbook/assets/Learning_module_5.png" alt=""><figcaption><p>Simple scene example</p></figcaption></figure>
-
- 
-
-<figure><img src="../../.gitbook/assets/simple_pipe_w_params.png" alt=""><figcaption><p>Parameters</p></figcaption></figure>
-
-</div>
+<div data-full-width="true"><figure><img src="../../.gitbook/assets/Learning_module_5.png" alt=""><figcaption><p>Simple scene example</p></figcaption></figure> <figure><img src="../../.gitbook/assets/simple_pipe_w_params.png" alt=""><figcaption><p>Parameters</p></figcaption></figure></div>
 
 ### 2. Run the Experiment
 
@@ -234,15 +210,7 @@ When constructing your scene, you can connect multiple nodes to each other, crea
 
 Each runnable node has a checkbox on top of the node in results mode. Checked nodes, especially those in green, will be displayed in the results panel.
 
-<div>
-
-<figure><img src="../../.gitbook/assets/checkbox_blue (1).png" alt="" width="90"><figcaption><p>Selection box</p></figcaption></figure>
-
- 
-
-<figure><img src="../../.gitbook/assets/checkbox_green (2).png" alt="" width="90"><figcaption><p>Independent selection box</p></figcaption></figure>
-
-</div>
+<div><figure><img src="../../.gitbook/assets/checkbox_blue (1).png" alt="" width="90"><figcaption><p>Selection box</p></figcaption></figure> <figure><img src="../../.gitbook/assets/checkbox_green (2).png" alt="" width="90"><figcaption><p>Independent selection box</p></figcaption></figure></div>
 
 {% hint style="info" %}
 The **independent selection box** (green ones) indicates that every pipeline goes through this node. Therefore, it will always be shown in the associated results.
@@ -263,43 +231,43 @@ PyCaret primarily implements functions from the [_scikit-learn_ library](https:/
 At the beginning of a Machine Learning pipeline, you initialize your data using [_PyCaret_'s setup function](https://pycaret.readthedocs.io/en/stable/api/classification.html#pycaret.classification.setup), corresponding to the Dataset and Clean nodes in our _Learning Module_. The setup function requires a dataset and the name of the target column. _PyCaret_ then initializes elements for the pipeline.\
 
 
-![](../../.gitbook/assets/pycaret\_workflow.png)
+![](../../.gitbook/assets/pycaret_workflow.png)
 
 ### 1.1. Test Data
 
-_PyCaret_ divides your dataset into two parts: the training set and the test set (controlled by the `test_data` parameter in the [_PyCaret_ setup function](https://pycaret.readthedocs.io/en/stable/api/classification.html#pycaret.classification.setup)). The training data is employed to train and optimize your machine learning model, while the test data is reserved for evaluating the created model. The split is conducted using the [_scikit-learn_ train\_test\_split function](https://scikit-learn.org/stable/modules/generated/sklearn.model\_selection.train\_test\_split.html) (useful explanations about this function can be found [here](https://github.com/mGalarnyk/Python\_Tutorials/blob/master/Sklearn/Train\_Test\_Split/TrainTestSplitScikitLearn.ipynb)).
+_PyCaret_ divides your dataset into two parts: the training set and the test set (controlled by the `test_data` parameter in the [_PyCaret_ setup function](https://pycaret.readthedocs.io/en/stable/api/classification.html#pycaret.classification.setup)). The training data is employed to train and optimize your machine learning model, while the test data is reserved for evaluating the created model. The split is conducted using the [_scikit-learn_ train\_test\_split function](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.train_test_split.html) (useful explanations about this function can be found [here](https://github.com/mGalarnyk/Python_Tutorials/blob/master/Sklearn/Train_Test_Split/TrainTestSplitScikitLearn.ipynb)).
 
-![](../../.gitbook/assets/spaces\_kkOWBZQGwLyBFteUhl1l\_uploads\_yJt58khhA0hG9CaObJk1\_image.webp)
+![](../../.gitbook/assets/spaces_kkOWBZQGwLyBFteUhl1l_uploads_yJt58khhA0hG9CaObJk1_image.webp)
 
 \*In the figure, "Full Dataset" refers to our Learning Dataset.
 
 The random sampling step is executed with the aid of a random seed, and each split is linked to a specific seed. By default, _PyCaret_ randomly assigns a seed at the start of each pipeline execution. To ensure the replication of the same experiment with a consistent split, you can set this parameter in _PyCaret_ (using the `session_id` parameter in the Dataset node), as demonstrated in our experiments in the instructional video. This ensures that your test and train data will remain consistent across all executions.
 
-![](../../.gitbook/assets/spaces\_kkOWBZQGwLyBFteUhl1l\_uploads\_7bOPzY5zTlFtL52YewGP\_image.webp)
+![](../../.gitbook/assets/spaces_kkOWBZQGwLyBFteUhl1l_uploads_7bOPzY5zTlFtL52YewGP_image.webp)
 
 Here, you also have the option to define the test data yourself and provide it to _PyCaret_. However, this capability is not currently available in our application when using the MEDomicsLab Standard format.
 
 ### 1.2. Folds
 
-Then _PyCaret_ will define folds on the train data to use for the Cross-Validation part (which will be executed using the Train or Compare Models box). The definition of the folds will also be done using a random seed, which you can define through the `session_id` parameter of _PyCaret_. By default, _PyCaret_ uses the [_StratifiedKFold_ method from _sickit-learn_](https://scikit-learn.org/stable/modules/generated/sklearn.model\_selection.StratifiedKFold.html) to define the folds. The stratified method ensures that each class from the target is represented equally across each fold.
+Then _PyCaret_ will define folds on the train data to use for the Cross-Validation part (which will be executed using the Train or Compare Models box). The definition of the folds will also be done using a random seed, which you can define through the `session_id` parameter of _PyCaret_. By default, _PyCaret_ uses the [_StratifiedKFold_ method from _sickit-learn_](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.StratifiedKFold.html) to define the folds. The stratified method ensures that each class from the target is represented equally across each fold.
 
-![](../../.gitbook/assets/stratified\_cv.png)
+![](../../.gitbook/assets/stratified_cv.png)
 
 ## 2. Training
 
-There are two functions related to training in _PyCaret_: [_compare\_models_](https://pycaret.readthedocs.io/en/stable/api/classification.html#pycaret.classification.compare\_models) (corresponding to our Compare Models box) and [_create\_model_](https://pycaret.readthedocs.io/en/stable/api/classification.html#pycaret.classification.create\_model) (corresponding to our Train node).
+There are two functions related to training in _PyCaret_: [_compare\_models_](https://pycaret.readthedocs.io/en/stable/api/classification.html#pycaret.classification.compare_models) (corresponding to our Compare Models box) and [_create\_model_](https://pycaret.readthedocs.io/en/stable/api/classification.html#pycaret.classification.create_model) (corresponding to our Train node).
 
 ### 2.1. Compare Models
 
-The [_compare\_models_ ](https://pycaret.readthedocs.io/en/stable/api/classification.html#pycaret.classification.compare\_models)function is used to train all the available models from _PyCaret_ on the initialized data from the setup function of _PyCaret_ (our Dataset and Clean nodes). The resulting table displayed shows you the mean of the Cross-Validation results of all the folds for each model. For example, if we have five folds, for each model, we train the model five times, using a different fold as validation data at each iteration. Then, we apply the trained model to the validation fold and keep the resulting metrics to calculate the mean with the validation results of the four other iterations (purple data from the split in the image shown below).
+The [_compare\_models_ ](https://pycaret.readthedocs.io/en/stable/api/classification.html#pycaret.classification.compare_models)function is used to train all the available models from _PyCaret_ on the initialized data from the setup function of _PyCaret_ (our Dataset and Clean nodes). The resulting table displayed shows you the mean of the Cross-Validation results of all the folds for each model. For example, if we have five folds, for each model, we train the model five times, using a different fold as validation data at each iteration. Then, we apply the trained model to the validation fold and keep the resulting metrics to calculate the mean with the validation results of the four other iterations (purple data from the split in the image shown below).
 
-![](../../.gitbook/assets/pycaret\_cv.png)
+![](../../.gitbook/assets/pycaret_cv.png)
 
-The output of the [_compare\_model_ ](https://pycaret.readthedocs.io/en/stable/api/classification.html#pycaret.classification.compare\_models)function is the best model found using a specified metric (Accuracy by default, AUC as we specified in our instruction video). If we set the `n_select` parameter (as shown in our instruction video), we return the specified number of models from the top of the list.
+The output of the [_compare\_model_ ](https://pycaret.readthedocs.io/en/stable/api/classification.html#pycaret.classification.compare_models)function is the best model found using a specified metric (Accuracy by default, AUC as we specified in our instruction video). If we set the `n_select` parameter (as shown in our instruction video), we return the specified number of models from the top of the list.
 
 ### 2.2. Create Model
 
-The [_create\_model_ ](https://pycaret.readthedocs.io/en/stable/api/classification.html#pycaret.classification.create\_model)function takes initialized data as an entry and a model (that you can define through our Model node). It works exactly the same way as the [_compare\_models_ ](https://pycaret.readthedocs.io/en/stable/api/classification.html#pycaret.classification.compare\_models)function, except that we only test one model, and the results table shows the Cross-Validation results of each fold.
+The [_create\_model_ ](https://pycaret.readthedocs.io/en/stable/api/classification.html#pycaret.classification.create_model)function takes initialized data as an entry and a model (that you can define through our Model node). It works exactly the same way as the [_compare\_models_ ](https://pycaret.readthedocs.io/en/stable/api/classification.html#pycaret.classification.compare_models)function, except that we only test one model, and the results table shows the Cross-Validation results of each fold.
 
 ## 3. Analyzing
 
@@ -312,7 +280,7 @@ The _finalize_ function in _PyCaret_ (represented by the Finalize node in our ap
 </details>
 
 {% hint style="warning" %}
-_**PyCaret**_** ROC (Receiver Operating Characteristic**)**/AUC (Area Under the Curve) plots**
+_**PyCaret**_**&#x20;ROC (Receiver Operating Characteristic**)**/AUC (Area Under the Curve) plots**
 
 The AUC plots generated by the [_PyCaret_ ](https://pycaret.gitbook.io/docs)library are derived from the [_YellowBrick_ Python package](https://www.scikit-yb.org/en/latest/api/classifier/rocauc.html), which extends the [_scikit-learn_](https://scikit-learn.org/stable/) API. By default, the plot displays multiple curves:
 
