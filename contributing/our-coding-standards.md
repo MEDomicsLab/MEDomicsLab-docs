@@ -61,7 +61,7 @@ import <all  other  global  css  libraries>
 * Component creation : prioritize function implementation over class
 
 ```javascript
-export  default  const  myComponent = (someProps) =­> {
+export  default  const  MyComponent = (someProps) =­> {
 return (<></>)
 }
 ```
@@ -326,7 +326,7 @@ const  myfct = (someParams) =­> {}
 
 **Comments**
 
-* Do not over detailed the code for readability
+* Do not over-detail the code for readability
 * Comments are meant to help understand important or critical actions in code
 
 **Documentation generation**
@@ -337,4 +337,4 @@ const  myfct = (someParams) =­> {}
 
 ### Python Coding Standard
 
-(see [MEDomicsTools for Python](https://github.com/MEDomics-UdeS/MEDomicsTools/blob/main/python.md))
+See [MEDomicsTools for Python](https://github.com/MEDomics-UdeS/MEDomicsTools/blob/main/python.md).
