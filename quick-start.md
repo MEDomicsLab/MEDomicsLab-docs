@@ -49,6 +49,6 @@ Access the download page [here](https://medomicslab.com/#download).
 ## The MEDomicsLab Application is now installed on your system !
 
 {% hint style="warning" %}
-If you delete the app, you must also delete the .medomics folder located in your user's folder, in order to remove the MEDomicsLab Python environment.
+If you [delete the app](https://medomics-udes.gitbook.io/medomicslab-docs/troubleshooting#how-to-remove-the-app), you must also delete the .medomics folder located in your user's folder, in order to remove the MEDomicsLab Python environment.
 {% endhint %}
 

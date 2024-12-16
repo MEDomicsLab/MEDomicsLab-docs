@@ -142,4 +142,14 @@ This ensures the library is installed in the MEDomicsLab Python environment.
 
 </details>
 
-{% include ".gitbook/includes/uninstall-app.md" %}
+<details>
+
+<summary>Error: Could not open in Visual Studio Code</summary>
+
+This error is encountered when trying to open a Jupyter Notebook using VSCode:
+
+&#x20;                                               <img src=".gitbook/assets/GenerateNotebook.png" alt="" data-size="original">
+
+The cause is simply the "_code_" command missing. Follow the instructions [here ](https://stackoverflow.com/questions/29955500/code-is-not-working-in-on-the-command-line-for-visual-studio-code-on-os-x-ma)to add it.
+
+</details>
