@@ -3,7 +3,7 @@
 * [👋 Welcome!](README.md)
 * [👊 Quick start](quick-start.md)
 * [👀 Overview](overview.md)
-* [🧑‍🏫 Tutorials](tutorials/README.md)
+* [🏫 Tutorials](tutorials/README.md)
   * [🔵 Design](tutorials/design/README.md)
     * [Extraction Module](tutorials/design/extraction-modules/README.md)
       * [Image Extraction Page](tutorials/design/extraction-modules/image-extraction-page.md)
