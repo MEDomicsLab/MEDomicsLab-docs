@@ -42,7 +42,7 @@
   * [Step 7: Evaluate & Apply Model](test-with-mimic/step-7.md)
   * [Step 8: Challenge](test-with-mimic/step-8.md)
   * [Wrap-Up](test-with-mimic/wrap-up.md)
-* [👩‍💻 Contributing](contributing/README.md)
+* [💻 Contributing](contributing/README.md)
   * [Our coding standards](contributing/our-coding-standards.md)
   * [How to push my modification ?](contributing/how-to-push-my-modification.md)
 * [🤕 Troubleshooting](troubleshooting.md)

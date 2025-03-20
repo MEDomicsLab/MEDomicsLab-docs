@@ -36,7 +36,7 @@ We appreciate your understanding as we work towards making MEDomicsLab even more
 
 In the latest MEDomicsLab release, the input module interface implemented new tools and updated existing ones. An image of the new interface is shown below. Once the user selects a dataset, the list of input tools is shows, and as you can see, two new tools have been added: _**Categorical to Numerical**_ tool and _**Duplicates Deletion**_ tool. The _**Row Grouping**_ tool added a new a feature to tag rows (similar to columns tagging), hence, you can now tag relevant rows to distinguish them from others. More details can be found  in the next section.
 
-<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption><p>MEDomicsLab Input Tools</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption><p>MEDomicsLab Input Tools</p></figcaption></figure>
 
 
 

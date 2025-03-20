@@ -1,4 +1,4 @@
-# 👩‍💻 Contributing
+# 💻 Contributing
 
 <figure><img src="../.gitbook/assets/newFWArchitecture.png" alt=""><figcaption><p>High-Level Architecture of the Main Framework Used in the Application</p></figcaption></figure>
 

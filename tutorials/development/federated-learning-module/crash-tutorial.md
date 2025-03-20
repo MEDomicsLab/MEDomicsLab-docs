@@ -81,7 +81,7 @@ for more details on how to create the pipeline and add the different nodes pleas
 
 After the execution of the pipelines, you will have the option to see results by clicking on the <mark style="color:yellow;">"See results"</mark> button ![](<../../../.gitbook/assets/image (2).png>).
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 &#x20;You can switch between different configuration results and also between different types of results. There are mainly three types of results: <mark style="color:yellow;">Global results, results by node, and compare results</mark>.&#x20;
 

@@ -6,6 +6,16 @@ description: >-
 
 # 🆕 New features
 
+## 🖊️Code Editor
+
+Starting from v1.5.0, **MEDomicsLab introduces an integrated code editor**, allowing users to seamlessly edit Python, text, Markdown, and JSON files directly within the platform. Built on the [**react-ace** package](https://github.com/securingsincity/react-ace), the editor offers a variety of themes and robust support for multiple file types. To get started, simply double-click any supported file in your workspace—it will open automatically in the editor, where you can make modifications and save your changes. Below are some screenshots showcasing the new editor in action:
+
+<figure><img src=".gitbook/assets/DBClickToEdit.PNG" alt=""><figcaption><p>Code Editor: how to open?</p></figcaption></figure>
+
+<figure><img src=".gitbook/assets/CodeEditor.PNG" alt=""><figcaption><p>Code Editor Breakdown</p></figcaption></figure>
+
+<figure><img src=".gitbook/assets/image.png" alt=""><figcaption><p>Code Editor Example</p></figcaption></figure>
+
 ## 👁️Views
 
 In [MongoDB, views](https://www.mongodb.com/docs/manual/core/views/) are virtual collections created using [aggregation pipelines](https://www.mongodb.com/docs/manual/core/aggregation-pipeline/#std-label-aggregation-pipeline), which allow you to transform and present data without physically storing it as a new collection.&#x20;
