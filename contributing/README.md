@@ -188,6 +188,18 @@ On **Windows**, if you encounter error messages when running `npm install,`follo
 {% endhint %}
 
 {% hint style="info" %}
+**MongoDB configuration**
+
+The MEDomicsLab platform uses **port 54017** as the default MongoDB connection port. For database visualization and management, we recommend using [MongoDB Compass](https://www.mongodb.com/products/compass), the official GUI client from MongoDB.
+
+**Key Details**:
+
+* Default Port: `54017`
+* Recommended Client: MongoDB Compass
+* Connection String Format: `mongodb://localhost:54017/`
+{% endhint %}
+
+{% hint style="info" %}
 #### Modify startup settings
 
 1. Go to file `medomics.dev.js`
