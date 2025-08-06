@@ -51,7 +51,7 @@
 
 ## Important Links
 
-* [Official Website](https://medomicslab.com/)
+* [Official Website](https://medomics.app/)
 * [📔 Release Notes](https://github.com/MEDomics-UdeS/MEDomicsLab/releases)
 * [🥲 Known Issues](https://github.com/MEDomics-UdeS/MEDomicsLab/issues?q=label%3ATestingPhase+)
 * [😎 Project Board](https://github.com/orgs/MEDomics-UdeS/projects/1)
