@@ -1,6 +1,6 @@
 ---
-icon: bullhorn
 description: Explore the upcoming implementations in the next releases.
+icon: bullhorn
 ---
 
 # Upcoming features
@@ -9,13 +9,13 @@ description: Explore the upcoming implementations in the next releases.
 
 <figure><img src=".gitbook/assets/Superset_logo.svg.png" alt="" width="188"><figcaption></figcaption></figure>
 
-[Apache Superset](https://superset.apache.org/) is an open-source modern data exploration and visualization platform, loaded with options that make it easy for users of all skill sets to explore and visualize their data, from simple line charts to highly detailed ones. MEDomicsLab will integrate direct access to Superset, eliminating the need for multiple installations and making MEDomicsLab a comprehensive, all-in-one solution for modeling and visualizing heterogeneous data in medicine.
+[Apache Superset](https://superset.apache.org/) is an open-source modern data exploration and visualization platform, loaded with options that make it easy for users of all skill sets to explore and visualize their data, from simple line charts to highly detailed ones. The MEDomics platform will integrate direct access to Superset, eliminating the need for multiple installations and making MEDomics a comprehensive, all-in-one solution for modeling and visualizing heterogeneous data in medicine.
 
 ## MEDfl
 
 <figure><img src=".gitbook/assets/MEDomicsLabNoShadowNoText100.png" alt=""><figcaption></figcaption></figure>
 
-In the upcoming releases, MEDomicsLab will offer a graphical implementation of the [Federated Learning](https://en.wikipedia.org/wiki/Federated\_learning) package [MEDfl](https://github.com/MEDomics-UdeS/MEDfl). This module, part of the development layer, represents the third major component in MEDomicsLab’s toolset, enabling simulated federated learning to support collaborative model training across multiple sites without sharing raw data. By facilitating decentralized training, this module enhances data privacy and security, empowering researchers and developers to build, refine, and deploy federated learning models directly within the platform.
+In the upcoming releases, the MEDomics platform will offer a graphical implementation of the [Federated Learning](https://en.wikipedia.org/wiki/Federated_learning) package [MEDfl](https://github.com/MEDomics-UdeS/MEDfl). This module, part of the development layer, represents the third major component in MEDomics’s toolset, enabling simulated federated learning to support collaborative model training across multiple sites without sharing raw data. By facilitating decentralized training, this module enhances data privacy and security, empowering researchers and developers to build, refine, and deploy federated learning models directly within the platform.
 
 **Key Aspects of the Federated Learning Module:**
 
@@ -28,7 +28,7 @@ In the upcoming releases, MEDomicsLab will offer a graphical implementation of t
 
 <figure><img src=".gitbook/assets/MEDomicsLabNoShadowNoText100.png" alt=""><figcaption></figcaption></figure>
 
-MEDomicsLab will also offer a graphical implementation of the [**MED3pa** ](https://github.com/MEDomics-UdeS/MED3pa)package. It is designed to address critical challenges in deploying machine learning models, particularly focusing on the robustness and reliability of models under real-world conditions. It provides comprehensive tools for evaluating model stability and performance in the face of **covariate shifts**, **uncertainty**, and **problematic data profiles**.
+The MEDomics platform will also offer a graphical implementation of the [**MED3pa** ](https://github.com/MEDomics-UdeS/MED3pa)package. It is designed to address critical challenges in deploying machine learning models, particularly focusing on the robustness and reliability of models under real-world conditions. It provides comprehensive tools for evaluating model stability and performance in the face of **covariate shifts**, **uncertainty**, and **problematic data profiles**.
 
 **Key Functionalities**
 

@@ -13,7 +13,7 @@ Please [contact us](forms/contact-us.md) if you face any issue during the instal
 {% tabs %}
 {% tab title="Windows" %}
 {% embed url="https://youtu.be/1F7Yg78FXVE" %}
-MEDomics installation on Windows
+MEDomics installation guide on Windows
 {% endembed %}
 
 {% hint style="warning" %}
@@ -25,6 +25,8 @@ Access the download page [here](https://medomicslab.com/#download).
 
 {% tab title="Ubuntu" %}
 {% embed url="https://youtu.be/Erz_dNBcjV0" %}
+MEDomics installation guide on Ubuntu
+{% endembed %}
 
 {% hint style="warning" %}
 The platform was tested on Ubuntu 20.04 and 22.04.
@@ -35,7 +37,7 @@ Access the download page [here](https://medomicslab.com/#download).
 
 {% tab title="MacOS " %}
 {% embed url="https://youtu.be/nXzoteXrpbE" %}
-MEDomicsLab installation  on MacOS guide
+MEDomics installation guide on MacOS
 {% endembed %}
 
 {% hint style="warning" %}

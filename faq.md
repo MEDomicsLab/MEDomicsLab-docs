@@ -4,7 +4,7 @@
 
 <summary>What prior knowledge and skills are needed to use the MEDomics platform?</summary>
 
-Using MEDomicsLab does not require a specific academic or professional background. However, some foundational knowledge may be necessary depending on the module you are using. For instance, familiarity with machine learning fundamentals, such as model's training and evaluation, is recommended before working with the learning module.
+Using the MEDomics platform does not require a specific academic or professional background. However, some foundational knowledge may be necessary depending on the module you are using. For instance, familiarity with machine learning fundamentals, such as model's training and evaluation, is recommended before working with the learning module.
 
 </details>
 

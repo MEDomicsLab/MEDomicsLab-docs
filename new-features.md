@@ -8,7 +8,7 @@ description: >-
 
 ## 🖊️Code Editor
 
-Starting from v1.5.0, **MEDomicsLab introduces an integrated code editor**, allowing users to seamlessly edit Python, text, Markdown, and JSON files directly within the platform. Built on the [**react-ace** package](https://github.com/securingsincity/react-ace), the editor offers a variety of themes and robust support for multiple file types. To get started, simply double-click any supported file in your workspace—it will open automatically in the editor, where you can make modifications and save your changes. Below are some screenshots showcasing the new editor in action:
+Starting from v1.5.0, **MEDomics introduces an integrated code editor**, allowing users to seamlessly edit Python, text, Markdown, and JSON files directly within the platform. Built on the [**react-ace** package](https://github.com/securingsincity/react-ace), the editor offers a variety of themes and robust support for multiple file types. To get started, simply double-click any supported file in your workspace—it will open automatically in the editor, where you can make modifications and save your changes. Below are some screenshots showcasing the new editor in action:
 
 <figure><img src=".gitbook/assets/DBClickToEdit.PNG" alt=""><figcaption><p>Code Editor: how to open?</p></figcaption></figure>
 
@@ -28,16 +28,16 @@ A view in MongoDB is essentially a query that’s saved and accessible like a co
 
 A MongoDB view is defined by an aggregation pipeline, which can be a series of stages to filter, group, sort, or transform documents from the source collection(s). When you query a view, MongoDB applies the defined aggregation stages to the source data on-the-fly, creating a "virtual" collection that shows the result of the pipeline.
 
-#### MongoDB Views in MEDomicsLab
+#### MongoDB Views in the MEDomics platform
 
-In MEDomicsLab, views primarily help prevent the creation of redundant dataset copies by enabling flexible data representation and access.
+In MEDomics, views primarily help prevent the creation of redundant dataset copies by enabling flexible data representation and access.
 
 1. They allow for simplified representations of complex data. For instance, you might have a large, detailed collection with multiple fields, but you create a view that only exposes the fields most relevant to certain users or applications.
 2. Views also facilitate direct access to processed data, supporting analytics like features extraction, models training, and other computed insights, making it easier for the each module to access the processed data directly.
 
 #### Example Use Case
 
-In MEDomicsLab, MongoDB Views are utilized to provide previews of datasets following a particular process, such as removing a column.&#x20;
+In MEDomics, MongoDB Views are utilized to provide previews of datasets following a particular process, such as removing a column.&#x20;
 
 In this example:
 
