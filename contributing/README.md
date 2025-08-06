@@ -2,24 +2,18 @@
 
 <figure><img src="../.gitbook/assets/newFWArchitecture.png" alt=""><figcaption><p>High-Level Architecture of the Main Framework Used in the Application</p></figcaption></figure>
 
-## The MEDomicsLab architecture
+## The MEDomics platform architecture
 
-The map below illustrates the organization of files, modules, databases, and the Frontend-Backend connection within MEDomicsLab. This visual guide is designed to support new contributors in understanding the application’s structure, streamlining the integration of new features, and aiding efficient navigation through the codebase.
+The map below illustrates the organization of files, modules, databases, and the Frontend-Backend connection within the MEDomics platform. This visual guide is designed to support new contributors in understanding the application’s structure, streamlining the integration of new features, and aiding efficient navigation through the codebase.
 
 {% embed url="https://miro.com/app/embed/uXjVKiE9qtw=/?embedId=366443778390&frameId=3458764605680580664&pres=1" %}
-MEDomicsLab detailed architecture
+the MEDomics platform detailed architecture
 {% endembed %}
 
 ## Setup from the ground up 🌱
 
 {% hint style="info" %}
 Go visit our [github develop branch ](https://github.com/MEDomics-UdeS/MEDomicsLab/tree/develop#medomicslab---develop-branch-%EF%B8%8F)!
-{% endhint %}
-
-### Scalability Branch
-
-{% hint style="info" %}
-The requirements in this section are only necessary if you want to work from the scalability branch.
 {% endhint %}
 
 #### 1. Installation of MongoDB Community Edition
@@ -86,7 +80,7 @@ nvm use lts
 ### 3. Clone the repository
 
 {% hint style="warning" %}
-We are currently using _develop_ as our main branch.
+We are currently using _develop_ as our integration branch.
 {% endhint %}
 
 {% tabs %}

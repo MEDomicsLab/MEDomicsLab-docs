@@ -1,6 +1,6 @@
 # Our coding standards
 
-## MEDomicsLab coding standards
+## [MEDomicsLab](https://www.medomicslab.com/) coding standards
 
 ### Table of contents
 
