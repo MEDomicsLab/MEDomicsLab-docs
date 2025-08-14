@@ -10,22 +10,22 @@ The map below illustrates the organization of files, modules, databases, and the
 the MEDomics platform detailed architecture
 {% endembed %}
 
-## Setup from the ground up 🌱
+## Set up from the ground up 🌱
 
 {% hint style="info" %}
-Go visit our [github develop branch ](https://github.com/MEDomics-UdeS/MEDomicsLab/tree/develop#medomicslab---develop-branch-%EF%B8%8F)!
+Go visit our [GitHub development branch](https://github.com/MEDomics-UdeS/MEDomicsLab/tree/develop#medomicslab---develop-branch-%EF%B8%8F)!
 {% endhint %}
 
 #### 1. Installation of MongoDB Community Edition
 
-Follow the installation instructions depending on your OS [MongoDB Installation](https://www.mongodb.com/docs/manual/administration/install-community/#std-label-install-mdb-community-edition).
+Follow the installation instructions depending on your OS for [MongoDB Installation](https://www.mongodb.com/docs/manual/administration/install-community/#std-label-install-mdb-community-edition).
 
 {% tabs %}
 {% tab title="Windows" %}
 [Install MongoDB on Windows](https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-windows/#install-mongodb-community-edition)
 
 * Do not install MongoDB as a service.
-* You do not have to install MongoDB compass.
+* You do not have to install MongoDB Compass.
 * You do not have to install mongosh.
 * Do not forget to [add MongoDB binaries to the System PATH](https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-windows/#add-mongodb-binaries-to-the-system-path).
 {% endtab %}
@@ -43,7 +43,7 @@ Follow the installation instructions depending on your OS [MongoDB Installation]
 
 #### 2. Installation of MongoDB database tools
 
-Follow the installation instructions depending on your OS [MongoDB Database Tools Installation](https://www.mongodb.com/docs/database-tools/installation/installation/).
+Follow the installation instructions depending on your OS for [MongoDB Database Tools Installation](https://www.mongodb.com/docs/database-tools/installation/installation/).
 
 {% tabs %}
 {% tab title="Windows" %}
@@ -96,7 +96,7 @@ git clone -b develop https://github.com/MEDomics-UdeS/MEDomicsLab.git
 {% endtab %}
 {% endtabs %}
 
-### 4. Setup server side (Go)
+### 4. Set up server-side (Go)
 
 #### 4.1 Installation of Go
 
@@ -107,7 +107,7 @@ git clone -b develop https://github.com/MEDomics-UdeS/MEDomicsLab.git
 
 {% tabs %}
 {% tab title="Windows" %}
-Execute these commands in a **cmd** prompt:
+Execute these commands in a **CMD** prompt:
 
 ```
 setx GOPATH %USERPROFILE%\go
@@ -128,7 +128,7 @@ echo 'export PATH=$PATH:$GOPATH/bin' >> $HOME/.bashrc
 {% endtab %}
 {% endtabs %}
 
-After, **close all your terminals** because these commands will take effects on the initialisation of any terminal
+After, **close all your terminals** because these commands will take effect on the initialization of any terminal
 
 #### 4.3 Verify installation
 
@@ -139,23 +139,20 @@ After, **close all your terminals** because these commands will take effects on 
 #### 4.4 Setup for the application
 
 1. Open a new command prompt and go to the `<repo path>/go_server` directory.
-2. Run the command `go run main.go` (on first time, it should download requiered libraries and lunch the server)
-3. you can terminate the process by pressing `CTRL + C`
-4. Then build the app by running `go build main.go` (It should create an executable file -> that file will be run by the client side javascript so modification to .go files must be followed by a rebuild) Congratulations, you're now ready to start developing Go applications!
+2. Run the command `go run main.go` (on first time, it should download the required libraries and launch the server)
+3. You can terminate the process by pressing `CTRL + C`
+4. Finally, build the app by running `go build main.go` (It should create an executable file -> that file will be run by the client-side JavaScript, so modifications to `.go` files must be followed by a rebuild. Congratulations, you're now ready to start developing Go applications!
 
 ### 5. Init submodules
 
 ```
 cd <.../MEDomicsLab/>
-git submodule init
-git submodule update --init --recursive --remote
-cd pythonCode/submodules/MEDimage
 git checkout dev_lab
 cd ../MEDprofiles
 git checkout fusion_MEDomicsLab
 ```
 
-### 6. Start the electron app !
+### 6. Start the electron app!
 
 {% code fullWidth="false" %}
 ```
@@ -166,10 +163,10 @@ npm run dev
 {% endcode %}
 
 {% hint style="warning" %}
-On **Windows**, if you encounter error messages when running `npm install,`follow the steps here to solve the issue : [https://github.com/nodejs/node-gyp#on-windows](https://github.com/nodejs/node-gyp#on-windows).
+On **Windows**, if you encounter error messages when running `npm install`, follow the steps here to solve the issue: [https://github.com/nodejs/node-gyp#on-windows](https://github.com/nodejs/node-gyp#on-windows).
 
 * You will need to install the [Visual Studio Build Tools](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=Community) (select the C++ build environment)&#x20;
-* Install Python3.11 from [here](https://apps.microsoft.com/detail/9nrwmjp3717k?hl=en-us\&gl=US)
+* Install Python 3.11 from [here](https://apps.microsoft.com/detail/9nrwmjp3717k?hl=en-us\&gl=US)
 * Use node version v18.16.1. Run:
   * `nvm install v18.16.1`
   * `nvm use v18.16.1`
@@ -203,7 +200,7 @@ The MEDomicsLab platform uses **port 54017** as the default MongoDB connection p
 const config = {
   // If true, the server will be run automatically when the app is launched
   runServerAutomatically: true,
-  // If true, use the react dev tools
+  // If true, use the React dev tools
   useReactDevTools: false,
   // the default port to use for the server, be sure that no programs use it by default
   defaultPort: 5000,
@@ -217,7 +214,7 @@ const config = {
 
 ## To Test the Production Build&#x20;
 
-### Build the Electron app and Run the built version
+### Build the Electron app and run the built version
 
 {% tabs %}
 {% tab title="Windows" %}

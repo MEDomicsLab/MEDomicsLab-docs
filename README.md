@@ -20,17 +20,17 @@ We would like to thank the [_**Unité de Soutien SSA Québec**_](https://ssaqueb
 
 
 
-<figure><img src=".gitbook/assets/MEDomicsLab-Principles-05.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/MEDomicsLab-Principles-1.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src=".gitbook/assets/MEDomicsLab-Principles-06.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/MEDomicsLab-Principles-2.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src=".gitbook/assets/MEDomicsLab-Principles-07.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/MEDomicsLab-Principles-3.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src=".gitbook/assets/MEDomicsLab-Principles-09.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/MEDomicsLab-Principles-4.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src=".gitbook/assets/MEDomicsLab-Principles-10.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/MEDomicsLab-Principles-5.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src=".gitbook/assets/MainPackageList.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/PackagesUsed.png" alt=""><figcaption></figcaption></figure>
 
 ## Why MEDomics?
 
@@ -60,7 +60,7 @@ Please note that the documentation varies by application version, and you can se
 
 ## Want to dive right in?
 
-Feeling like an eager beaver? Jump in to the quick start docs and start making your first experiment:
+intoFeeling like an eager beaver? Jump in to the quick start docs and start making your first experiment:
 
 {% content-ref url="quick-start.md" %}
 [quick-start.md](quick-start.md)
