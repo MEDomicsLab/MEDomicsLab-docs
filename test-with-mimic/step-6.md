@@ -14,7 +14,7 @@ However, before proceeding to _Step 6 - Create Model,_ we recommend that you rep
 An invitation to access the _MEDomicsLab\_TestingPhase\_Step6.zip_ data was sent by email.&#x20;
 {% endhint %}
 
-In this current _Step 6 - Create Model_, we will leverage the functionalities of the [_Learning Module_](../tutorials/development/learning-module.md) to build machine learning models using the learning set obtained from [_Step 4 - Explore Data_](step-4.md). In this step, we'll create two Learning scenes:
+In this current _Step 6 - Create Model_, we will leverage the functionalities of the [_Learning Module_](../tutorials/development/learning-module/) to build machine learning models using the learning set obtained from [_Step 4 - Explore Data_](step-4.md). In this step, we'll create two Learning scenes:
 
 **Scene 1: Time-Dependent Model Comparison**&#x20;
 
@@ -37,19 +37,19 @@ This scene aims to assess the impact of considered variables on model performanc
 These scenes are designed to provide a comprehensive comparison of models under different temporal and variable considerations.
 
 {% hint style="info" %}
-You are welcome to use this step to conduct your own experiments and explore the functionalities of the  [_Learning Module_](../tutorials/development/learning-module.md). However, please note that there are some missing options and tooltips that we haven't implemented yet, and we intend to address these before [_Step 8 - Challenge_](step-8.md).:wink:
+You are welcome to use this step to conduct your own experiments and explore the functionalities of the  [_Learning Module_](../tutorials/development/learning-module/). However, please note that there are some missing options and tooltips that we haven't implemented yet, and we intend to address these before [_Step 8 - Challenge_](step-8.md).:wink:
 {% endhint %}
 
 ## Recommendations
 
-Before proceeding with _Step 6 - Create Model_ of the MEDomicsLab Testing Phase, we recommend consulting the documentation of the [_Learning Module_](../tutorials/development/learning-module.md).
+Before proceeding with _Step 6 - Create Model_ of the MEDomicsLab Testing Phase, we recommend consulting the documentation of the [_Learning Module_](../tutorials/development/learning-module/).
 
-{% content-ref url="../tutorials/development/learning-module.md" %}
-[learning-module.md](../tutorials/development/learning-module.md)
+{% content-ref url="../tutorials/development/learning-module/" %}
+[learning-module](../tutorials/development/learning-module/)
 {% endcontent-ref %}
 
 {% hint style="info" %}
-Please note that the [_Learning Module_](../tutorials/development/learning-module.md) is a graphical implementation of the [_PyCaret_ Python library](https://pycaret.gitbook.io/docs/). Additionally, if you are seeking information about elements in the Learning Module, you may find it in the [_PyCaret_ documentation](https://pycaret.gitbook.io/docs/).
+Please note that the [_Learning Module_](../tutorials/development/learning-module/) is a graphical implementation of the [_PyCaret_ Python library](https://pycaret.gitbook.io/docs/). Additionally, if you are seeking information about elements in the Learning Module, you may find it in the [_PyCaret_ documentation](https://pycaret.gitbook.io/docs/).
 
 The [_PyCaret_ documentation](https://pycaret.gitbook.io/docs/) often refers to other Python packages, as they built their functions around these packages. If you want to learn more about some options of certain functionalities, you may need to search in these other packages to find the information you are looking for.
 
@@ -57,13 +57,13 @@ For example, if you are looking for information on the `fold_strategy` parameter
 
 1. Visit the [_PyCaret_ documentation](https://pycaret.gitbook.io/docs/), specifically the [Data Preprocessing section](https://pycaret.gitbook.io/docs/get-started/preprocessing).
 2. Look for the category related to the `fold_strategy` parameter, which is under Other Setup Parameters -> Model Selection.
-3. The [Model Selection part](https://pycaret.gitbook.io/docs/get-started/preprocessing/other-setup-parameters#model-selection) contains explanations about related parameters, including the `fold_strategy` parameter. It specifies that this parameter takes, as input, predefined strings or a cross-validation object compatible with [_scikit-learn_](https://scikit-learn.org/stable/). If you want additional information about the possible parameters, you'll have to search for the information on your own in the [_scikit-learn_ documentation](https://scikit-learn.org/stable/). For example, if you want to know more about the default value for `fold_strategy` (which is `stratifiedkfold`), you will have to search for 'stratifiedkfold' in the [_scikit-learn_ documentation](https://scikit-learn.org/stable/). The page related to this information is available [here](https://scikit-learn.org/stable/modules/generated/sklearn.model\_selection.StratifiedKFold.html).
+3. The [Model Selection part](https://pycaret.gitbook.io/docs/get-started/preprocessing/other-setup-parameters#model-selection) contains explanations about related parameters, including the `fold_strategy` parameter. It specifies that this parameter takes, as input, predefined strings or a cross-validation object compatible with [_scikit-learn_](https://scikit-learn.org/stable/). If you want additional information about the possible parameters, you'll have to search for the information on your own in the [_scikit-learn_ documentation](https://scikit-learn.org/stable/). For example, if you want to know more about the default value for `fold_strategy` (which is `stratifiedkfold`), you will have to search for 'stratifiedkfold' in the [_scikit-learn_ documentation](https://scikit-learn.org/stable/). The page related to this information is available [here](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.StratifiedKFold.html).
 
 Also, if you want to fully understand how [_PyCaret_](https://pycaret.gitbook.io/docs/) works in the background, this is an open-source library, and the code is available on [GitHub](https://github.com/pycaret/pycaret). (As we use the 3.1.0 version in our application, we recommend you to consult the [3.1.0 code](https://github.com/pycaret/pycaret/tree/3.1.0) if your research is related to our application).
 {% endhint %}
 
 {% hint style="info" %}
-Please pay attention to our last sections in the [_Learning Module_](../tutorials/development/learning-module.md):
+Please pay attention to our last sections in the [_Learning Module_](../tutorials/development/learning-module/):
 
 * What PyCaret does?
 * PyCaret ROC (Receiver Operating Characteristic)/AUC (Area Under the Curve) plots

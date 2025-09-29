@@ -15,7 +15,7 @@ In this tutorial, we will learn how to visualize the pipeline results, save them
 
 * **Global Results**: These are the general results on the central server, representing the average results of all clients.
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * **Results by Node**: This shows the results for a single client. A drop-down menu at the top allows you to switch between clients.
 

@@ -14,7 +14,7 @@ Starting from v1.5.0, **MEDomics introduces an integrated code editor**, allowin
 
 <figure><img src=".gitbook/assets/CodeEditor.PNG" alt=""><figcaption><p>Code Editor Breakdown</p></figcaption></figure>
 
-<figure><img src=".gitbook/assets/image.png" alt=""><figcaption><p>Code Editor Example</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption><p>Code Editor Example</p></figcaption></figure>
 
 ## 👁️Views
 

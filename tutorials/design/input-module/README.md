@@ -15,7 +15,7 @@ We are continuously working on enhancing the MEDomics platform, and we would lik
 
 * **Definition of Empty Cells:** While we often refer to empty cells as NaN (Not A Number) values, it is important to note that empty does not necessarily mean NaN.
 * **Display in Simple Cleaning Tool:** In the _Simple Cleaning tool_, we currently display the percentages of non-NaN values. However, we acknowledge that this can be confusing, and we plan to improve it by showing the percentage of NaN values instead.
-* **Cleaning Columns and Rows in Simple Cleaning Tool:** When cleaning columns and rows simultaneously in the _Simple Cleaning tool_, the cleaning is currently done independently (as opposed to sequentially where the output of one process influence the other), and all the columns and rows displayed in red are removed. We are working on enhancing this tool. Additionally, please be aware that imputation methods are available in the [_Learning Module_](../../development/learning-module.md).
+* **Cleaning Columns and Rows in Simple Cleaning Tool:** When cleaning columns and rows simultaneously in the _Simple Cleaning tool_, the cleaning is currently done independently (as opposed to sequentially where the output of one process influence the other), and all the columns and rows displayed in red are removed. We are working on enhancing this tool. Additionally, please be aware that imputation methods are available in the [_Learning Module_](../../development/learning-module/).
 * **Holdout Set Creation Tool:** In the _Holdout Set Creation tool_, the NaN method is applied only to rows that contain NaN values **in columns selected as a means to "Stratify"**. We plan to enhance the NaN handling method by introducing options such as mean fill, median fill, and mode fill.
 * **Feature Reduction Tool:** The _Feature Reduction tool_ currently has only basic utilities. We are committed to improving it, for example by allowing to transfer the PCA (Principal Component Analysis) transformations through the [_Evaluation Module_](../../development/evaluation-module.md).
 
@@ -36,7 +36,7 @@ We appreciate your understanding as we work towards making the MEDomics platform
 
 In the latest release, the input module interface implemented new tools and updated existing ones. An image of the new interface is shown below. Once the user selects a dataset, the list of input tools is shows, and as you can see, two new tools have been added: _**Categorical to Numerical**_ tool and _**Duplicates Deletion**_ tool. The _**Row Grouping**_ tool added a new a feature to tag rows (similar to columns tagging), hence, you can now tag relevant rows to distinguish them from others. More details can be found  in the next section.
 
-<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption><p>the MEDomics platform Input Tools</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>the MEDomics platform Input Tools</p></figcaption></figure>
 
 
 
