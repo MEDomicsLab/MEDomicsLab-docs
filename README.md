@@ -8,7 +8,7 @@ description: 'MEDomics platform: Integrative Modeling of Heterogeneous Data in M
 **MEDomicsLab** is now **MEDomics**.
 {% endhint %}
 
-{% embed url="https://youtu.be/5eVyInq9N2I" %}
+{% embed url="https://www.youtube.com/watch?v=JUTxSSsKlEc" %}
 
 Welcome to the MEDomics platform! Here you'll find all the documentation you need to get up and running with our application.
 
