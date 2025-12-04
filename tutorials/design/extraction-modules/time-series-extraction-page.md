@@ -6,6 +6,10 @@ description: >-
 
 # Time Series Extraction Page
 
+{% hint style="warning" %}
+The time series extraction module is currently disabled because it did not pass all the stability checks.
+{% endhint %}
+
 When you click on the time series extraction icon, you should see this page :
 
 <figure><img src="../../../.gitbook/assets/extraction_ts.png" alt=""><figcaption><p>Extraction time series page</p></figcaption></figure>
@@ -48,7 +52,7 @@ Depending on the options selected earlier, you need to choose the dataset column
 
 #### 3.1.3. Features to compute
 
-Regardless of the options selected earlier, you can choose between three methods of feature computation: Minimal, Efficient, and Comprehensive. These options represent predefined sets of features provided by the TSfresh package: [https://tsfresh.readthedocs.io/en/latest/text/feature\_extraction\_settings.html](https://tsfresh.readthedocs.io/en/latest/text/feature\_extraction\_settings.html). Specifically, the three options are defined as follows:
+Regardless of the options selected earlier, you can choose between three methods of feature computation: Minimal, Efficient, and Comprehensive. These options represent predefined sets of features provided by the TSfresh package: [https://tsfresh.readthedocs.io/en/latest/text/feature\_extraction\_settings.html](https://tsfresh.readthedocs.io/en/latest/text/feature_extraction_settings.html). Specifically, the three options are defined as follows:
 
 * **Minimal**: Relies on `tsfresh.feature_extraction.settings.MinimalFCParameters` and includes only a handful of features. It is suitable for quick tests.
 * **Comprehensive**: Relies on `tsfresh.feature_extraction.settings.ComprehensiveFCParameters` and includes all features without parameters and all features with parameters, each with different parameter combinations. This is the default option in TSfresh.

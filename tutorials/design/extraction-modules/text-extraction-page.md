@@ -6,6 +6,10 @@ description: >-
 
 # Text Extraction Page
 
+{% hint style="warning" %}
+The text extraction module is currently disabled because it did not pass all the stability checks.
+{% endhint %}
+
 When you click on the text extraction icon, you should see this page :
 
 <figure><img src="../../../.gitbook/assets/extraction_text_without_model.png" alt=""><figcaption><p>Extraction text page</p></figcaption></figure>

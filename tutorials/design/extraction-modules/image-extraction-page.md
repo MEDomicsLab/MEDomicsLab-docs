@@ -6,6 +6,10 @@ description: >-
 
 # Image Extraction Page
 
+{% hint style="warning" %}
+The image extraction module is currently disabled because it did not pass all the stability checks.
+{% endhint %}
+
 When you click on the image extraction icon, you should see this page :
 
 <figure><img src="../../../.gitbook/assets/extractionimg.png" alt=""><figcaption><p>Image extraction page</p></figcaption></figure>

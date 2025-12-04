@@ -1,5 +1,9 @@
 # Extraction Module
 
+{% hint style="warning" %}
+All extraction module components are currently disabled because they did not pass all the stability checks.
+{% endhint %}
+
 The _Extraction Module_ is divided into four components. The first three are pages dedicated to simple extraction processes on various data types (images, text notes, and time series) using pre-trained models and/or _Python_ libraries. The fourth component is [_MEDimage_](https://medimage.readthedocs.io/en/latest/index.html), which is the implementation of a _Python_ open-source package designed for medical image processing and radiomics features extraction.
 
 {% hint style="info" %}
