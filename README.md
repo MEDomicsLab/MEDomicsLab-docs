@@ -47,7 +47,7 @@ All common operating systems are supported!
 ## Documentation guide
 
 {% hint style="warning" %}
-Please note that the documentation varies by application version, and you can select your desired version in the top left corner. For example, to check out the testing phase documentation you must switch to V0.
+Please note that the documentation varies by application version. You can select your desired version in the top left corner. For example, to check out the testing phase documentation you must switch to V0.
 {% endhint %}
 
 * [**Quick start**](quick-start.md): Get started quickly with step-by-step instructions to download, install, and set up the app on your computer, tailored for your operating system.
@@ -60,7 +60,7 @@ Please note that the documentation varies by application version, and you can se
 
 ## Want to dive right in?
 
-intoFeeling like an eager beaver? Jump in to the quick start docs and start making your first experiment:
+Feeling like an eager beaver? Jump into the quick start docs and start making your first experiment:
 
 {% content-ref url="quick-start.md" %}
 [quick-start.md](quick-start.md)
