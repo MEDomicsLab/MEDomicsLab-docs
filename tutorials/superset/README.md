@@ -5,12 +5,12 @@ icon: infinity
 # Superset
 
 {% hint style="warning" %}
-Superset helps connect MEDomics to remote servers and databases.
+Superset helps connect MEDomics to remote servers and databases (available from v1.7.0).
 {% endhint %}
 
 Apache Superset is an [open-source software](https://en.wikipedia.org/wiki/Open-source_software) application designed for data exploration and data visualization. If offers a wide range of features such as dashboard creation, diverse charting tools, and integration with various data sources.
 
-Supersetis now integrated into MEDomics, providing users with direct access to its powerful capabilities through a single click, eliminating the need for an external work environment (e.g. ). This integration allows users to launch and utilize Superset directly within MEDomics, enabling them to visualize data, design dashboards, export charts, and more—**all within a unified platform**.
+Superset is now integrated into MEDomics, providing users with direct access to its powerful capabilities through a single click, eliminating the need for an external work environment (e.g. ). This integration allows users to launch and utilize Superset directly within MEDomics, enabling them to visualize data, design dashboards, export charts, and more—**all within a unified platform**.
 
 On this page, we will provide a comprehensive guide on how to use Superset within MEDomics.
 

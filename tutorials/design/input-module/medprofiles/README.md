@@ -6,6 +6,10 @@ description: >-
 
 # MEDprofiles
 
+{% hint style="warning" %}
+MEDprofiles is currently disabled because it did not pass all the stability checks; however, it will be available in future releases.
+{% endhint %}
+
 {% embed url="https://youtu.be/BFR1UnIjnYQ?si=xSZtLOA-yRYouB6E" %}
 MEDprofiles Video Tutorial
 {% endembed %}

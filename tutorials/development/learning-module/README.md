@@ -18,6 +18,10 @@ The Learning Module is constructed using the open-source Python library [_PyCare
 
 ## The Learning Module's architecture
 
+{% hint style="info" %}
+Available starting v1.6.0
+{% endhint %}
+
 The Learning Module has been redesigned with an updated architecture that adheres to machine learning practices, introducing external training/testing data separation to support multi-iteration model training. This enhanced approach provides more reliable performance estimation while specifically overcoming PyCaret's limitations in external data splitting. The following diagram presents the new architecture:
 
 <figure><img src="../../../.gitbook/assets/NewScheme (1).png" alt=""><figcaption><p>The new Learning Module workflow</p></figcaption></figure>
