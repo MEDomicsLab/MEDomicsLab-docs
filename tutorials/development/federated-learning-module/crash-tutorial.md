@@ -22,8 +22,7 @@ When you first open the MedomicsLab application, you see this window where we ca
 
 &#x20;For this experience, we will need a dataset to run the pipelines, so we need to add the datasets to the workspace.
 
-For our example, we will use the [Diabetes dataset](https://drive.google.com/drive/folders/1i3kGKTxq-1XulRQNU7iKksYs2fGGzCAj?usp=sharing). Make sure to download the files, and once you have them, add them to the DATA folder and refresh the workspace.\
-
+For our example, we will use the [Diabetes dataset](https://drive.google.com/drive/folders/1i3kGKTxq-1XulRQNU7iKksYs2fGGzCAj?usp=sharing). Make sure to download the files, and once you have them, add them to the DATA folder and refresh the workspace.<br>
 
 {% hint style="warning" %}
 MEDfl supports numerical tabular datasets. If you want to test your dataset, ensure it is compatible and clean. It's always preferable to start the tutorial with our provided dataset for consistency.
@@ -64,16 +63,14 @@ For our example, we will use the Optuna central optimization to optimize the hyp
 
 After Having the optimization results we will save them, so we can use them later&#x20;
 
-\
-
+<br>
 
 <figure><img src="../../../.gitbook/assets/image (45).png" alt=""><figcaption></figcaption></figure>
 
 ### 5. Creating and running pipelines&#x20;
 
 for this experience, we will create two configurations and run them simultaneously, each configuration will have a different aggregation algorithm \
-for more details on how to create the pipeline and add the different nodes please check [this tutorial page  ](create-pipelines.md)\
-
+for more details on how to create the pipeline and add the different nodes please check [this tutorial page  ](create-pipelines.md)<br>
 
 <figure><img src="../../../.gitbook/assets/image (46).png" alt=""><figcaption></figcaption></figure>
 

@@ -86,12 +86,12 @@ We are currently using _develop_ as our integration branch.
 {% tabs %}
 {% tab title="HTTPS" %}
 ```
-git clone -b develop https://github.com/MEDomics-UdeS/MEDomicsLab.git
+git clone -b scalability https://github.com/MEDomics-UdeS/MEDomicsLab.git
 ```
 {% endtab %}
 
 {% tab title="SSH" %}
-<pre><code><strong>git clone -b develop git@github.com:MEDomics-UdeS/MEDomicsLab.git
+<pre><code><strong>git clone -b scalability git@github.com:MEDomics-UdeS/MEDomicsLab.git
 </strong></code></pre>
 {% endtab %}
 {% endtabs %}
@@ -163,19 +163,11 @@ npm run dev
 {% endcode %}
 
 {% hint style="warning" %}
-On **Windows**, if you encounter error messages when running `npm install`, follow the steps here to solve the issue: [https://github.com/nodejs/node-gyp#on-windows](https://github.com/nodejs/node-gyp#on-windows).
+On **Windows**, if you encounter error messages when running `npm install`related to tensorflow .dll files missing, revert your node version by following these steps:
 
-* You will need to install the [Visual Studio Build Tools](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=Community) (select the C++ build environment)&#x20;
-* Install Python 3.11 from [here](https://apps.microsoft.com/detail/9nrwmjp3717k?hl=en-us\&gl=US)
-* Use node version v18.16.1. Run:
-  * `nvm install v18.16.1`
-  * `nvm use v18.16.1`
-* Set the Python3.11 :
-  * `$Env:npm_config_python="C:\path\to\python.exe" # PowerShell`
-* Run `npm install -g node-gyp`
-* Run again `npm install`
-
-
+* [Download node v18.16.1](https://nodejs.org/fr/blog/release/v18.16.1)
+* Add to the PATH variable the path to your new node placing it higher than the old node.
+* Test your node version using: `node --version`
 {% endhint %}
 
 {% hint style="info" %}

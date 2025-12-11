@@ -227,8 +227,7 @@ PyCaret primarily implements functions from the [_scikit-learn_ library](https:/
 
 ## 1. Initialization
 
-At the beginning of a Machine Learning pipeline, you initialize your data using [_PyCaret_'s setup function](https://pycaret.readthedocs.io/en/stable/api/classification.html#pycaret.classification.setup), corresponding to the Dataset and Clean nodes in our _Learning Module_. The setup function requires a dataset and the name of the target column. _PyCaret_ then initializes elements for the pipeline.\
-
+At the beginning of a Machine Learning pipeline, you initialize your data using [_PyCaret_'s setup function](https://pycaret.readthedocs.io/en/stable/api/classification.html#pycaret.classification.setup), corresponding to the Dataset and Clean nodes in our _Learning Module_. The setup function requires a dataset and the name of the target column. _PyCaret_ then initializes elements for the pipeline.<br>
 
 ![](../../../.gitbook/assets/pycaret_workflow.png)
 

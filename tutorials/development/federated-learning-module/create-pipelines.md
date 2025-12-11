@@ -8,8 +8,7 @@ In this tutorial, we will learn how to create and run federated learning pipelin
 
 Using the Federated Learning module, you can create and run your own pipelines by simply dragging and dropping nodes onto the open map. The application offers the flexibility to create multiple configurations and run them simultaneously.
 
-In the next video, we will demonstrate how to create your configurations, verify them, and launch the execution.\
-
+In the next video, we will demonstrate how to create your configurations, verify them, and launch the execution.<br>
 
 ## Video tutorial
 

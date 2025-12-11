@@ -33,6 +33,8 @@
       * [Crash tutorial](tutorials/development/federated-learning-module/crash-tutorial.md)
   * [🟢 Deployment](tutorials/deployment/README.md)
     * [Application Module](tutorials/deployment/application-module.md)
+  * [Superset](tutorials/superset/README.md)
+    * [Superset Features](tutorials/superset/superset-features.md)
   * [🛠️ Miscellaneous](tutorials/miscellaneous.md)
 * [🆕 New features](new-features.md)
 * [Upcoming features](upcoming-features.md)

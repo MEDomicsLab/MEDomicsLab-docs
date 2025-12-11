@@ -1,5 +1,5 @@
 ---
-description: 'MEDomics platform: Integrative Modeling of Heterogeneous Data in Medicine'
+description: 'MEDomicsLab: Integrative Modeling of Heterogeneous Data in Medicine'
 ---
 
 # 👋 Welcome!

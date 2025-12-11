@@ -8,8 +8,7 @@ The Federated Learning module in <mark style="color:blue;">**MEDomicsLab**</mark
 
 <figure><img src="../../../.gitbook/assets/List of nodes (3) (2).png" alt=""><figcaption></figcaption></figure>
 
-For more information on federated learning, you can read more [here](https://en.wikipedia.org/wiki/Federated\_learning) and explore [this article](https://ai.googleblog.com/2017/04/federated-learning-collaborative.html) from Google AI Blog.\
-\
-
+For more information on federated learning, you can read more [here](https://en.wikipedia.org/wiki/Federated_learning) and explore [this article](https://ai.googleblog.com/2017/04/federated-learning-collaborative.html) from Google AI Blog.\
+<br>
 
 ## LET'S GET STARTED!
