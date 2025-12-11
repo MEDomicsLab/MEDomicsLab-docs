@@ -5,7 +5,7 @@ icon: infinity
 # Superset
 
 {% hint style="warning" %}
-Superset&#x20;
+Superset helps connect MEDomics to remote servers and databases.
 {% endhint %}
 
 Apache Superset is an [open-source software](https://en.wikipedia.org/wiki/Open-source_software) application designed for data exploration and data visualization. If offers a wide range of features such as dashboard creation, diverse charting tools, and integration with various data sources.
