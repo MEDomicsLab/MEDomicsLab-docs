@@ -65,7 +65,7 @@ The intuitive box-based design simplifies pipeline creation by visually guiding 
 
 <figure><img src="../../../.gitbook/assets/MisplaceCleanError.jpg" alt=""><figcaption><p>Error message upon running the experiment</p></figcaption></figure>
 
-In Results or Analysis modes, a different color-coding is used; read more about it [here](analysis.md#highlighting-feature).
+In Results or Analysis modes, a different color-coding is used; read more about it [here](analysis/#highlighting-feature).
 
 ## A new scene for experimenting
 
@@ -186,7 +186,7 @@ The links used to explain the _PyCaret-specific_ functions refer to the [Classif
 The Analysis Mode button, called See Results in Experimental scenes, is used to view the results of the experiment. It is disabled until you run an experiment. After a successful run, a ._medmlres_ file is created in your scene folder, containing the generated results from the experiment. If you quit the app, your generated results will still be available the next time you open the app.
 
 {% hint style="info" %}
-Refer to the [Analysis page](analysis.md) for more details.
+Refer to the [Analysis page](analysis/) for more details.
 {% endhint %}
 
 ### 4. Utils Menu
