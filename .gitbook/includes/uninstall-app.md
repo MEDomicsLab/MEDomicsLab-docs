@@ -13,14 +13,14 @@ title: Uninstall app
 In a terminal, write the following command:
 
 ```bash
-sudo apt remove medomicslab-application
+sudo apt remove medomic-
 ```
 
 ***
 
 ## MacOS
 
-Go in your Applications Folder in Finder.
+Go  your Applications Folder in Finder.
 
 Then, click on the MEDomicsLab Icon while holding the `Ctrl` key.
 
