@@ -4,17 +4,11 @@ title: Uninstall app
 
 <details>
 
-<summary>How to remove the app ?</summary>
+<summary>How to remove the app?</summary>
 
 # 1. Uninstall the application first
 
 ## Ubuntu
-
-In a terminal, write the following command:
-
-```bash
-sudo apt remove medomic
-```
 
 ***
 
