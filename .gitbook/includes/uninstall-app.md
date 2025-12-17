@@ -13,7 +13,7 @@ title: Uninstall app
 In a terminal, write the following command:
 
 ```bash
-sudo apt remove medomic-
+sudo apt remove medomic
 ```
 
 ***
