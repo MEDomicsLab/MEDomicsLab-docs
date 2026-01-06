@@ -117,6 +117,18 @@ You can test different `n_jobs` values to find the optimal setting, which balanc
 
 <details>
 
+<summary>"ValueError: The feature names should match those that were passed during fit."</summary>
+
+This error indicates that the Test data lacks features present in the training data, or the order differs after preprocessing. In MEDomics, this error usually occurs when _feature\_selection_ is activated in the Clean node.
+
+One way to fix it is to set the _feature\_selection\_estimator_ to something other than "lightgbm". More details can be found [here](https://github.com/pycaret/pycaret/issues/4051).
+
+If the previous fix doesn't work for you, please [contact us](forms/contact-us.md).
+
+</details>
+
+<details>
+
 <summary>Estimator <em>....</em> Not Available.</summary>
 
 **Occurs when using&#x20;**_**XGBoost**_**&#x20;or&#x20;**_**catboost.**_
