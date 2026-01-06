@@ -6,15 +6,21 @@ title: Uninstall app
 
 <summary>How to remove the app?</summary>
 
+_Note that uninstalling the MEDomics platform is a 2-step process._
+
 # 1. Uninstall the application first
 
 ## Ubuntu
+
+```
+sudo apt remove medomics-platform
+```
 
 ***
 
 ## MacOS
 
-Go  your Applications Folder in Finder.
+Go to your Applications Folder in Finder.
 
 Then, click on the MEDomics Icon while holding the `Ctrl` key.
 
