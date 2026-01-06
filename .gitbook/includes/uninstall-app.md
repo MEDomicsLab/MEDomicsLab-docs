@@ -16,7 +16,7 @@ title: Uninstall app
 
 Go  your Applications Folder in Finder.
 
-Then, click on the MEDomicsLab Icon while holding the `Ctrl` key.
+Then, click on the MEDomics Icon while holding the `Ctrl` key.
 
 Finally, click on "Move to Trash"
 
@@ -36,7 +36,7 @@ Then, click on "Installed Apps"
 
 <img src="../assets/image (17) (1).png" alt="" data-size="original">
 
-Search for "MEDomicsLab"
+Search for "MEDomics"
 
 <img src="../assets/image (18) (1).png" alt="" data-size="original">
 
@@ -46,7 +46,7 @@ Click on the `...` and finally click on "Uninstall" &#x20;
 
 # 2. Remove the Python environment
 
-On any operating system, to remove the MEDomicsLab Python environment, go to your user's folder (for example `C:\Users\alex`) and manually remove the `.medomics` folder
+On any operating system, to remove the MEDomics Python environment, go to your user's folder (for example `C:\Users\alex`) and manually remove the `.medomics` folder
 
 
 
