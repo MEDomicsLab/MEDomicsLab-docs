@@ -149,12 +149,12 @@ The function will generate two datasets based on your selected options: a learni
 
 <summary>Sample | Row Grouping Tools (Subset creation tool)</summary>
 
-The Subset Creation tool enables the creation of a subset of rows from a dataset by applying filters to columns. Follow these steps to create a subset:
+The Subset Creation tool enables the creation of a subset of rows from a dataset by applying filters to columns. For example, you can use it to remove rows with a null target variable. Follow these steps to create a subset:
 
 1. Select a dataset from the dataset list. Your dataset will be displayed, allowing you to sort and filter each column.
-2. You can filter your dataset by clicking the filter icon at the right of the header of each column. Create rule(s) using the displayed components to filter columns. Rows that don't satisfy the rules will be removed from the displayed dataset, updating the number of rows displayed under the dataset.
-3. You can make a global search in the dataset using the search component at the top right of the displayed dataset .
-4. You can clear your filters by pressing the "Clear" button at the top left of the displayed dataset .
+2. You can filter your dataset by clicking the filter icon to the right of the header of each column. Create rule(s) using the displayed components to filter columns. Rows that don't satisfy the rules will be removed from the displayed dataset, updating the number of rows displayed under the dataset.
+3. You can make a global search in the dataset using the search component at the top right of the displayed dataset.
+4. You can clear your filters by pressing the "Clear" button at the top left of the displayed dataset.
 5. To tag the filtered rows, you can click the check-mark under row's count, enter the group name (tag name) and hit "create group". This will add a tag to the filtered rows.
 6. Choose a name for your new dataset and hit the Plus button. You can also click "Overwrite" to replace the original set with the filtered data.&#x20;
 
