@@ -2,6 +2,7 @@
 description: >-
   This page demonstrates how you can use medical questionnaires data in
   MEDomics.
+hidden: true
 icon: wpforms
 ---
 
