@@ -9,7 +9,11 @@ icon: '4'
 
 ### Creation of a Holdout Sub-Sample
 
-Unfortunately, scalability limitations within MEDomics persist, particularly when generating the ExplainerDashboard in the Evaluation Module. To address these constraints, we decided to restrict the evaluation to a subset of 100 patients randomly selected from the original holdout set. This allows us to preserve the evaluation workflow while ensuring computational feasibility.
+Due to current scalability constraints within MEDomics—particularly when generating the ExplainerDashboard in the Evaluation Module—we restricted the evaluation to a randomly selected subset of 100 patients from the original holdout set. This approach allows us to maintain the full evaluation workflow while ensuring computational feasibility and stability.
+
+{% hint style="info" %}
+You may also use `Holdout_homr_any_visit_10pct.csv` for this section. While this file does not require modification, it may result in longer execution times and higher memory consumption.
+{% endhint %}
 
 Create a _Python_ file named "creating\_holdout\_100\_patients.py" in your folder and open it in the workspace. Place the following code :&#x20;
 
@@ -37,7 +41,11 @@ Run the file on the IPython terminal using this command:
 !python creating_holdout_100_patients.py
 ```
 
-Since we're using the AdmDemo model, it's important that you reapply the tags mentioned in the Input Module section to this subset.
+Since we are using the **AdmDemo** model, it is important to reapply the tags described in the _Input Module_ section to this newly created subset. This ensures consistency between the training configuration and the evaluation dataset.
+
+{% hint style="warning" %}
+If the Python script cannot locate the original holdout file, double-click on `Holdout_homr_any_visit_10pct.csv` in the workspace and use the **sync()** function to make it accessible.
+{% endhint %}
 
 ### Initialization
 
@@ -51,7 +59,7 @@ Since the dataset nodes were configured using the _MEDomics Standard_, it is ess
 
 <figure><img src="../../.gitbook/assets/image (11) (2).png" alt=""><figcaption><p>The Evaluation Page creation</p></figcaption></figure>
 
-For the evaluation configuration, we will select our saved Random Forest model, which should be available in the models list in the "homr\_scene" scene, then select the holdout set created above `Holdout_homr_any_visit_10pct.csv` as our evaluation dataset. Finally, click "Create an evaluation".
+For the evaluation configuration, we will select our saved Random Forest model, which should be available in the models list in the "homr\_scene" scene, then select the holdout set created above h`oldout_100patients.csv` as our evaluation dataset. Finally, click "Create an evaluation".
 
 <figure><img src="../../.gitbook/assets/image (18) (2).png" alt="" width="434"><figcaption><p>Evaluation Page configuration</p></figcaption></figure>
 
