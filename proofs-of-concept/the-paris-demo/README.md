@@ -9,7 +9,7 @@ icon: wpforms
 # The PARIS Demo
 
 {% hint style="warning" %}
-The data used in this demo is not publicly available, and we only recommend following the demo for users with access to similar data. We will do our best to assist you with synthetic data in the near future.
+The original data is not available. We have generated synthetic data using the [synthpop package](https://algorithmaudit.eu/technical-tools/sdg/), and this dataset will be released once we receive authorization from the PARIS team (expected in mid-2026).
 {% endhint %}
 
 ### About the Dataset
