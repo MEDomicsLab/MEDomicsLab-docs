@@ -4,20 +4,6 @@ description: >-
   consists of exploring the data through the creation of visual interactive
   displays.
 icon: '1'
-layout:
-  width: default
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
 ---
 
 # Superset

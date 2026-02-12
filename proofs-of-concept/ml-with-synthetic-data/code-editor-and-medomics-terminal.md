@@ -4,20 +4,6 @@ description: >-
   to edit the code responsible for generating the homr_any_visit.csv dataset,
   which will be used in the following steps.
 icon: '1'
-layout:
-  width: default
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
 ---
 
 # Code Editor & MEDomics Terminal

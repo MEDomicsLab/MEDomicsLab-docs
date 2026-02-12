@@ -12,8 +12,8 @@ icon: chart-line
 
 The Analysis Box (Figure below) is the final component in the learning module pipeline, positioned immediately after the Training Box. It serves as the dedicated component for model evaluation, accepting inputs from:
 
-* Individual trained models (via [**Train Model** ](../training.md#train-model-model-training-and-optimization-node)nodes)
-* Model ensembles (via [**Combine Models**](../training.md#combine-models-combine-models-trained-in-your-scene) nodes)
+* Individual trained models (via [**Train Model** ](training.md#train-model-model-training-and-optimization-node)nodes)
+* Model ensembles (via [**Combine Models**](training.md#combine-models-combine-models-trained-in-your-scene) nodes)
 
 **Key Characteristics:**
 
@@ -26,16 +26,16 @@ The Analysis Box (Figure below) is the final component in the learning module pi
      * Adjusts output figure resolution (range: 0-1)
      * Higher values increase image quality and file size
 
-<figure><img src="../../../../.gitbook/assets/image (61).png" alt=""><figcaption><p>The analysis box</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (61).png" alt=""><figcaption><p>The analysis box</p></figcaption></figure>
 
 The Analysis Box represents the "Analysis" section of the machine learning workflow:
 
-<figure><img src="../../../../.gitbook/assets/AnalysisBoxUsageNew.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/AnalysisBoxUsageNew.png" alt=""><figcaption></figcaption></figure>
 
 ## The Analysis Mode
 
 {% hint style="info" %}
-If you prefer a quick summary,  jump to the [following section](./#summary-of-the-analysis-mode).
+If you prefer a quick summary,  jump to the [following section](analysis.md#summary-of-the-analysis-mode).
 {% endhint %}
 
 The Analysis Mode becomes available after a successful experiment execution. When activated, a results panel appears at the bottom of the interface, displaying results for all pipelines in the current scene. This mode provides a detailed breakdown of results organized by pipeline and node.
@@ -46,27 +46,27 @@ Each pipeline, identifiable by its customizable name, presents results through t
 
 * **Dataset Node**: Displays the training data table and all parameters applied through [PyCaret's setup function.](https://pycaret.readthedocs.io/en/stable/api/classification.html#pycaret.classification.setup)
 
-<figure><img src="../../../../.gitbook/assets/ResultsDataset.PNG" alt=""><figcaption><p>Results for Dataset node</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/ResultsDataset.PNG" alt=""><figcaption><p>Results for Dataset node</p></figcaption></figure>
 
 * **Clean Node**: Shows the preprocessing parameters configured in [PyCaret's setup](https://pycaret.readthedocs.io/en/stable/api/classification.html#pycaret.classification.setup).
 
-<figure><img src="../../../../.gitbook/assets/ResultsClean.PNG" alt=""><figcaption><p>Results for Clean node</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/ResultsClean.PNG" alt=""><figcaption><p>Results for Clean node</p></figcaption></figure>
 
 * **Split Node**: Presents detailed split statistics, including sample counts per fold/iteration and class distribution metrics.
 
-<figure><img src="../../../../.gitbook/assets/ResultsSplit.PNG" alt=""><figcaption><p>Results for Split node</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/ResultsSplit.PNG" alt=""><figcaption><p>Results for Split node</p></figcaption></figure>
 
 * **Model Node**: Contains the complete set of performance metrics for the model.
 
-<figure><img src="../../../../.gitbook/assets/ResultsModel.PNG" alt=""><figcaption><p>Results for Model node</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/ResultsModel.PNG" alt=""><figcaption><p>Results for Model node</p></figcaption></figure>
 
 * **Combine Models Node**: Provides evaluation metrics for the combined model output.
 
-<figure><img src="../../../../.gitbook/assets/image (57).png" alt=""><figcaption><p>Results for Combine Models node</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (57).png" alt=""><figcaption><p>Results for Combine Models node</p></figcaption></figure>
 
 * **Analysis Node**: Displays the plot selected in the Analysis Box.
 
-<figure><img src="../../../../.gitbook/assets/ResultsAnalysis.PNG" alt=""><figcaption><p>Results for Analysis node</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/ResultsAnalysis.PNG" alt=""><figcaption><p>Results for Analysis node</p></figcaption></figure>
 
 {% hint style="warning" %}
 _**PyCaret**_**&#x20;ROC (Receiver Operating Characteristic**)**/AUC (Area Under the Curve) plots**
@@ -89,19 +89,19 @@ This feature, used through the button '_Finalize & Save Model_' for a selected p
 1. **Model Finalization**: Retrains the selected model on the complete dataset using [PyCaret's `finalize_model()` function](https://pycaret.readthedocs.io/en/stable/api/classification.html#pycaret.classification.finalize_model).
 2. **Model Saving**: Saves the finalized model as a [pickle file](https://www.geeksforgeeks.org/python/understanding-python-pickling-example/) via [PyCaret's `save_model()` function](https://pycaret.readthedocs.io/en/stable/api/classification.html#pycaret.classification.save_model) under [the `.medmodel` extension](medmodel.md). The saved model appears in the experiment's `models` subfolder using the model's classname or the Model node's ID if it has been changed from the default one ('_Model_').
 
-<figure><img src="../../../../.gitbook/assets/FinalizeAndSave (1).png" alt=""><figcaption><p>How to finalize and save a model in a given pipeline</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/FinalizeAndSave (1).png" alt=""><figcaption><p>How to finalize and save a model in a given pipeline</p></figcaption></figure>
 
 The process requires no parameter configuration, automatically preserving all training parameters from the original experiment.
 
 Additionally, this button represents the "Final Model" section of the machine learning workflow, as shown in the following figure:
 
-<figure><img src="../../../../.gitbook/assets/FinalizeAndSaveUsageNew.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/FinalizeAndSaveUsageNew.png" alt=""><figcaption></figcaption></figure>
 
 ### **The Generate Feature**
 
 The Generate functionality exports the complete pipeline configuration as executable Python code in [Jupyter Notebook](https://www.dataquest.io/blog/jupyter-notebook-tutorial/) format. You can generate a Jupyter Notebook using the _Generate_ button next to a selected pipeline. The generated notebook, which mirrors the pipeline's structure and parameters, appears in the experiment's `notebooks` subfolder using the pipeline's current name as its file identifier.
 
-<figure><img src="../../../../.gitbook/assets/GenerePipeline.png" alt=""><figcaption><p>How to generate a Notebook for a given pipeline</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/GenerePipeline.png" alt=""><figcaption><p>How to generate a Notebook for a given pipeline</p></figcaption></figure>
 
 This feature enables:
 
@@ -111,13 +111,13 @@ This feature enables:
 
 Additionally, you can also launch any generated notebook directly from the application by simply double-clicking the file. Conversely, you can right-click and select the **"Open in..."** option to open your notebook in VSCode.
 
-<figure><img src="../../../../.gitbook/assets/OpenNotebookIn (1).png" alt="" width="563"><figcaption><p>Different options to open a generated Jupyter Notebook</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/OpenNotebookIn (1).png" alt="" width="563"><figcaption><p>Different options to open a generated Jupyter Notebook</p></figcaption></figure>
 
 An example of a generated notebook, opened in VS Code, is shown below.
 
-<figure><img src="../../../../.gitbook/assets/GeneratedNotebook.PNG" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/GeneratedNotebook.PNG" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../../.gitbook/assets/GeneratedNotebook1.PNG" alt=""><figcaption><p>Example of a generated Jupyter Notebook</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/GeneratedNotebook1.PNG" alt=""><figcaption><p>Example of a generated Jupyter Notebook</p></figcaption></figure>
 
 {% hint style="warning" %}
 Pipeline naming conventions directly affect this feature. Check out the next section for more details.
@@ -132,17 +132,17 @@ The Manage Pipelines interface serves two primary purposes:
    * The notebook filename in the Generate feature
    * All experiment tracking references
 
-<figure><img src="../../../../.gitbook/assets/ManagePipelines.png" alt=""><figcaption><p>How to access and use the Manage Pipelines panel</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/ManagePipelines.png" alt=""><figcaption><p>How to access and use the Manage Pipelines panel</p></figcaption></figure>
 
 ### **The node's selection box**
 
 In both Analysis and Results modes, a checkbox is available at the top of each runnable node. Use this control to selectively display results for specific nodes, hiding the output of others. A green checkbox indicates that the node is a mandatory component of all pipelines; consequently, its results will always be displayed.
 
-{% include "../../../../.gitbook/includes/2images.md" %}
+{% include "../../../.gitbook/includes/2images.md" %}
 
 In the following example, only the results of the checked node **Clean2** are displayed, while the other pipelines are hidden.
 
-<figure><img src="../../../../.gitbook/assets/NodeCheckbox.png" alt=""><figcaption><p>Illustration of the node's checkbox usage</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/NodeCheckbox.png" alt=""><figcaption><p>Illustration of the node's checkbox usage</p></figcaption></figure>
 
 ### The highlighting feature
 
@@ -154,12 +154,12 @@ This feature enhances navigation in both Analysis and Results modes by dynamical
 
 This functionality is particularly valuable in complex scenes with multiple pipelines, as it simplifies the process of tracking and comparing results. The following figure illustrates these color codes in the context of different user interactions.
 
-<figure><img src="../../../../.gitbook/assets/HighlightFeatureFinal.png" alt=""><figcaption><p>Illustration of the highlight feature for different interactions</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/HighlightFeatureFinal.png" alt=""><figcaption><p>Illustration of the highlight feature for different interactions</p></figcaption></figure>
 
 ### Summary of the Analysis Mode
 
 A full breakdown of the Analysis Mode is presented in the following figure:
 
-<figure><img src="../../../../.gitbook/assets/BreakdownAnalysisMode.png" alt=""><figcaption><p>Breakdown of the Analysis Mode</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/BreakdownAnalysisMode.png" alt=""><figcaption><p>Breakdown of the Analysis Mode</p></figcaption></figure>
 
 On the next page, you will learn more about the new scene type '_Experimental_' and how you can use it as a testing environment for your machine learning experiments.
