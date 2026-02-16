@@ -20,7 +20,7 @@ MEDomics installation guide on Windows
 The platform was tested on Windows 10 and 11.&#x20;
 {% endhint %}
 
-Access the download page [here](https://medomicslab.com/#download).
+Access the download page [here](https://medomics.app/#download).
 {% endtab %}
 
 {% tab title="Ubuntu" %}
@@ -32,7 +32,7 @@ MEDomics installation guide on Ubuntu
 The platform was tested on Ubuntu 20.04 and 22.04.
 {% endhint %}
 
-Access the download page [here](https://medomicslab.com/#download).
+Access the download page [here](https://medomics.app/#download).
 {% endtab %}
 
 {% tab title="MacOS " %}
@@ -44,7 +44,7 @@ MEDomics installation guide on MacOS
 The platform was tested on Sonoma (14.2) with M1 and M3 chips.&#x20;
 {% endhint %}
 
-Access the download page [here](https://medomicslab.com/#download).
+Access the download page [here](https://medomics.app/#download).
 {% endtab %}
 {% endtabs %}
 
