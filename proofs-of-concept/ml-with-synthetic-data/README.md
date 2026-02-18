@@ -9,12 +9,12 @@ icon: wpforms
 # ML with Synthetic Data
 
 {% hint style="success" %}
-The data used in this demo is publicly available, and we recommend that you follow the steps below to obtain similar results.
+The data used in this demonstration is publicly available, and we recommend that you follow the steps below to obtain similar results.
 {% endhint %}
 
 ### About the Dataset
 
-The synthetic dataset used in this proof of concept replicates the structure of real hospital admission data while ensuring complete privacy. It simulates realistic patient profiles, admission characteristics, comorbidities, and diagnostic patterns, offering a reliable environment for developing and validating predictive models. It is accessible in Zenodo under this [link](https://zenodo.org/records/12954673).
+The synthetic dataset used in this proof of concept replicates the structure of real hospital admission data while ensuring complete privacy. It simulates realistic patient profiles, admission characteristics, comorbidities, and diagnostic patterns, offering a reliable environment for developing and validating predictive models.
 
 {% hint style="info" %}
 The dataset is accessible on Zenodo at the following link: 👉 [Access the dataset on Zenodo](https://zenodo.org/records/12954673).
@@ -22,21 +22,27 @@ The dataset is accessible on Zenodo at the following link: 👉 [Access the data
 
 ### Goal
 
-This demo illustrates how the _MEDomics_ platform can be used to explore a fully synthetic hospital dataset from data exploration to predictive modeling. We use key MEDomics modules to build an end-to-end predictive pipeline. The goal is to evaluate model performance in this setting while showcasing MEDomics’ ability to handle large-scale clinical data and produce explainable and comparable results. This workflow replicates the reference study available [here](https://github.com/MEDomicsLab/POYM). The end goal of the study is to predict one-year mortality using demographics, admission characteristics, comorbidity and admission diagnoses using binary classification.&#x20;
+This demonstration illustrates how the MEDomics platform can be used to explore a fully synthetic hospital dataset, from data exploration to predictive modeling. We leverage key MEDomics modules to build an end-to-end predictive pipeline. The objective is to evaluate model performance in this setting while showcasing MEDomics’ ability to handle large-scale clinical data and generate explainable, reproducible, and comparable results.
+
+This proof of concept is based on the study [_“_&#x4C;everaging patients’ longitudinal data to improve the Hospital One-year Mortality Ris&#x6B;_”_](https://link.springer.com/article/10.1007/s13755-024-00332-4), conducted by Hakima Laribi, a member of our laboratory, in collaboration with clinical and academic partners. The original work introduces both a predictive modeling framework and a publicly available synthetic dataset designed to enable privacy-preserving and reproducible research in healthcare AI.
+
+In that study, two modeling approaches were evaluated: a baseline **Random Forest** model that predicts one-year mortality risk at hospital admission, and a longitudinal ensemble model that incorporates patients’ hospitalization history over time. The comparison between these two approaches demonstrated the added value of leveraging longitudinal information for mortality prediction.
+
+In the present proof of concept, we focus exclusively on implementing and evaluating the **Random Forest baseline** using the synthetic dataset released with the original study. This allows us to establish a clear reference performance while working within a fully accessible and privacy-preserving framework.
 
 ### Steps
 
-Here are the steps followed in this demo:
+Here are the steps followed in this demonstration:
 
 {% stepper %}
 {% step %}
-### [Code Editor & MEDomics Terminal](https://app.gitbook.com/o/0MYkcFwIjU9gRWqGMkr5/s/UO0RN9PzFLqAgLEwwaSn/~/edit/~/changes/218/proofs-of-concept/ml-with-synthetic-data/code-editor-and-medomics-terminal)&#x20;
+### [Code Editor & MEDomics Terminal](https://medomicslab.gitbook.io/medomics-docs/proofs-of-concept/ml-with-synthetic-data/code-editor-and-medomics-terminal)&#x20;
 
-We will give you a code snippet to extract the "any\_visit\_homr.csv", which will be the data used in the next steps. This specific file contains random visits from every patient in our initial data. This tool can be used to change the random seed.
+We will give you a code snippet to extract the "any\_visit\_homr\_10pct.csv", which will be the data used in the next steps. This specific file contains random visits from every patient in our initial data. This tool can be used to change the random seed.
 {% endstep %}
 
 {% step %}
-### [Input Module](../the-paris-demo/input-module.md)
+### [Input Module](https://medomicslab.gitbook.io/medomics-docs/proofs-of-concept/ml-with-synthetic-data/input-module)
 
 This module is used to create the AdmDemo and AdmDemoDx tags to form 2 categories used in prediction, and to partition data into training and holdout sets.
 {% endstep %}
@@ -44,17 +50,17 @@ This module is used to create the AdmDemo and AdmDemoDx tags to form 2 categorie
 {% step %}
 ### [Learning Module](../the-paris-demo/learning-module.md)
 
-The Learning Module represents the main step of the demo. It will be used to replicate the pipeline from the original study to form a model, train it and save a final model.
+The Learning Module represents the main step of the demonstration. It will be used to replicate the pipeline from the original study to form a model, train it and save a final model.
 {% endstep %}
 
 {% step %}
-### [Evaluation Module](../the-paris-demo/evaluation-module.md)
+### [Evaluation Module](https://medomicslab.gitbook.io/medomics-docs/proofs-of-concept/ml-with-synthetic-data/evaluation-module)
 
 In this module, we will use the saved machine learning model to make predictions on the holdout set and try to interpret and explain the model's choices.
 {% endstep %}
 
 {% step %}
-### [Application Module](../the-paris-demo/#application-module)
+### [Application Module](https://medomicslab.gitbook.io/medomics-docs/proofs-of-concept/ml-with-synthetic-data/application-module)
 
 This final step is similar to model deployment, where we will use the saved model from the Learning Module to generate predictions on an unseen patient.
 {% endstep %}

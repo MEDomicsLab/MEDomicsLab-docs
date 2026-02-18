@@ -35,12 +35,13 @@ SEED = 54288
 # Patient ID to extract
 PATIENT_ID = 16
 
+# Change this to your dataset path before running the script
 path = "dataset.csv"
 
 # 1) Load data
 df = pd.read_csv(path)
 
-# 2) Build homr_any_visit: exactly one visit per patient
+# 2) Build homr_any_visit: exactly one visit selected randomly per patient
 homr_any_visit = (
     df.groupby("patient_id", group_keys=False)
     .sample(n=1, random_state=SEED)
@@ -101,7 +102,21 @@ In order to run the extraction file in the MEDomics built-in terminal, click on 
 !python creating_homr_any_visit.py
 ```
 
-<figure><img src="../../.gitbook/assets/terminal_MEDomics.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/terminal_MEDomics.png" alt=""><figcaption><p>Run the code in IPython</p></figcaption></figure>
+
+To execute the generated Python script, make sure you are using the **MEDomics Python environment**, especially if Python is not installed locally on your machine.
+
+You can retrieve the exact Python executable path directly from the application:
+
+1. Open **Settings** in MEDomics.
+2. Locate the configured **Python environment path**.
+3. Copy the full path to the Python executable.
+
+Then, run the script from your terminal using the following command format:
+
+```bash
+C:\Users\<your_username>\.medomics\Python\python.exe creating_homr_any_visit.py
+```
 
 Once you run the file, click on the refresh button in your workspace. You should be able to see the 3 new files discussed above.
 

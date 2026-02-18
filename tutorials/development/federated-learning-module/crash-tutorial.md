@@ -16,7 +16,7 @@ When you first open the MedomicsLab application, you see this window where we ca
 
 <figure><img src="../../../.gitbook/assets/List of nodes (10).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (39).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (39) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 2. Uploading Datasets:
 
@@ -47,7 +47,7 @@ password = YOUR_PASSWORD
 database = MEDfl
 ```
 
-<figure><img src="../../../.gitbook/assets/image (41).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (41) (2).png" alt=""><figcaption></figcaption></figure>
 
 ### 4. Optimizing hyperparameters:&#x20;
 

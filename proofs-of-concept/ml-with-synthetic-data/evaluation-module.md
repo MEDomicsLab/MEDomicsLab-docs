@@ -11,8 +11,12 @@ icon: '4'
 
 Due to current scalability constraints within MEDomics—particularly when generating the ExplainerDashboard in the Evaluation Module—we restricted the evaluation to a randomly selected subset of 100 patients from the original holdout set. This approach allows us to maintain the full evaluation workflow while ensuring computational feasibility and stability.
 
-{% hint style="info" %}
-You may also use `Holdout_homr_any_visit_10pct.csv` for this section. While this file does not require modification, it may result in longer execution times and higher memory consumption.
+{% hint style="warning" %}
+You may also use `Holdout_homr_any_visit_10pct.csv` for this section.
+
+Although this file does not require any modification, it may lead to longer execution times and increased memory consumption. However, the resulting performance metrics remain very similar, so you can still follow the tutorial without significant differences in outcomes.
+
+We also give alternative methods to generate lighter test files.
 {% endhint %}
 
 Create a _Python_ file named "creating\_holdout\_100\_patients.py" in your folder and open it in the workspace. Place the following code :&#x20;
@@ -41,6 +45,18 @@ Run the file on the IPython terminal using this command:
 !python creating_holdout_100_patients.py
 ```
 
+You can also use the Holdout Set Creation Tools to create a sub-sample from the `Holdout_homr_any_visit_10pct.csv` file. Click on _Shuffle_ and _Stratify_, change the split percentage at **5%**, "drop" as the empty cells cleaning method, select "**oym**" as our target column and make sure that the _Keep tags_ toggle button is active so that the tags can be applied to the resulting sets.&#x20;
+
+The settings should be fixed as seen in the figure below.
+
+<figure><img src="../../.gitbook/assets/image (7).jpg" alt="" width="563"><figcaption><p>Holdout sub-sample creation using Input Module</p></figcaption></figure>
+
+The resulting sets are `Learning_Holdout_homr_any_visit_10pct.csv` and `Holdout_Holdout_homr_any_visit_10pct.csv` .&#x20;
+
+{% hint style="info" %}
+For the evaluation, you can use the `Holdout_Holdout_homr_any_visit_10pct.csv` dataset as it contains 123 patients.
+{% endhint %}
+
 Since we are using the **AdmDemo** model, it is important to reapply the tags described in the _Input Module_ section to this newly created subset. This ensures consistency between the training configuration and the evaluation dataset.
 
 {% hint style="warning" %}
@@ -59,9 +75,13 @@ Since the dataset nodes were configured using the _MEDomics Standard_, it is ess
 
 <figure><img src="../../.gitbook/assets/image (11) (2).png" alt=""><figcaption><p>The Evaluation Page creation</p></figcaption></figure>
 
-For the evaluation configuration, we will select our saved Random Forest model, which should be available in the models list in the "homr\_scene" scene, then select the holdout set created above h`oldout_100patients.csv` as our evaluation dataset. Finally, click "Create an evaluation".
+For the evaluation configuration, we will select our saved Random Forest model, which should be available in the models list in the "homr\_scene" scene, then select the holdout set created above `holdout_100patients.csv` as our evaluation dataset. Finally, click "Create an evaluation".
 
 <figure><img src="../../.gitbook/assets/image (18) (2).png" alt="" width="434"><figcaption><p>Evaluation Page configuration</p></figcaption></figure>
+
+{% hint style="info" %}
+As mentioned before, you can use `holdout_100patients.csv`, `Holdout_homr_any_visit_10pct.csv` or `Holdout_Holdout_homr_any_visit_10pct.csv` for this part. This demonstration was conducted using the `holdout_100patients.csv`. However, the structure of the results and their interpretation remain similar regardless of the file selected.
+{% endhint %}
 
 ### The evaluation results
 
@@ -69,7 +89,7 @@ The evaluation results are separated into two different sections:
 
 #### Predict/Test
 
-The Predict/Test section is where you can see the predictions for each row of our holdout set. The results consist of the predicted value (`prediction_label`) and the prediction score. The prediction score, which indicates the model's confidence in its answer, ranges from 0 to 1 (or 0% to 100%), showing how confident a model is about its answer, with 1 indicating that the model is completely certain about its answer.
+The **Predict/Test** section is where you can see the predictions for each row of our holdout set. The results consist of the predicted value (`prediction_label`) and the prediction score. The prediction score, which indicates the model's confidence in its answer, ranges from 0 to 1 (or 0% to 100%), showing how confident a model is about its answer, with 1 indicating that the model is completely certain about its answer.
 
 <figure><img src="../../.gitbook/assets/image (12) (2).png" alt=""><figcaption><p>Predictions' results</p></figcaption></figure>
 
@@ -85,20 +105,20 @@ The dashboard first shows global performance metrics.
 
 Let us explain what they mean in simple terms.
 
-1. &#x20;Accuracy (0.86) : Accuracy means that 86% of predictions are correct overall. However, accuracy alone can be misleading when the outcome is rare (only 17% of patients died in this dataset).\
+1. **Accuracy** (0.86) : Accuracy means that 86% of predictions are correct overall. However, accuracy alone can be misleading when the outcome is rare (only 17% of patients died in this dataset).\
    That is why we need additional metrics.
-2. Recall (0.76) : Recall measures how many actual deaths were correctly detected.Here, the model identifies 76% of patients who died within one year. In healthcare applications, recall is often very important, because missing high-risk patients (false negatives) can have serious consequences.
-3.  Precision (0.57) : Precision measures how many predicted high-risk patients actually died.
+2. **Recall** (0.76) : Recall measures how many actual deaths were correctly detected.Here, the model identifies 76% of patients who died within one year. In healthcare applications, recall is often very important, because missing high-risk patients (false negatives) can have serious consequences.
+3.  **Precision** (0.57) : Precision measures how many predicted high-risk patients actually died.
 
     Among patients predicted as high-risk, 57% actually died.
 
     Since the baseline mortality rate is only 17%, this shows that the model significantly concentrates risk in the predicted high-risk group.
-4.  ROC-AUC (0.90) : ROC-AUC measures the model’s ability to separate high-risk and low-risk patients across all possible thresholds. A value of 0.90 indicates very strong discrimination ability.
+4.  **ROC-AUC** (0.90) : ROC-AUC measures the model’s ability to separate high-risk and low-risk patients across all possible thresholds. A value of 0.90 indicates very strong discrimination ability.
 
     In simple terms:
 
     If we randomly pick one patient who died and one who survived, the model will correctly assign a higher risk score to the deceased patient about 90% of the time.
-5. PR-AUC (0.66) : Because mortality is relatively rare (17%), the Precision-Recall curve is especially important. A PR-AUC of 0.66 shows that the model performs much better than random guessing (which would be around 0.17).
+5. **PR-AUC** (0.66) : Because mortality is relatively rare (17%), the Precision-Recall curve is especially important. A PR-AUC of 0.66 shows that the model performs much better than random guessing (which would be around 0.17).
 
 <figure><img src="../../.gitbook/assets/GlobalModelPerformance.png" alt="" width="563"><figcaption><p>Metrics on the 100 patiens</p></figcaption></figure>
 
@@ -108,10 +128,10 @@ A confusion matrix summarizes how the model’s predictions compare to the true 
 
 Out of 100 patients:&#x20;
 
-* True Negatives: 73. These are patients who died within one year and were correctly predicted as high-risk.
-* True Positives: 13. These patients survived and were correctly predicted as low-risk.
-* False Positives: 10. These patients were predicted as high-risk but actually survived.
-* False Negatives: 4. These patients died but were predicted as low-risk.
+* **True Negatives** : 73. These are patients who died within one year and were correctly predicted as high-risk.
+* **True Positives** : 13. These patients survived and were correctly predicted as low-risk.
+* **False Positives** : 10. These patients were predicted as high-risk but actually survived.
+* **False Negatives** : 4. These patients died but were predicted as low-risk.
 
 In our sample, 17 patients died and 83 patients survived. The model:
 
