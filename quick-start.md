@@ -29,7 +29,7 @@ MEDomics installation guide on Ubuntu
 {% endembed %}
 
 {% hint style="warning" %}
-The platform was tested on Ubuntu 20.04, 22.04 and 24.04.
+The platform was tested on Ubuntu 24.04.
 {% endhint %}
 
 Access the download page [here](https://medomics.app/#download).
@@ -41,7 +41,7 @@ A video tutorial for the MEDomics installation on macOS is in the making. In the
 {% endhint %}
 
 {% hint style="warning" %}
-The platform was tested on Sonoma (14.2) with M1 and M3 chips.&#x20;
+The platform was tested on Tahoe (26.0) with M3 and M4 chips.&#x20;
 {% endhint %}
 
 Follow these steps to install MEDomics on your macOS system. You'll need to download both the `.pkg` and `.dmg` installation files.
