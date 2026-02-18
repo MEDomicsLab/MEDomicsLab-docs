@@ -81,13 +81,22 @@ The figure below illustrates the process of assigning tags to dataset columns us
 
 1. Select the dataset (`homr_any_visit_10pct.csv`).
 2. Create the three required tags: `adm`, `demo`, and `dx` by entering their names one after the other and hitting enter.
-3. Copy-paste the column names corresponding to each ta from the table above.
+3. Copy-paste the column names corresponding to each table from the table above.
 4. Choose the appropriate tag to apply.
-5. Click **Apply tags to selected columns** to validate the configuration.
+5. Click **Apply tags** to validate the configuration.
+
+{% hint style="info" %}
+The third step presents two alternative ways to assign columns to their corresponding tags.
+
+This can be done either by:
+
+* Pasting the column names manually, or
+* Selecting the columns directly from the displayed dataset.
+{% endhint %}
 
 In this example, the variables `age_original` and `gender` are assigned to the `demo` tag.
 
-<figure><img src="../../.gitbook/assets/image 23.png" alt="" width="563"><figcaption><p>Create the "adm", "demo" and "dx" tags</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image 29 (1).png" alt=""><figcaption><p>Create the "adm", "demo" and "dx" tags</p></figcaption></figure>
 
 You can visualize the tags within the dataset in the _MEDomics_ editor.
 
