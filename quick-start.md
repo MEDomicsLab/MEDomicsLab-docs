@@ -29,7 +29,7 @@ MEDomics installation guide on Ubuntu
 {% endembed %}
 
 {% hint style="warning" %}
-The platform was tested on Ubuntu 24.04.
+The platform was tested on Ubuntu 22.04 and 24.04.
 {% endhint %}
 
 Access the download page [here](https://medomics.app/#download).
