@@ -96,7 +96,7 @@ This can be done either by:
 
 In this example, the variables `age_original` and `gender` are assigned to the `demo` tag.
 
-<figure><img src="../../.gitbook/assets/image 29 (1).png" alt=""><figcaption><p>Create the "adm", "demo" and "dx" tags</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image 30.png" alt=""><figcaption><p>Create the "adm", "demo" and "dx" tags</p></figcaption></figure>
 
 You can visualize the tags within the dataset in the _MEDomics_ editor.
 
