@@ -295,9 +295,8 @@ For the AdmDemo model, the AUC decreased from 0.876 in the original study to 0.8
 
 Several factors explain these differences:
 
-* **Hyperparameter optimization strategy:** In the constrained setting, only one hyperparameter was tuned instead of the four optimized in the original study.
 * **Dataset reduction:** Training on the learning set of 10% of the data reduces the model’s ability to generalize, particularly for complex feature interactions.
-* **Class weight configuration:** Differences in class weighting strategies influence the decision boundaries and sensitivity-specificity trade-off.
+* **Class weight configuration:** Differences in class weighting strategies influence the decision boundaries and the sensitivity-specificity trade-off.
 * **Scalability constraints in MEDomics:** Platform memory and computational limitations required methodological adaptations that may slightly impact performance.
 
 Overall, despite these constraints, the reproduced models achieve performance levels close to the original study, confirming the validity of the pipeline implementation.
