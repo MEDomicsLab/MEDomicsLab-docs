@@ -65,9 +65,9 @@ Apply the following configurations for your nodes:
     * Categorical encoding: converts categories to integers.
 
     However, feel free to test other cleaning options, such as adding a custom feature selection and limiting the number of features used to train the model.&#x20;
-* **Split Node**: Use Bootstrap as the splitting method, with a training size of 0.8 over 100 iterations. Set the stratification column to "target". Bootstrap helps in reducing the bias in the performance estimate.
+* **Split Node**: Use Bootstrap as the splitting method with 100 iterations. Set the stratification column to "target". Bootstrap helps in reducing the bias in the performance estimate.
 
-<figure><img src="../../.gitbook/assets/image (70).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (71).png" alt=""><figcaption><p>Split Node setup</p></figcaption></figure>
 

@@ -73,7 +73,7 @@ The learning module includes a new [**Experimental Scene**](experimental-scene.m
 
 As shown in the figure below, the Experimental Scene’s minimalistic design focuses attention on core machine learning elements, with all required node types available. The scene serves as a testing ground where users can refine their pipelines before switching to the main scene.
 
-<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption><p>Example of an Experimental scene</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (37).png" alt=""><figcaption><p>Example of an Experimental scene</p></figcaption></figure>
 
 ## A **Redefined Pipeline Structure**
 

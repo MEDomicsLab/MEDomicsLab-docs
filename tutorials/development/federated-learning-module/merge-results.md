@@ -10,4 +10,4 @@ In this tutorial, we will see how to merge many results files into one single fi
 
 To merge results files, you need to add the <mark style="color:yellow;">"Merge Results"</mark> node and specify the files to merge. You can use this node separately from the pipeline, or you can link it to the pipeline. When linked to the pipeline, the pipeline results will be automatically merged with the specified files in the node.
 
-<figure><img src="../../../.gitbook/assets/image (37).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (37) (1).png" alt=""><figcaption></figcaption></figure>
