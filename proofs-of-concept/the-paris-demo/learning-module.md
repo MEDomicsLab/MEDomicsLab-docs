@@ -18,7 +18,7 @@ As explained in the [Learning Module workflow](../../tutorials/development/learn
 Learn how to create an Experiment Scene [here](../../tutorials/development/learning-module/#how-to-create-a-scene).
 {% endhint %}
 
-Start by creating an Experiment scene in the Learning Module. Then, open your scene and use the following setup:
+Start by creating an Experiment scene in the Learning Module. Then, open your scene and use the following setup, by dragging, dropping and connecting nodes:
 
 <figure><img src="../../.gitbook/assets/image (81).png" alt=""><figcaption><p>PARIS Experiment Scene</p></figcaption></figure>
 
@@ -67,11 +67,14 @@ Apply the following configurations for your nodes:
     However, feel free to test other cleaning options, such as adding a custom feature selection and limiting the number of features used to train the model.&#x20;
 * **Split Node**: Use Bootstrap as the splitting method with 100 iterations. Set the stratification column to "target". Bootstrap helps in reducing the bias in the performance estimate.
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (71).png" alt=""><figcaption><p>Split Node setup</p></figcaption></figure>
 
 * **Model Node**: Select "Random Forest" as our machine learning algorithm.
+
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>Model Node setup</p></figcaption></figure>
+
 * **Train Model**: Enable tuning to adjust model hyperparameters and optimize performance.
 
 <figure><img src="../../.gitbook/assets/image (72).png" alt=""><figcaption><p>Train Model Node setup</p></figcaption></figure>
@@ -92,7 +95,7 @@ The model has reached an AUC of 82, which is considered good, but there is alway
 
 #### Finalize and save our model.
 
-The final step is to retrain our model on the whole learning set and save it for a final evaluation on the holdout set created at step 3. To do so, you can simply click the "_**Finalize & Save Model**_" button. This will retrain your model on the whole learning set using the same process as before. Once the model is saved, you should see it under the "models" subfolder of your scene folder.
+The final step is to retrain our model on the entire training set and save it for a final evaluation on the holdout set created in step 3. To do so, you can click the "_**Finalize & Save Model**_" button. This will retrain your model on the whole learning set using the same process as before. Once the model is saved, you should see it under the "models" subfolder of your scene folder.
 
 <figure><img src="../../.gitbook/assets/image (89).png" alt=""><figcaption><p>Main scene's tree</p></figcaption></figure>
 
@@ -110,6 +113,6 @@ The learning module has numerous parameters and functionalities, leading to a va
 
 In our case, model training yielded the following results:
 
-<figure><img src="../../.gitbook/assets/image (96).png" alt=""><figcaption><p>5 features based model results</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p>Model results</p></figcaption></figure>
 
 We strongly encourage you to experiment with various configurations and methods to possibly improve your results. In the following sections, we will assess the saved model on the holdout set.
