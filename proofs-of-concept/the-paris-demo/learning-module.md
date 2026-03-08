@@ -56,24 +56,39 @@ Apply the following configurations for your nodes:
 
 * **Dataset Node**: Use the learning set created in the previous step with the target column "target". Moreover, one-hot encoding is automatically applied when using PyCaret, and since our dataset does not require it, it will be deactivated by setting the `max_encoding_ohe` to 0. You can add this option by clicking the plus button on the node and enabling it. Finally, add the session\_id option and set it to a fixed number to control the randomness of the experiment.
 
-<figure><img src="../../.gitbook/assets/image (73).png" alt=""><figcaption><p>Dataset Node setup</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>Dataset node configuration</p></figcaption></figure>
 
-*   **Clean Node**: No changes required. The default pyCaret's cleaning process already includes the necessary data processing steps, including:
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p>Extra option for the Dataset node</p></figcaption></figure>
+
+*   **Clean Node**: The default pyCaret's cleaning process already includes the necessary data processing steps, including:
 
     * &#x20;Data type inference: automatically detects data types.
     * Missing values imputation: 'Mean' imputation for numerical features, and 'Mode' imputation for categorical ones.
     * Categorical encoding: converts categories to integers.
 
-    However, feel free to test other cleaning options, such as adding a custom feature selection and limiting the number of features used to train the model.&#x20;
-* **Split Node**: Use Bootstrap as the splitting method with 100 iterations. Set the stratification column to "target". Bootstrap helps in reducing the bias in the performance estimate.
+    However, to simplify our model, a feature selection with a maximum of 5 final features is applied. Click on the Clean node, then click on the "+" button, and add the following options:
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+    * _**feature\_selection**_: to select a subset of features based on feature importance. Set to **True**.
+    * _**feature\_selection\_estimator**_: classifier used to determine the importance. Set to '**lr'**.
+    * _**n\_features\_to\_select**_: maximum number of features to select. Set to **5**.
+
+Feel free to test other cleaning options, such as adding a feature normalization process.&#x20;
+
+<figure><img src="../../.gitbook/assets/image (98).png" alt=""><figcaption><p>Setting feature selection inside the cleaning node</p></figcaption></figure>
+
+* **Split Node**: Use Bootstrap as the splitting method with 100 iterations. Set the stratification column to "_target_". Bootstrap helps in reducing the bias in the performance estimate.
+
+{% hint style="danger" %}
+If you would like to avoid long wait times, replace the 100-bootstrap method with **random subsampling** across 10 iterations.
+{% endhint %}
+
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (71).png" alt=""><figcaption><p>Split Node setup</p></figcaption></figure>
 
-* **Model Node**: Select "Random Forest" as our machine learning algorithm.
+* **Model Node**: Select "_Random Forest_" as our machine learning algorithm.
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>Model Node setup</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption><p>Model Node setup</p></figcaption></figure>
 
 * **Train Model**: Enable tuning to adjust model hyperparameters and optimize performance.
 
@@ -83,15 +98,11 @@ Apply the following configurations for your nodes:
 
 #### Run the scene and analyze the results
 
-Once the scene is set up, hit the Run button, and track the execution process through the bottom progress bar. Once your results are ready, the "_**Analysis mode**_" button will be activated, and upon clicking on it, you will access the analysis panel at the bottom, where all the results will be displayed:
+Once the scene is set up, hit the Run button, and track the execution process through the bottom progress bar. Once your results are ready, the "_**Analysis mode**_" button will be activated, and upon clicking on it, you will access the analysis panel at the bottom, where all the results will be displayed. Then select the model's performance results:
 
-<figure><img src="../../.gitbook/assets/image (74).png" alt=""><figcaption><p>Result's panel</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>Model results</p></figcaption></figure>
 
-Then select the model's performance results:
-
-<figure><img src="../../.gitbook/assets/image (88).png" alt=""><figcaption><p>Trained model's results</p></figcaption></figure>
-
-The model has reached an AUC of 82, which is considered good, but there is always room for improvement. This performance showcases the potential of our model. It demonstrates how users with no prior programming experience can create exploitable models, thereby proving the utility of the MEDomics platform, particularly the Learning Module.
+The model has reached an AUC of 0.76, which is considered good, but there is always room for improvement. This performance showcases the potential of our model. It demonstrates how users with no prior programming experience can create exploitable models, thereby proving the utility of the MEDomics platform, particularly the Learning Module.
 
 #### Finalize and save our model.
 
@@ -104,15 +115,11 @@ Once the model is saved, you're ready for the next and final step, where we will
 #### _Extra: other configurations you can try_
 
 {% hint style="info" %}
-For simplicity, the final model created in this new configuration is used for the rest of the POC.
+For simplicity, we chose a model with only five features, but a better performance is achieved when the maximum number of features to use is not restricted.
 {% endhint %}
 
-The learning module has numerous parameters and functionalities, leading to a variety of configurations that can be implemented and tested. In this section, we retrain our model by applying feature selection with a maximum of 5 final features. First, feature selection is configured in the cleaning node, and you can set the parameters as illustrated below:
+The learning module has numerous parameters and functionalities, leading to a variety of configurations that can be implemented and tested. In this section, we retrain our model without setting a maximum feature number, which yielded the following results:
 
-<figure><img src="../../.gitbook/assets/image (98).png" alt=""><figcaption><p>Feature selection settings inside the cleaning node</p></figcaption></figure>
-
-In our case, model training yielded the following results:
-
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p>Model results</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (88).png" alt=""><figcaption><p>Trained model's results</p></figcaption></figure>
 
 We strongly encourage you to experiment with various configurations and methods to possibly improve your results. In the following sections, we will assess the saved model on the holdout set.

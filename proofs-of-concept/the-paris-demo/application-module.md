@@ -14,7 +14,7 @@ The Application module, as shown in the documentation, accepts two input types: 
 
 ### Single input entry
 
-Once you open the application module, select the Logistic Regression model that was saved in [step 4](./#learning-module). A list of column entries will appear, and you will need to enter the value for each variable manually. Only column entries with `*` next to their name are required inputs; hence, if other variables are missing, they will be replaced using the same imputation process used from the machine learning pipeline. Once all the values are entered, click "Predict" and wait for the results.
+Once you open the application module, select the Random Forest model that was saved in [step 4](./#learning-module). A list of column entries will appear, and you will need to enter the value for each variable manually. Only column entries with `*` next to their name are required inputs; hence, if other variables are missing, they will be replaced using the same imputation process used from the machine learning pipeline. Once all the values are entered, click "Predict" and wait for the results.
 
 Use the figure below to correctly follow the steps required:
 

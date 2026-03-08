@@ -9,21 +9,13 @@ icon: '1'
 # Superset
 
 {% hint style="info" %}
-You can read about Superset here.
+[What is Superset?](../../tutorials/superset/)
 {% endhint %}
-
-### Import and clean your Dataset
-
-{% hint style="warning" %}
-The following instructions are for users with access to the PARIS dataset.
-{% endhint %}
-
-After stating Supetset on MEDomics, follow the instructions laid out on the following website: paris.netlify.app. This guide will help you through the data initialization and curation process before proceeding to the data visualization section.
 
 ### Data visualization
 
 {% hint style="warning" %}
-In this demo, the data used for visualization differs from the data used in machine learning, as multiple irrelevant columns have been removed.
+The data used for visualization is different from the data used in machine learning; ensure you have access to both to be able to follow the instructions.
 {% endhint %}
 
 #### _Data Initialization_
@@ -48,21 +40,21 @@ In this proof of concept, we suggest the creation of three charts, using the fol
   * Chart's type: _BIG NUMBER_
   * Metric: _COUNT_&#x20;
 
-<figure><img src="../../.gitbook/assets/TotalParticipantsChart.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/TotalParticipantsChart.png" alt="" width="375"><figcaption><p>Defining chat's settings</p></figcaption></figure>
 
 * **Gender Distribution**:
   * Chart's type: _PIE CHART_
   * Dimensions: _Gender_
   * Metric: _COUNT_
 
-<figure><img src="../../.gitbook/assets/GenderChart.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/GenderChart.png" alt="" width="375"><figcaption><p>Defining chat's settings</p></figcaption></figure>
 
 * **Age Distribution**:
   * Chart's type: _BAR CHART_
   * X-Axis: _Age_
   * Metric: _COUNT_&#x20;
 
-<figure><img src="../../.gitbook/assets/AgeChart.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/AgeChart.png" alt="" width="375"><figcaption><p>Defining chat's settings</p></figcaption></figure>
 
 #### _Dashboards Creation_
 
