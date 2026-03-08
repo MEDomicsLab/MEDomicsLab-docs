@@ -72,22 +72,11 @@ Overall, this SHAP-based analysis highlights the predominance of affective and s
 
 _**How has each feature contributed to the prediction?**_
 
-The following figures present complementary views of the same **SHAP decomposition** for a single observation (Index = 1). The **model output is 44.56%**, representing the average prediction the model would make over the entire population in the absence of any individualized feature information. Each SHAP value then quantifies how much a specific feature's observed value shifts the output from this baseline. After summing all contributions, the **final prediction is 47.95%**, reflecting a net positive displacement of approximately +3.39 percentage points from the baseline.
+The following figures present complementary views of the same **SHAP decomposition** for a single observation (Index = 1) for the prediction of patients with emotional distress (`target=1`). The **model output is 44.56%**, representing the average prediction the model would make over the entire population in the absence of any individualized feature information. Each SHAP value then quantifies how much a specific feature's observed value shifts the output from this baseline. After summing all contributions, the **final prediction is 47.95%**, reflecting a net positive displacement of approximately +3.39 percentage points from the baseline.
 
 <figure><img src="../../.gitbook/assets/image (103).png" alt=""><figcaption><p>Features contribution plot to predictions</p></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (104).png" alt=""><figcaption><p>Features contribution table to predictions</p></figcaption></figure>
-
-This waterfall plot illustrates the SHAP-based feature contributions to the prediction of patients with emotional distress (`target=1`), culminating in a final log-odds prediction of -3.58 (corresponding to a high probability of emotional distress). The most influential negative predictors are:
-
-* The features **“heureuxhumeur2”** (-1.55), **“calmedetendu2”** (-1.14)  and **“santementale”** (-0.93) **all** appear to decrease the no-distress risk. These negative contributions in the waterfall representation reflect their strong association with the positive distress outcome.&#x20;
-* Conversely, several demographic and clinical variables contribute small positive effects toward no-distress, such as "**energiquevigoureux2"** (+0.48), **"ComplexiteProblemesSante" (complexity of understanding of health problems)** (+0.2) and **"age"** (+0.17).
-
-Again, this SHAP-based analysis highlights the predominance of the same self-evaluative questions rather than other demographic and clinical variables.
-
-The two figures present complementary views of the same **SHAP decomposition** for a single observation (Index = 1).
-
-***
 
 **Feature-by-Feature SHAP Breakdown**
 

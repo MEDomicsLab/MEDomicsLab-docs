@@ -18,7 +18,7 @@ Once you open the application module, select the Random Forest model that was sa
 
 Use the figure below to correctly follow the steps required:
 
-<figure><img src="../../.gitbook/assets/ApplicationModulePreditColumnsEntry.png" alt=""><figcaption><p>Steps to generate a prediction for a single PARIS data sample</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/ApplicationModulePreditColumnsEntry (1).png" alt=""><figcaption><p>Steps to generate a prediction for a single PARIS data sample</p></figcaption></figure>
 
 In the bottom section, results consist of the predicted value and the prediction score. In our case, the predicted value is 0 with a probability of 83%, meaning that our model is 83% confident that the predicted value is 0. Note that this probability, indicating the model's confidence in its answer, ranges from 0 to 1 (or 0% to 100%), showing how confident a model is about its answer, with 1 indicating that the model is completely certain about its answer.
 
@@ -28,7 +28,7 @@ To use the file entry option, you will need a CSV file containing the data sampl
 
 The figure below illustrates these steps:
 
-<figure><img src="../../.gitbook/assets/ApplicationModulePreditFileEntry.png" alt=""><figcaption><p>Steps to generate predictions for PARIS data file</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/ApplicationModulePreditColumnsEntry.png" alt=""><figcaption><p>Steps to generate predictions for PARIS data file</p></figcaption></figure>
 
 This demonstrates how the Application module can be used as a production environment for your trained machine learning models. It bridges the gap between model development and practical application, allowing users to interact with the model to make predictions on new data.
 
