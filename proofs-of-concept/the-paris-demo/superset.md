@@ -22,7 +22,7 @@ The data used for visualization is different from the data used in machine learn
 
 Once the PARIS data is loaded and curated from the PostgreSQL server, we will create some custom charts to help us understand and summarize our data. First, in the Datasets section, import your dataset by following the steps shown in the figure below:
 
-<figure><img src="../../.gitbook/assets/CreateDataset (1).png" alt=""><figcaption><p>Add a new dataset to Superset</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CreateDataset (2).png" alt=""><figcaption><p>Add a new dataset to Superset</p></figcaption></figure>
 
 #### _Charts Creation_
 
@@ -64,6 +64,10 @@ The Superset dashboards are interactive visual data displays, created using the 
 
 #### _Final dashboard_
 
+{% hint style="info" icon="heart" %}
+Do not hesitate to create a more beautiful dashboard!
+{% endhint %}
+
 Once all your charts have been imported and organized in your dashboard, you should have a similar result:
 
 <figure><img src="../../.gitbook/assets/image (80).png" alt=""><figcaption><p>PARIS final dashboard</p></figcaption></figure>
@@ -81,6 +85,10 @@ You now have a functioning interactive dashboard to explore your questionnaire d
 Superset has many useful tools that cannot all be covered in this proof of concept. Therefore, we recommend checking the [Superset's documentation](https://superset.apache.org/docs/intro/) for more insights on how to use this tool to explore your dataset.
 
 #### Export data to workspace
+
+{% hint style="info" %}
+[Skip this step](exploratory-module.md) if you have access to synthetic data.
+{% endhint %}
 
 In this last step, we will use Superset to export the data needed for the rest of the PoC to our workspace. First, in the Superset's SQL Lab, run the following command:
 
