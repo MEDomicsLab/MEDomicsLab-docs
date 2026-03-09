@@ -12,17 +12,31 @@ icon: '1'
 [What is Superset?](../../tutorials/superset/)
 {% endhint %}
 
+### Initial steps
+
+The initial step in this section is [launching and connecting to Superset](../../tutorials/superset/#launch-superset-button) within MEDomics.
+
+Once you are connected and have access to the Superset dashboard, the next step is updating some security settings to enable external data upload. To do so, click on _Settings_, then _Database Connections_, select _Edit_ on the examples dataset, which is available by default in the database connections list. Finally, under the _Security_ section, in the _Advanced_ tab, enable "_Allow file uploads to database_." These steps are summarized in the figure below.
+
+<figure><img src="../../.gitbook/assets/allowCSV1.png" alt="" width="188"><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/allowCSV2.png" alt="" width="563"><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/allowCSV3.png" alt="" width="375"><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/allowCSV4.png" alt="" width="375"><figcaption></figcaption></figure>
+
 ### Data visualization
 
-{% hint style="warning" %}
-The data used for visualization is different from the data used in machine learning; ensure you have access to both to be able to follow the instructions.
-{% endhint %}
+#### _Upload Data_
 
-#### _Data Initialization_
+Now that we have allowed CSV files to be uploaded to Superset, we can upload the PARIS data to start visualizing it. To do so, click the "+" icon to your right, select Data, then click "Upload CSV to database". Fill in the required information and click _Finish_. The instructions are depicted in the figures below:
 
-Once the PARIS data is loaded and curated from the PostgreSQL server, we will create some custom charts to help us understand and summarize our data. First, in the Datasets section, import your dataset by following the steps shown in the figure below:
+<figure><img src="../../.gitbook/assets/UploadCSV1.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/CreateDataset (2).png" alt=""><figcaption><p>Add a new dataset to Superset</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/UploadCSV2.png" alt="" width="375"><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/UploadCSV3.png" alt=""><figcaption></figcaption></figure>
 
 #### _Charts Creation_
 
