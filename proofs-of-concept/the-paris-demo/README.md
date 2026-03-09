@@ -2,7 +2,6 @@
 description: >-
   This page demonstrates how you can leverage medical questionnaires data in
   MEDomics to draw insights.
-hidden: true
 icon: wpforms
 ---
 

@@ -48,14 +48,14 @@ Now that we have allowed CSV files to be uploaded to Superset, we can upload the
 
 <summary>I can't find the <em><strong>examples</strong></em> database</summary>
 
-First, you need to download this ready-to-use _examples_ database: link.
+First, you need to download this ready-to-use _examples_ database: [link](https://mcgill-my.sharepoint.com/:u:/g/personal/mahdi_aitlhajloutfi_mail_mcgill_ca/IQB1YPlvgRa4RLYTzoElDazSAUMooE2Qe0hXZaHiW8Q7TXE?e=H3O9ny).
 
 Second, you need to tell Superset to create a database file in a location your Electron app can write to.
 
 1. Click the + DATABASE button in the top right of the Database Connections page.
 2. In the "Select a database" modal, choose SQLite.
 3. SQLAlchemy URI: Use a path within your application support folder.
-   * MacOS Example: `sqlite:////Users/Download/medomics-platform/examples.db`
+   * MacOS Example: `sqlite:////Users/Download/examples.db`
    * Windows Example: `sqlite:///C:\Users\Downloads\examples.db`
    * _**Note: Use four slashes****&#x20;****`////`****&#x20;****for absolute paths on Mac/Linux.**_
 
