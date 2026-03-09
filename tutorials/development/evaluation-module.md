@@ -10,7 +10,7 @@ Evaluation Module
 
 ## 1. Create an Evaluation
 
-<div data-full-width="true"><figure><img src="../../.gitbook/assets/Evaluation_module_1.png" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/Evaluation_module_2.png" alt=""><figcaption></figcaption></figure></div>
+<div data-full-width="true"><figure><img src="../../.gitbook/assets/EvalModuleCreatePage.png" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/Evaluation_module_2.png" alt=""><figcaption></figcaption></figure></div>
 
 ## 2. Open and configure your Evaluation
 
