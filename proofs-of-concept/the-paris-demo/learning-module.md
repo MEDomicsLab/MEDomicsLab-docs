@@ -32,7 +32,7 @@ For the Dataset node, use the following configuration:
 
 No changes will be needed for the rest of the nodes, and once the scene is ready, click Run.
 
-#### Experimenting Results
+#### Experimental Scene Results
 
 {% hint style="info" %}
 Models in Experimental scenes are trained and tested using a single iteration, resulting in a low bias but a high variance (uncertainty).
