@@ -22,6 +22,10 @@ Once you are connected and have access to the Superset dashboard, the next step 
 
 <figure><img src="../../.gitbook/assets/allowCSV1.png" alt="" width="188"><figcaption><p>Step 1: open database connections</p></figcaption></figure>
 
+{% hint style="danger" icon="heart-crack" %}
+You can't find the _**examples**_ database? Don't worry, follow another approach [here](superset.md#i-cant-find-the-examples-database).
+{% endhint %}
+
 <figure><img src="../../.gitbook/assets/allowCSV2.png" alt="" width="563"><figcaption><p>Step 2: edit examples database connection</p></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/allowCSV3.png" alt="" width="375"><figcaption><p>Step 3: find advanced security settings</p></figcaption></figure>
@@ -39,6 +43,31 @@ Now that we have allowed CSV files to be uploaded to Superset, we can upload the
 <figure><img src="../../.gitbook/assets/UploadCSV2.png" alt="" width="375"><figcaption><p>Step 2: Fill in all the required info for the CSV upload</p></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/UploadCSV3.png" alt=""><figcaption><p>Optional step: ensure the data is uploaded</p></figcaption></figure>
+
+<details>
+
+<summary>I can't find the <em><strong>examples</strong></em> database</summary>
+
+First, you need to download this ready-to-use _examples_ database: link.
+
+Second, you need to tell Superset to create a database file in a location your Electron app can write to.
+
+1. Click the + DATABASE button in the top right of the Database Connections page.
+2. In the "Select a database" modal, choose SQLite.
+3. SQLAlchemy URI: Use a path within your application support folder.
+   * MacOS Example: `sqlite:////Users/Download/medomics-platform/examples.db`
+   * Windows Example: `sqlite:///C:\Users\Downloads\examples.db`
+   * _**Note: Use four slashes****&#x20;****`////`****&#x20;****for absolute paths on Mac/Linux.**_
+
+<figure><img src="../../.gitbook/assets/NewDB1.png" alt=""><figcaption><p>Step 1: Click the + DATABASE button in the top right</p></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/NewDB2.png" alt="" width="375"><figcaption><p>Step 2: Select database type</p></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/NewDB3.png" alt="" width="375"><figcaption><p>Step 3: Set database path and conenct it</p></figcaption></figure>
+
+YOU DON'T NEED TO UPLOAD THE PARIS DATASET. It comes included with the .db file, and you can skip to chart creation.
+
+</details>
 
 #### _Charts Creation_
 
