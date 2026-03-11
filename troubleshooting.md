@@ -165,3 +165,33 @@ This error is encountered when trying to open a Jupyter Notebook using VSCode:
 The cause is simply the "_code_" command missing. Follow the instructions [here ](https://stackoverflow.com/questions/29955500/code-is-not-working-in-on-the-command-line-for-visual-studio-code-on-os-x-ma)to add it.
 
 </details>
+
+<details>
+
+<summary>Superset troubleshooting</summary>
+
+A common error when launching Superset is `error: Command '['/Users/.../medomics-platform/superset_env/bin/python', '-m', 'pip', 'install', '--prefer-binary', 'apache-superset==4.1.1', 'flask-cors==5.0.0', 'marshmallow==3.26.1', 'psycopg2-binary==2.9.9', 'wtforms==2.3.3']' returned non-zero exit status 1.`
+
+The first potential solution is running the command manually from the terminal:
+
+```
+[Path to the superset python from the error message] -m pip install --prefer-binary apache-superset==4.1.1 flask-cors==5.0.0 marshmallow==3.26.1 psycopg2-binary==2.9.9 wtforms==2.3.3 
+```
+
+If the error persists, that means the build tools are missing, and you can install them as follows:
+
+* MacOS:
+
+```
+xcode-select --install
+```
+
+* Ubuntu
+
+```
+sudo apt install build-essential
+```
+
+* Windows: Download and install the build tools [here](https://learn.microsoft.com/en-us/cpp/build/building-on-the-command-line?view=msvc-170#download-and-install-the-tools).
+
+</details>

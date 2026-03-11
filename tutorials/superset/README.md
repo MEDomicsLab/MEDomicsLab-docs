@@ -5,7 +5,7 @@ icon: infinity
 # Superset
 
 {% hint style="warning" %}
-Superset helps connect MEDomics to remote servers and databases (available from v1.7.0).
+Superset helps connect MEDomics to remote servers and databases (available from v1.7.0). If you face any issues, refer [here](../../troubleshooting.md#superset-troubleshooting).
 {% endhint %}
 
 Apache Superset is an [open-source software](https://en.wikipedia.org/wiki/Open-source_software) application designed for data exploration and data visualization. If offers a wide range of features such as dashboard creation, diverse charting tools, and integration with various data sources.
@@ -21,6 +21,10 @@ When you launch MEDomics, you’ll notice a Superset panel located at the bottom
 <figure><img src="../../.gitbook/assets/SupersetPanel.png" alt=""><figcaption><p>Superset Panel Explained</p></figcaption></figure>
 
 ### _"Launch Superset"_ Button
+
+{% hint style="info" %}
+Facing issues when launching Superset? Please refer [here](../../troubleshooting.md#superset-troubleshooting).
+{% endhint %}
 
 Clicking the **Launch Superset** button initiates Superset in the background and embeds it within the MEDomics application. This feature handles all necessary configuration changes and initialization steps, such as creating a new admin user. Upon clicking the button, a progress bar will appear, indicating the status of each step in the launch process.
 
