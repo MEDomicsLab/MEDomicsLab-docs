@@ -14,7 +14,7 @@ Using the [Exploratory Module](../../tutorials/design/exploratory-module.md), we
 
 The first step is to generate a sweetViz report. Start by opening the Exploratory Module, and in the sweetViz section, select your dataset, your target variable, and then click Generate Report. These steps are illustrated in the figure below:
 
-<figure><img src="../../.gitbook/assets/sweetVizReport.png" alt=""><figcaption><p>Generate a sweetViz report</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/sweetVizReport.png" alt=""><figcaption><p>Fig 17 - Generate a sweetViz report</p></figcaption></figure>
 
 Upon opening the HTML report, you will notice a breakdown of all the features present in the dataset file, starting with the target value and ending with the last column. The Target section illustrates the relationship between the target variable and other features. It quantifies how the target provides information to other features and vice versa. In our PoC (see report below), we can see that the target variable provides information for the following features:
 
@@ -30,7 +30,7 @@ Conversely, the following features provide information to target:
 * EnergeticVigorous2
 * ...
 
-<figure><img src="../../.gitbook/assets/sweetVizTargetReport.png" alt=""><figcaption><p>The sweetViz Target variable report for PARIS dataset</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/sweetVizTargetReport.png" alt=""><figcaption><p>Fig 18 - The sweetViz Target variable report for PARIS dataset</p></figcaption></figure>
 
 #### Associations
 
@@ -38,7 +38,7 @@ sweetViz provides a comprehensive Associations figure unifying all the analysis 
 
 In this PoC, the resulting Associations figure is as follows:
 
-<figure><img src="../../.gitbook/assets/sweetVizAssociations.png" alt=""><figcaption><p>PARIS Associations figure</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/sweetVizAssociations.png" alt=""><figcaption><p>Fig 19 - PARIS Associations figure</p></figcaption></figure>
 
 According to the figure, we can notice multiple features having a strong association. Therefore, our PARIS dataset must be cleaned before using it in the Learning Module. For a pair of features with a strong combination, the one with the least association with the target will be removed. Using this approach, we decided to remove the following features:
 

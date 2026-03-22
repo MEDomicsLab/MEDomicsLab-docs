@@ -15,7 +15,7 @@ Learn how to create an Evaluation page [here](../../tutorials/development/evalua
 
 For the evaluation configuration, we will select our saved Random Forest model, which should be available in the model's list, then select the holdout set created in the third step as our evaluation dataset. Finally, click "Create an evaluation".
 
-<figure><img src="../../.gitbook/assets/image (90).png" alt=""><figcaption><p>The Evaluation Page Configuration</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (90).png" alt=""><figcaption><p>Fig 36 - The Evaluation Page Configuration</p></figcaption></figure>
 
 ### The evaluation results
 
@@ -25,13 +25,13 @@ The evaluation results are separated into two different sections:
 
 The Predict/Test section is where you can see the predictions for each row of our holdout set. The results consist of the predicted value (`prediction_label`) and the prediction score. The prediction score, which indicates the model's confidence in its answer, ranges from 0 to 1 (or 0% to 100%), showing how confident a model is about its answer, with 1 indicating that the model is completely certain about its answer.
 
-<figure><img src="../../.gitbook/assets/EvalPredictions.png" alt=""><figcaption><p>Predictions on holdout set</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/EvalPredictions.png" alt=""><figcaption><p>Fig 37 - Predictions on holdout set</p></figcaption></figure>
 
 #### Dashboard
 
 The second tab, named "_Dashboard_", is an interactive tool used for interpretation and diagnosis. It allows us to analyze how our Random Forest model makes predictions by visualizing relationships among features, outcomes, and model behaviour, all within a unified dashboard interface. It is based on the [ExplainerDashboard](https://explainerdashboard.readthedocs.io/en/latest/) Python open-source package.
 
-<figure><img src="../../.gitbook/assets/image (100).png" alt=""><figcaption><p>The PARIS evaluation dashboard</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (100).png" alt=""><figcaption><p>Fig 38 - The PARIS evaluation dashboard</p></figcaption></figure>
 
 ***
 
@@ -41,7 +41,7 @@ Let's examine the Dashboard tab more closely and review some figures to understa
 
 #### Confusion Matrix
 
-<figure><img src="../../.gitbook/assets/image (101).png" alt=""><figcaption><p>Model's confusion matrix on the holdout set</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (101).png" alt=""><figcaption><p>Fig 39 - Model's confusion matrix on the holdout set</p></figcaption></figure>
 
 The confusion matrix from the holdout set reveals that the model maintains good generalization performance in distinguishing patients with and without emotional distress. Specifically, 41% of the cases correspond to true negatives, meaning patients without emotional distress were correctly classified, while 30.8% represent true positives, indicating accurate identification of distressed patients. However, 13.8% of cases were false negatives, patients experiencing emotional distress who were incorrectly predicted as non-distressed, highlighting a limitation in the model’s sensitivity. Additionally, 14.5% of cases were false positives, where non-distressed patients were misclassified as distressed. Overall, these results suggest that the model performs well in capturing emotional distress patterns, though improving recall could further enhance its reliability in clinical screening scenarios.
 
@@ -57,7 +57,7 @@ SHAP values, short for **SHapley Additive exPlanations**, are a method used to e
 
 _**Which features had the biggest impact?**_
 
-<figure><img src="../../.gitbook/assets/image (102).png" alt=""><figcaption><p>Average features impact on predicted target</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (102).png" alt=""><figcaption><p>Fig 40  - Average features impact on predicted target</p></figcaption></figure>
 
 This figure presents the five most influential features contributing to our Random Forest model’s classification of patients with or without emotional distress, as determined by the mean absolute [SHAP values](evaluation-module.md#what-are-shap-values):
 
@@ -74,9 +74,9 @@ _**How has each feature contributed to the prediction?**_
 
 The following figures present complementary views of the same **SHAP decomposition** for a single observation (Index = 1) for the prediction of patients with emotional distress (`target=1`). The **model output is 44.56%**, representing the average prediction the model would make over the entire population in the absence of any individualized feature information. Each SHAP value then quantifies how much a specific feature's observed value shifts the output from this baseline. After summing all contributions, the **final prediction is 47.95%**, reflecting a net positive displacement of approximately +3.39 percentage points from the baseline.
 
-<figure><img src="../../.gitbook/assets/image (103).png" alt=""><figcaption><p>Features contribution plot to predictions</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (103).png" alt=""><figcaption><p>Fig 41  - Features contribution plot to predictions</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (104).png" alt=""><figcaption><p>Features contribution table to predictions</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (104).png" alt=""><figcaption><p>Fig 42  - Features contribution table to predictions</p></figcaption></figure>
 
 **Feature-by-Feature SHAP Breakdown**
 
