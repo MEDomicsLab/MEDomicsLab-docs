@@ -25,13 +25,13 @@ The evaluation results are separated into two different sections:
 
 The Predict/Test section is where you can see the predictions for each row of our holdout set. The results consist of the predicted value (`prediction_label`) and the prediction score. The prediction score, which indicates the model's confidence in its answer, ranges from 0 to 1 (or 0% to 100%), showing how confident a model is about its answer, with 1 indicating that the model is completely certain about its answer.
 
-<figure><img src="../../.gitbook/assets/EvalPredictions.png" alt=""><figcaption><p>Fig 37 - Predictions on holdout set</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (118).png" alt=""><figcaption><p>Fig 37 - Predictions on holdout set</p></figcaption></figure>
 
 #### Dashboard
 
 The second tab, named "_Dashboard_", is an interactive tool used for interpretation and diagnosis. It allows us to analyze how our Random Forest model makes predictions by visualizing relationships among features, outcomes, and model behaviour, all within a unified dashboard interface. It is based on the [ExplainerDashboard](https://explainerdashboard.readthedocs.io/en/latest/) Python open-source package.
 
-<figure><img src="../../.gitbook/assets/image (100).png" alt=""><figcaption><p>Fig 38 - The PARIS evaluation dashboard</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (120).png" alt=""><figcaption><p>Fig 38 - The PARIS evaluation dashboard</p></figcaption></figure>
 
 ***
 
@@ -57,14 +57,14 @@ SHAP values, short for **SHapley Additive exPlanations**, are a method used to e
 
 _**Which features had the biggest impact?**_
 
-<figure><img src="../../.gitbook/assets/image (102).png" alt=""><figcaption><p>Fig 40  - Average features impact on predicted target</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (121).png" alt=""><figcaption><p>Fig 40  - Average features impact on predicted target</p></figcaption></figure>
 
 This figure presents the five most influential features contributing to our Random Forest model’s classification of patients with or without emotional distress, as determined by the mean absolute [SHAP values](evaluation-module.md#what-are-shap-values):
 
 * **SleepRested2** is the dominant predictor, showing the largest mean absolute SHAP value, which indicates that perceived sleep quality has the strongest influence on the model’s predictions.
 * **DailyLifeInterests2** ranks second, suggesting that engagement or interest in daily activities is another key driver, though with a noticeably smaller impact than sleep.
 * **SocialRoles** and **age** have moderate and comparable contributions, meaning they influence predictions but play a secondary role relative to sleep and daily-life interests.
-* **Genre (**_**Gender**_**)** has the lowest importance among the top features, implying a relatively limited contribution to the predicted outcome compared with the other variables.
+* **Sex** and **ActivitesPain7** has the lowest importance among the top features, implying a relatively limited contribution to the predicted outcome compared with the other variables.
 
 Overall, this SHAP-based analysis highlights the predominance of affective and self-evaluative variables in driving the model’s predictive decisions.
 
@@ -74,17 +74,17 @@ _**How has each feature contributed to the prediction?**_
 
 The following figures present complementary views of the same **SHAP decomposition** for a single observation (Index = 1) for the prediction of patients with emotional distress (`target=1`). The **model output is 44.56%**, representing the average prediction the model would make over the entire population in the absence of any individualized feature information. Each SHAP value then quantifies how much a specific feature's observed value shifts the output from this baseline. After summing all contributions, the **final prediction is 47.95%**, reflecting a net positive displacement of approximately +3.39 percentage points from the baseline.
 
-<figure><img src="../../.gitbook/assets/image (103).png" alt=""><figcaption><p>Fig 41  - Features contribution plot to predictions</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (122).png" alt=""><figcaption><p>Fig 41  - Features contribution plot to predictions</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (104).png" alt=""><figcaption><p>Fig 42  - Features contribution table to predictions</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (123).png" alt=""><figcaption><p>Fig 42  - Features contribution table to predictions</p></figcaption></figure>
 
 **Feature-by-Feature SHAP Breakdown**
 
 | Feature             | Observed Value | SHAP Value | Direction             |
 | ------------------- | -------------- | ---------- | --------------------- |
 | SleepRested2        | 4.0            | +13.71%    | ↑ Strongly positive   |
-| genre               | 1.0            | +1.01%     | ↑ Mildly positive     |
-| age                 | 5.0            | −1.35%     | ↓ Mildly negative     |
+| sex                 | 1.0            | +1.01%     | ↑ Mildly positive     |
+| ActivitesPain7      | 4.0            | −1.35%     | ↓ Mildly negative     |
 | SocialRoles         | 1.0            | −3.34%     | ↓ Moderately negative |
 | DailyLifeInterests2 | 1.0            | −6.65%     | ↓ Strongly negative   |
 
@@ -98,7 +98,7 @@ The model is predicting the probability that an individual is experiencing **emo
 2. **DailyLifeInterests2 = 1.0 → SHAP: −6.65%** — This feature is the strongest suppressor of the distress prediction. A value of 1.0 pushes the model away from classifying this individual as emotionally distressed. This may indicate that a certain level of engagement or disengagement in daily life interests is, somewhat counterintuitively, protective against a distress classification in this model. Alternatively, this value represents a category the model associates with lower distress prevalence in the training population.
 3. **SocialRoles = 1.0 → SHAP: −3.34%** — This feature also reduces the predicted probability of emotional distress. The individual's social role profile (value = 1.0) is associated with a below-average likelihood of distress, suggesting that occupying this particular social role may serve as a buffering factor — consistent with broader mental health literature linking structured social roles to psychological stability.
 4. **age = 5.0 → SHAP: −1.35%** — This individual's age (encoded as 5.0, meaning the patient's age is between 60 and 64 years old) slightly reduces the predicted distress probability. The model has learned that individuals in this age group tend to present with marginally lower emotional distress compared to the population average, though the effect is modest and not a primary driver.
-5. **genre = 1.0 → SHAP: +1.01%** — Gender (encoded as 1.0) provides a small positive push toward a distress prediction. This is consistent with well-established epidemiological findings where certain gender groups report higher rates of emotional distress, though here the contribution is relatively minor for this individual.
+5. **sex = 1.0 → SHAP: +1.01%** — Provides a small positive push toward a distress prediction. This is consistent with well-established epidemiological findings where certain gender groups report higher rates of emotional distress, though here the contribution is relatively minor for this individual.
 
 **Overall clinical picture:** This individual sits in an uncertain zone for emotional distress. The model is being pulled strongly toward a distress classification primarily by their sleep pattern, but this is largely counteracted by their daily life interests profile and social role context. Clinically, the sleep-related signal warrants attention, as it is by far the most influential factor, even as the other features collectively push back against a distress classification.
 
