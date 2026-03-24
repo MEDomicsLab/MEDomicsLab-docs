@@ -8,7 +8,7 @@ icon: wpforms
 # The PARIS Demo
 
 {% hint style="warning" %}
-The original data is not available. We have generated synthetic data using the [synthpop package](https://algorithmaudit.eu/technical-tools/sdg/), and this dataset will be released once we receive authorization from the PARIS team (expected in mid-2026).
+The original data is not available. We have generated a synthetic version using the [synthpop package](https://algorithmaudit.eu/technical-tools/sdg/), and it will be made available on Zenodo once we receive authorization from the [PARIS team](https://www.poitraslab.com/) (expected in mid-2026).
 {% endhint %}
 
 ### About the Dataset

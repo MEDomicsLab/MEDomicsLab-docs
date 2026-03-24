@@ -56,9 +56,9 @@ Apply the following configurations for your nodes:
 
 * **Dataset Node**: Use the learning set created in the previous step with the target column "target". Moreover, one-hot encoding is automatically applied when using PyCaret, and since our dataset does not require it, it will be deactivated by setting the `max_encoding_ohe` to 0. You can add this option by clicking the plus button on the node and enabling it. Finally, add the session\_id option and set it to a fixed number to control the randomness of the experiment.
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>Fig 27 - Dataset node configuration</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p>Fig 27 - Dataset node configuration</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p>Fig 28 - Extra option for the Dataset node</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>Fig 28 - Extra option for the Dataset node</p></figcaption></figure>
 
 *   **Clean Node**: The default pyCaret's cleaning process already includes the necessary data processing steps, including:
 
@@ -100,7 +100,7 @@ If you would like to avoid long wait times, replace the 100-bootstrap method wit
 
 Once the scene is set up, hit the Run button, and track the execution process through the bottom progress bar. Once your results are ready, the "_**Analysis mode**_" button will be activated, and upon clicking on it, you will access the analysis panel at the bottom, where all the results will be displayed. Then select the model's performance results:
 
-<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>Fig 33 - Model results</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (3).png" alt=""><figcaption><p>Fig 33 - Model results</p></figcaption></figure>
 
 The model has reached an AUC of 0.76, which is considered good, but there is always room for improvement. This performance showcases the potential of our model. It demonstrates how users with no prior programming experience can create exploitable models, thereby proving the utility of the MEDomics platform, particularly the Learning Module.
 

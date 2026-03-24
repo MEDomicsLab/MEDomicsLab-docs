@@ -18,46 +18,16 @@ _Please ensure you have_ [_launched and connected to Superset within MEDomics._]
 
 ### Initial steps
 
-Once you are connected and have access to the Superset dashboard, the next step is updating some security settings to enable external data upload. To do so, click on _Settings_, then _Database Connections_, select _Edit_ on the _examples_ dataset, which is available by default in the database connections list. Finally, under the _Security_ section, in the _Advanced_ tab, enable "_Allow file uploads to database_." These steps are summarized in the figure below.
+1. **Importing the paris.db**
+
+Once you are [connected](../../tutorials/superset/#launch-superset-button) and have access to the Superset dashboard, the next step is uploading the PARIS database. First, you need to download this ready-to-use _examples_ database: [link](https://mcgill-my.sharepoint.com/:u:/g/personal/mahdi_aitlhajloutfi_mail_mcgill_ca/IQB1YPlvgRa4RLYTzoElDazSAUMooE2Qe0hXZaHiW8Q7TXE?e=H3O9ny). Second, click on _Settings_, then _Database Connections_, and click the + DATABASE button in the top right. In the "Choose a database" modal, select SQLite. Enter the SQLAlchemy URI using the path to the `paris.db` file. The path must be prefixed by `sqlite:///` for Windows users and by `sqlite:////`  for MacOS and Linux users. For example:
+
+* _MacOS/Ubuntu : `sqlite:////Users/Download/paris.db`_
+* _Windows : `sqlite:///C:\Users\Downloads\paris.db`_
+
+All the steps are summarized in the figures below:
 
 <figure><img src="../../.gitbook/assets/allowCSV1.png" alt="" width="188"><figcaption><p>Fig 1 - Step 1: open database connections</p></figcaption></figure>
-
-{% hint style="danger" icon="heart-crack" %}
-You can't find the _**examples**_ database? Don't worry, follow another approach [here](superset.md#i-cant-find-the-examples-database).
-{% endhint %}
-
-<figure><img src="../../.gitbook/assets/allowCSV2.png" alt="" width="563"><figcaption><p>Fig 2 - Step 2: edit examples database connection</p></figcaption></figure>
-
-<figure><img src="../../.gitbook/assets/allowCSV3.png" alt="" width="375"><figcaption><p>Fig 3 - Step 3: find advanced security settings</p></figcaption></figure>
-
-<figure><img src="../../.gitbook/assets/allowCSV4.png" alt="" width="375"><figcaption><p>Fig 4 - Step 4: allow CSV files upload</p></figcaption></figure>
-
-### Data visualization
-
-#### _Upload Data_
-
-Now that we have allowed CSV files to be uploaded to Superset, we can upload the PARIS data to start visualizing it. To do so, click the "+" icon to your right, select Data, then click "Upload CSV to database". Fill in the required information and click _Import_. The instructions are depicted in the figures below:
-
-<figure><img src="../../.gitbook/assets/UploadCSV1.png" alt=""><figcaption><p>Fig 5 - Step 1: uploading a CSV file to Superset</p></figcaption></figure>
-
-<figure><img src="../../.gitbook/assets/UploadCSV2.png" alt="" width="375"><figcaption><p>Fig 6 - Step 2: Fill in all the required info for the CSV upload</p></figcaption></figure>
-
-<figure><img src="../../.gitbook/assets/UploadCSV3.png" alt=""><figcaption><p>Fig 7 - Optional step: ensure the data is uploaded</p></figcaption></figure>
-
-<details>
-
-<summary>I can't find the <em><strong>examples</strong></em> database</summary>
-
-First, you need to download this ready-to-use _examples_ database: [link](https://mcgill-my.sharepoint.com/:u:/g/personal/mahdi_aitlhajloutfi_mail_mcgill_ca/IQB1YPlvgRa4RLYTzoElDazSAUMooE2Qe0hXZaHiW8Q7TXE?e=H3O9ny).
-
-Second, you need to tell Superset to create a database file in a location your Electron app can write to.
-
-1. Click the + DATABASE button in the top right of the Database Connections page.
-2. In the "Select a database" modal, choose SQLite.
-3. SQLAlchemy URI: Use a path within your application support folder.
-   * MacOS Example: `sqlite:////Users/Download/examples.db`
-   * Windows Example: `sqlite:///C:\Users\Downloads\examples.db`
-   * _**Note: Use four slashes****&#x20;****`////`****&#x20;****for absolute paths on Mac/Linux.**_
 
 <figure><img src="../../.gitbook/assets/NewDB1.png" alt=""><figcaption><p>Step 1: Click the + DATABASE button in the top right</p></figcaption></figure>
 
@@ -65,19 +35,23 @@ Second, you need to tell Superset to create a database file in a location your E
 
 <figure><img src="../../.gitbook/assets/NewDB3.png" alt="" width="375"><figcaption><p>Step 3: Set database path and conenct it</p></figcaption></figure>
 
-YOU DON'T NEED TO UPLOAD THE PARIS DATASET. It comes included with the .db file, and you can skip to chart creation.
+2. **Creating the PARIS dataset**
 
-</details>
+Importing the `paris.db` The file does not automatically create the PARIS dataset in your Superset; you need to do it manually. First, go to the Datasets tab, and click the + Dataset button in the top right. Then select SQLite as the DATABASE, main as the SCHEMA, and PARIS\_SYNTH as the TABLE. The steps are summarized in the following figure:
+
+<figure><img src="../../.gitbook/assets/CreateDataset.png" alt=""><figcaption><p>Imporing the PARIS table</p></figcaption></figure>
+
+### Data visualization
 
 #### _Charts Creation_
 
-Once your PARIS dataset is created, you can choose to create from a variety of charts. For example, we can create a pie chart to visualize differences in Genders among our questionnaire participants. The figure below shows the steps to follow:
+Once your PARIS table is imported, you can choose to create from a variety of charts. For example, we can create a pie chart to visualize differences in sex among our questionnaire participants. The figure below shows the steps to follow:
 
 <figure><img src="../../.gitbook/assets/CreateNewPieChart.png" alt=""><figcaption><p>Fig 8 - Create a new pie chart</p></figcaption></figure>
 
-After creating the chart, we will select the information we would like to visualize. To do so, look up the column Gender and drag it to the Dimension box. Second, in the metric box, select the metric to display (COUNT). Finally, hit "Create Chart" to generate the chart, which should appear to the right of your screen. Once you're satisfied with your final chart, you can click "SAVE" to save it and add it to a dashboard.
+After creating the chart, we will select the information we would like to visualize. To do so, look up the column Sex and drag it to the Dimension box. Second, in the metric box, select the metric to display (COUNT). Finally, hit "Create Chart" to generate the chart, which should appear to the right of your screen. Once you're satisfied with your final chart, you can click "SAVE" to save it and add it to a dashboard.
 
-<figure><img src="../../.gitbook/assets/GenderPieChart.png" alt=""><figcaption><p>Fig 9 - Create a Pie Chart for Gender data</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/SexPieChart.png" alt=""><figcaption><p>Fig 9 - Create a Pie Chart for Sex distribution</p></figcaption></figure>
 
 In this proof of concept, we suggest the creation of three charts, using the following configurations to create each one of them:
 
@@ -86,13 +60,6 @@ In this proof of concept, we suggest the creation of three charts, using the fol
   * Metric: _COUNT_&#x20;
 
 <figure><img src="../../.gitbook/assets/TotalParticipantsChart.png" alt="" width="375"><figcaption><p>Fig 10 - Defining total number of participants chat's settings</p></figcaption></figure>
-
-* **Gender Distribution chart**:
-  * Chart's type: _PIE CHART_
-  * Dimensions: _Gender_
-  * Metric: _COUNT_
-
-<figure><img src="../../.gitbook/assets/GenderChart.png" alt="" width="375"><figcaption><p>Fig 11 - Defining the gender distribution chat's settings</p></figcaption></figure>
 
 * **Age Distribution chart**:
   * Chart's type: _BAR CHART_
@@ -115,7 +82,7 @@ Do not hesitate to create a more beautiful dashboard!
 
 Once all your charts have been imported and organized in your dashboard, you should have a similar result:
 
-<figure><img src="../../.gitbook/assets/image (80).png" alt=""><figcaption><p>Fig 14 - PARIS final dashboard</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>Fig 14 - PARIS final dashboard</p></figcaption></figure>
 
 #### _Using Filters_
 
