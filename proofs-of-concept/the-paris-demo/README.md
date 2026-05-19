@@ -11,6 +11,12 @@ icon: wpforms
 The original data is not available. We have generated a synthetic version using the [synthpop package](https://algorithmaudit.eu/technical-tools/sdg/), and it will be made available on Zenodo once we receive authorization from the [PARIS team](https://www.poitraslab.com/) (expected in mid-2026).
 {% endhint %}
 
+{% hint style="info" %}
+If you’d rather watch than read, the following video covers everything you need for Proof of Concept 1.
+{% endhint %}
+
+{% embed url="https://youtu.be/xJiLHpgzeF4?si=uxd69lv9rBLCDbsK" %}
+
 ### About the Dataset
 
 Patient-Reported Indicators Surveys ([PARIS](https://ssaquebec.ca/projets/paris/)) is a combination of PROM (Patient-Reported Outcome Measures) data, which focuses on patient health status, and PREM (Patient-Reported Experience Measures) data, which captures the patient's experience with care. It represents a questionnaire completed by patients to provide a complementary view of healthcare quality, enabling organizations to track progress, identify areas for improvement, and personalize care. The data's columns/questions are illustrated in the table below.
