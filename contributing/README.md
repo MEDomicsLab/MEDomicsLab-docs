@@ -13,10 +13,12 @@ the MEDomics platform detailed architecture
 ## Set up from the ground up 🌱
 
 {% hint style="info" %}
-Go visit our [GitHub development branch](https://github.com/MEDomics-UdeS/MEDomicsLab/tree/develop#medomicslab---develop-branch-%EF%B8%8F)!
+Contributing to MEDomics is done through our [GitHub development branch](https://github.com/MEDomics-UdeS/MEDomicsLab/tree/develop#medomicslab---develop-branch-%EF%B8%8F)!
 {% endhint %}
 
-#### 1. Installation of MongoDB Community Edition
+### 1. Prerequisites
+
+#### 1.1 Installation of MongoDB Community Edition
 
 Follow the installation instructions depending on your OS for [MongoDB Installation](https://www.mongodb.com/docs/manual/administration/install-community/#std-label-install-mdb-community-edition).
 
@@ -41,7 +43,7 @@ Follow the installation instructions depending on your OS for [MongoDB Installat
 {% endtab %}
 {% endtabs %}
 
-#### 2. Installation of MongoDB database tools
+#### 1.2 Installation of MongoDB database tools
 
 Follow the installation instructions depending on your OS for [MongoDB Database Tools Installation](https://www.mongodb.com/docs/database-tools/installation/installation/).
 
@@ -65,36 +67,38 @@ Follow the installation instructions depending on your OS for [MongoDB Database 
 {% endtab %}
 {% endtabs %}
 
-### 1. Installation of Nvm
+### 2. Node.js and NVM Setup
+
+#### 2.1 Installation of Nvm
 
 * [NVM for Windows](https://github.com/coreybutler/nvm-windows)
 * [NVM for Ubuntu](https://github.com/nvm-sh/nvm#installing-and-updating)
 
-### 2. Installation of npm/node.js
+#### 2.2 Installation of npm/node.js
 
-```
+```shellscript
 nvm install lts
 nvm use lts
 ```
 
-### 3. Clone the repository
+### 3. Clone the Repository
 
 {% tabs %}
 {% tab title="HTTPS" %}
-```
-git clone -b develop https://github.com/MEDomics-UdeS/MEDomicsLab.git
+```sh
+git clone -b develop https://github.com/MEDomicsLab/MEDomics.git
 ```
 {% endtab %}
 
 {% tab title="SSH" %}
-<pre><code><strong>git clone -b develop git@github.com:MEDomics-UdeS/MEDomicsLab.git
+<pre class="language-sh"><code class="lang-sh"><strong>git clone -b develop git@github.com:MEDomicsLab/MEDomics.git
 </strong></code></pre>
 {% endtab %}
 {% endtabs %}
 
-### 4. Set up server-side (Go)
+### 4. Backend Setup (Go)
 
-#### 4.1 Installation of Go
+#### 4.1 Install Go
 
 1. Download the latest stable release of Go from the official website: [https://golang.org/dl/](https://golang.org/dl/)
 2. Follow the [installation instructions](https://go.dev/doc/install) for your operating system.
@@ -105,7 +109,7 @@ git clone -b develop https://github.com/MEDomics-UdeS/MEDomicsLab.git
 {% tab title="Windows" %}
 Execute these commands in a **CMD** prompt:
 
-```
+```powershell
 setx GOPATH %USERPROFILE%\go
 setx PATH "%PATH%;C:\Go\bin"
 ```
@@ -116,7 +120,7 @@ setx PATH "%PATH%;C:\Go\bin"
 
 Execute these commands in a terminal:
 
-```
+```zsh
 echo 'export PATH=$PATH:/usr/local/go/bin' >> $HOME/.bashrc
 echo 'export GOPATH=$HOME/go' >> $HOME/.bashrc
 echo 'export PATH=$PATH:$GOPATH/bin' >> $HOME/.bashrc
@@ -128,18 +132,32 @@ After, **close all your terminals** because these commands will take effect on t
 
 #### 4.3 Verify installation
 
-1. Open a new terminal
-2. Run the command `go version`
-3. If Go is installed correctly, you should see the version number printed to the console.
+In a new terminal, run:
+
+```bash
+go version
+```
+
+If Go is installed correctly, you should see the version number printed to the console.
 
 #### 4.4 Setup for the application
 
-1. Open a new command prompt and go to the `<repo path>/go_server` directory.
-2. Run the command `go run main.go` (on first time, it should download the required libraries and launch the server)
-3. You can terminate the process by pressing `CTRL + C`
-4. Finally, build the app by running `go build main.go` (It should create an executable file -> that file will be run by the client-side JavaScript, so modifications to `.go` files must be followed by a rebuild. Congratulations, you're now ready to start developing Go applications!
+```shellscript
+cd <repo-path>/go_server
+go run main.go   # initial run installs dependencie
+```
 
-### 5. Init submodules
+Next, build the executable:
+
+```shellscript
+go build main.go
+```
+
+{% hint style="warning" %}
+Rebuild after any `.go` file modification.
+{% endhint %}
+
+### 5. Initialize submodules
 
 ```
 cd <.../MEDomicsLab/>
@@ -148,11 +166,11 @@ cd ../MEDprofiles
 git checkout fusion_MEDomicsLab
 ```
 
-### 6. Start the electron app!
+### 6. Run the Electron App
 
 {% code fullWidth="false" %}
-```
-cd <.../MEDomicsLab>
+```shellscript
+cd <repo_path/MEDomics>
 npm install
 npm run dev
 ```
@@ -185,46 +203,59 @@ The MEDomicsLab platform uses **port 54017** as the default MongoDB connection p
 2. Here is a description of the Object:
 
 ```javascript
+export const PORT_FINDING_METHOD = {
+  FIX: 0,
+  AVAILABLE: 1
+};
+
 const config = {
-  // If true, the server will be run automatically when the app is launched
+  // Automatically starts the backend server when the app launches
   runServerAutomatically: true,
-  // If true, use the React dev tools
+
+  // Enables React Developer Tools (useful for debugging UI)
   useReactDevTools: false,
-  // the default port to use for the server, be sure that no programs use it by default
-  defaultPort: 5000,
-  // Either "FIX" or "AVAILABLE" (case sensitive)
-  // FIX 		-­> if defaultPort is used, force terminate and use defaultPort
-  // AVAILABLE 	-> if defaultPort is used, iterate to find next available port
+
+  // Default port used by the Electron/Go server
+  defaultPort: 54288,
+
+  // MongoDB connection port
+  mongoPort: 54017,
+
+  // Port allocation strategy:
+  // FIX        -> Forces use of defaultPort (terminates conflicting processes if needed)
+  // AVAILABLE  -> Finds the next available port if defaultPort is occupied
   portFindingMethod: PORT_FINDING_METHOD.FIX
-}
+};
+
+export default config;
 ```
 {% endhint %}
 
-## To Test the Production Build&#x20;
+## Testing Production Builds&#x20;
 
-### Build the Electron app and run the built version
+### Build & Run
 
 {% tabs %}
 {% tab title="Windows" %}
-```
+```powershell
 npm run build:win                            # build and package the application 
-.\build\dist\win-unpacked\MEDomicsLab.exe    # Run the executable of the built version
+.\build\dist\win-unpacked\MEDomics.exe    # Run the executable of the built version
 ```
 {% endtab %}
 
 {% tab title="Linux" %}
-```
+```bash
 npm run build:linux                    # build and package the application 
-bash build/dist/linux-unpacked/medapp  # Run the executable of the built version
+bash build/dist/linux-unpacked/medomics-platform  # Run the executable of the built version
 ```
 {% endtab %}
 
 {% tab title="Mac" %}
-```
+```zsh
 npm run build:mac                                                    # build and package the application 
-bash build/dist/mac-arm64/MEDomicsLab.app/Contents/MacOS/MEDomicsLab # Run the executable of the built version     
+bash build/dist/mac-arm64/MEDomicsLab.app/Contents/MacOS/medomics-platform  # Run the executable of the built version     
 ```
 {% endtab %}
 {% endtabs %}
 
-> The built app will be located in the `build/dist` folder
+The built app will be located in the `build/dist` folder.
