@@ -166,7 +166,19 @@ cd ../MEDprofiles
 git checkout fusion_MEDomicsLab
 ```
 
-### 6. Run the Electron App
+### 6. Create Your Own Branch
+
+Always branch from `develop`, and ensure you have the latest changes:
+
+```sh
+git checkout develop
+git pull origin develop
+git checkout -b your-branch-name
+# push your branch to MEDomics repository
+git push --set-upstream origin your-branch-name
+```
+
+### 7. Run the Electron App
 
 {% code fullWidth="false" %}
 ```shellscript
