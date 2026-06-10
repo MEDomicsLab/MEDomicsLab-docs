@@ -10,11 +10,19 @@ The map below illustrates the organization of files, modules, databases, and the
 the MEDomics platform detailed architecture
 {% endembed %}
 
-## Set up from the ground up 🌱
+## Contribution Standards Summary
+
+Before contributing to MEDomics, we highly recommend you take a look at our [coding standards](our-coding-standards.md).
+
+## Contribute to MEDomics 🌱
 
 {% hint style="info" %}
 Contributing to MEDomics is done through our [GitHub development branch](https://github.com/MEDomics-UdeS/MEDomicsLab/tree/develop#medomicslab---develop-branch-%EF%B8%8F)!
 {% endhint %}
+
+<details>
+
+<summary>For members of the <a href="https://github.com/MEDomicsLab">MEDomicsLab GitHub organization</a></summary>
 
 ### 1. Prerequisites
 
@@ -22,50 +30,13 @@ Contributing to MEDomics is done through our [GitHub development branch](https:/
 
 Follow the installation instructions depending on your OS for [MongoDB Installation](https://www.mongodb.com/docs/manual/administration/install-community/#std-label-install-mdb-community-edition).
 
-{% tabs %}
-{% tab title="Windows" %}
-[Install MongoDB on Windows](https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-windows/#install-mongodb-community-edition)
-
-* Do not install MongoDB as a service.
-* You do not have to install MongoDB Compass.
-* You do not have to install mongosh.
-* Do not forget to [add MongoDB binaries to the System PATH](https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-windows/#add-mongodb-binaries-to-the-system-path).
-{% endtab %}
-
-{% tab title="Linux" %}
-[Install MongoDB on Linux (Ubuntu)](https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-ubuntu/#install-mongodb-community-edition)
-
-* Install the latest version of MongoDB
-{% endtab %}
-
-{% tab title="Mac" %}
-[Install MongoDB on Mac](https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-os-x/#install-mongodb-community-edition)
-{% endtab %}
-{% endtabs %}
+Install MongoDB on WindowsDo not install MongoDB as a service.You do not have to install MongoDB Compass.You do not have to install mongosh.Do not forget to add MongoDB binaries to the System PATH.Install MongoDB on Linux (Ubuntu)Install the latest version of MongoDBInstall MongoDB on Mac
 
 #### 1.2 Installation of MongoDB database tools
 
 Follow the installation instructions depending on your OS for [MongoDB Database Tools Installation](https://www.mongodb.com/docs/database-tools/installation/installation/).
 
-{% tabs %}
-{% tab title="Windows" %}
-[Install MongoDB Database Tools on Windows](https://www.mongodb.com/docs/database-tools/installation/installation-windows/#installation)
-
-* Install with the MSI Installer.
-{% endtab %}
-
-{% tab title="Linux" %}
-[Install MongoDB Database Tools on Linux](https://www.mongodb.com/docs/database-tools/installation/installation-linux/#installation)
-
-* Install with the DEB package.
-{% endtab %}
-
-{% tab title="Mac" %}
-[Install MongoDB Database Tools on Mac](https://www.mongodb.com/docs/database-tools/installation/installation-macos/#installation)
-
-* Install with Homebrew.
-{% endtab %}
-{% endtabs %}
+Install MongoDB Database Tools on WindowsInstall with the MSI Installer.Install MongoDB Database Tools on LinuxInstall with the DEB package.Install MongoDB Database Tools on MacInstall with Homebrew.
 
 ### 2. Node.js and NVM Setup
 
@@ -83,18 +54,7 @@ nvm use lts
 
 ### 3. Clone the Repository
 
-{% tabs %}
-{% tab title="HTTPS" %}
-```sh
-git clone -b develop https://github.com/MEDomicsLab/MEDomics.git
-```
-{% endtab %}
-
-{% tab title="SSH" %}
-<pre class="language-sh"><code class="lang-sh"><strong>git clone -b develop git@github.com:MEDomicsLab/MEDomics.git
-</strong></code></pre>
-{% endtab %}
-{% endtabs %}
+git clone -b develop https://github.com/MEDomicsLab/MEDomics.gitgit clone -b develop git@github.com:MEDomicsLab/MEDomics.git
 
 ### 4. Backend Setup (Go)
 
@@ -105,28 +65,14 @@ git clone -b develop https://github.com/MEDomicsLab/MEDomics.git
 
 #### 4.2 Setup of environment
 
-{% tabs %}
-{% tab title="Windows" %}
-Execute these commands in a **CMD** prompt:
+Execute these commands in terminal:
 
-```powershell
-setx GOPATH %USERPROFILE%\go
+<table><thead><tr><th>Windows</th><th>Linux and MacOS</th></tr></thead><tbody><tr><td><pre class="language-powershell"><code class="lang-powershell">setx GOPATH %USERPROFILE%\go
 setx PATH "%PATH%;C:\Go\bin"
-```
-{% endtab %}
-
-{% tab title="Linux and Mac" %}
-
-
-Execute these commands in a terminal:
-
-```zsh
-echo 'export PATH=$PATH:/usr/local/go/bin' >> $HOME/.bashrc
+</code></pre></td><td><pre class="language-zsh"><code class="lang-zsh">echo 'export PATH=$PATH:/usr/local/go/bin' >> $HOME/.bashrc
 echo 'export GOPATH=$HOME/go' >> $HOME/.bashrc
 echo 'export PATH=$PATH:$GOPATH/bin' >> $HOME/.bashrc
-```
-{% endtab %}
-{% endtabs %}
+</code></pre></td></tr></tbody></table>
 
 After, **close all your terminals** because these commands will take effect on the initialization of any terminal
 
@@ -242,6 +188,152 @@ const config = {
 export default config;
 ```
 {% endhint %}
+
+</details>
+
+<details>
+
+<summary>For external users</summary>
+
+
+
+### 🌱 Contributing via Fork (Common Practice)
+
+This workflow is recommended for external contributors.
+
+***
+
+### 1. Fork the Repository
+
+1. Go to the official repo
+2. Click **Fork**
+3. Clone your fork:
+
+```bash
+git clone https://github.com/<your-username>/MEDomicsLab.git
+cd MEDomicsLab
+```
+
+***
+
+### 2. Add Upstream Remote
+
+```bash
+git remote add upstream https://github.com/MEDomics-UdeS/MEDomicsLab.git
+```
+
+Verify:
+
+```bash
+git remote -v
+```
+
+***
+
+### 3. Create a Feature Branch
+
+Always branch from `develop`:
+
+```bash
+git fetch upstream
+git checkout develop
+git pull upstream develop
+
+git checkout -b feature/your-feature-name
+```
+
+***
+
+### 4. Set Up Environment
+
+Follow the **full setup instructions from Version 1**:
+
+* MongoDB
+* Node.js + NVM
+* Go backend
+* Electron app
+
+***
+
+### 5. Make Changes
+
+* Follow project structure
+* Keep commits **small and descriptive**
+
+```bash
+git add .
+git commit -m "feat: add new feature X"
+```
+
+Commit naming conventions:
+
+* `feat:` new feature
+* `fix:` bug fix
+* `docs:` documentation changes
+* `refactor:` code restructuring
+* `test:` tests added/updated
+
+***
+
+### 6. Sync with Upstream
+
+Before pushing:
+
+```bash
+git fetch upstream
+git rebase upstream/develop
+```
+
+***
+
+### 7. Push Changes
+
+```bash
+git push origin feature/your-feature-name
+```
+
+***
+
+### 8. Create a Pull Request
+
+1. Go to your fork on GitHub
+2. Click **Compare & Pull Request**
+3. Target branch: `develop` (base repo)
+
+***
+
+### 9. Pull Request Guidelines
+
+Ensure:
+
+* ✅ Code compiles and runs
+* ✅ No console errors
+* ✅ Proper formatting
+* ✅ Tests pass (if applicable)
+* ✅ Clear PR description:
+  * What was done
+  * Why it was done
+  * Screenshots (if UI changes)
+
+***
+
+### 10. Code Review Process
+
+* Address reviewer comments
+* Push updates to the same branch
+* Keep discussion professional and concise
+
+***
+
+### 11. After Merge
+
+```bash
+git checkout develop
+git pull upstream develop
+git branch -d feature/your-feature-name
+```
+
+</details>
 
 ## Testing Production Builds&#x20;
 

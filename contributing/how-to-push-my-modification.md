@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # How to push my modification ?
 
 1. Fork the [develop branch](https://github.com/MEDomics-UdeS/MEDomicsLab/tree/develop#medomicslab---develop-branch-%EF%B8%8F) (development guidelines are explained in the branch README.md)
