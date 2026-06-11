@@ -261,7 +261,7 @@ cd MEDomicsLab
 ### 4. Add Upstream Remote
 
 ```bash
-git remote add upstream https://github.com/MEDomics-UdeS/MEDomicsLab.git
+git remote add upstream https://github.com/MEDomicsLab/MEDomicsLab.git
 ```
 
 Verify:
