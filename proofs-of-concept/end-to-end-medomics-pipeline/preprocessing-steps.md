@@ -132,7 +132,7 @@ Finally, the holdout datasets from the 9 eICU hospitals are combined into a sing
 _<mark style="color:$success;">**Total :**</mark>_ _<mark style="color:$success;">**21 datasets.**</mark>_
 
 {% hint style="info" %}
-You can find here the 21 files.
+You can find the 21 files [here](https://usherbrooke-my.sharepoint.com/my?id=%2Fpersonal%2Fkalm7073%5Fusherbrooke%5Fca%2FDocuments%2Fimputed).
 {% endhint %}
 
 #### <mark style="color:$warning;">Why These Datasets Are Needed</mark>
