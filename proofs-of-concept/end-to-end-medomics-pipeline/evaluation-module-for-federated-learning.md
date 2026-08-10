@@ -9,7 +9,9 @@ icon: '4'
 
 The federated learning evaluation workflow is not yet fully integrated into the MEDomics graphical interface. Therefore, the evaluation and comparison of federated models must currently be performed using an external Python script.
 
-For PoC3, the federated model is trained externally using **MEDfl**, while the evaluation procedure is reproduced outside MEDomics using the `evaluate_models.py` script. This script enables users to:
+This is the [link](https://github.com/MEDomicsLab/MEDomics_PoC3/tree/main) for the code used for this part.
+
+The federated model is trained externally using **MEDfl**, while the evaluation procedure is reproduced outside MEDomics using the `evaluate_models.py` script. This script enables users to:
 
 * load and compare centralized and federated models;
 * correctly inject the federated weights into the PyCaret model used for inference;
